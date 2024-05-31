@@ -1,0 +1,6 @@
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookLib01\bin\Debug\EBookLib01.dll
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookLib01\bin\Debug\EBookLib01.pdb
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.csproj.AssemblyReference.cache
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.csproj.CoreCompileInputs.cache
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.dll
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.pdb
