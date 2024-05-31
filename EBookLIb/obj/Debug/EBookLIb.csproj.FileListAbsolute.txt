@@ -1,0 +1,13 @@
+D:\NP2\E-Book_Project\EBookLIb\bin\Debug\EBookLIb.dll.config
+D:\NP2\E-Book_Project\EBookLIb\bin\Debug\EBookLIb.dll
+D:\NP2\E-Book_Project\EBookLIb\bin\Debug\EBookLIb.pdb
+D:\NP2\E-Book_Project\EBookLIb\bin\Debug\EntityFramework.dll
+D:\NP2\E-Book_Project\EBookLIb\bin\Debug\EntityFramework.SqlServer.dll
+D:\NP2\E-Book_Project\EBookLIb\bin\Debug\EntityFramework.xml
+D:\NP2\E-Book_Project\EBookLIb\bin\Debug\EntityFramework.SqlServer.xml
+D:\NP2\E-Book_Project\EBookLIb\obj\Debug\EBookLIb.csproj.AssemblyReference.cache
+D:\NP2\E-Book_Project\EBookLIb\obj\Debug\EBookLIb.csproj.CoreCompileInputs.cache
+D:\NP2\E-Book_Project\EBookLIb\obj\Debug\EBookLIb.csproj.Up2Date
+D:\NP2\E-Book_Project\EBookLIb\obj\Debug\EBookLIb.dll
+D:\NP2\E-Book_Project\EBookLIb\obj\Debug\EBookLIb.pdb
+D:\NP2\E-Book_Project\EBookLIb\bin\Debug\Guna.UI2.dll
