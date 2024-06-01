@@ -32,3 +32,4 @@ C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer
 C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\obj\Debug\EBookServer.exe
 C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\obj\Debug\EBookServer.pdb
 C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\obj\Debug\EBookServer.Migrations.Second_Update_Migration.resources
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\obj\Debug\EBookServer.Migrations.Third_Update_Database_Migration.resources

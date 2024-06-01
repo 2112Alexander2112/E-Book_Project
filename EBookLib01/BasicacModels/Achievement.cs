@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace EBookLib01.BasicacModels
 {
     [Serializable]
-    internal class Achievement
+    public class Achievement
     {
         public int Id { get; set; }
         public string AchievementName { get; set; }

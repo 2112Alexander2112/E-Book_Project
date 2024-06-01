@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+
 namespace EBookLib01.BasicacModels
 {
     [Serializable]
-    internal class BookStatistic
+    public class BookStatistic
     {
         
         public int Id { get; set; }

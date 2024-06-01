@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace EBookLib01.BasicacModels
 {
     [Serializable]
-    public class Publisher
+    public class Publisherr
     {
         public int Id { get; set; } 
         public string PublisherName { get; set; }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace EBookLib01.BasicacModels
 {
     [Serializable]
-    internal class Wallet
+    public class Wallet
     {
         public int Id { get; set; }
         public decimal Balance { get; set; }

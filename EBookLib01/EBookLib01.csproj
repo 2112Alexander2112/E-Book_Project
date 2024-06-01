@@ -54,7 +54,7 @@
     <Compile Include="BasicacModels\Friend.cs" />
     <Compile Include="BasicacModels\Genre.cs" />
     <Compile Include="BasicacModels\MyLibrary.cs" />
-    <Compile Include="BasicacModels\Publisher.cs" />
+    <Compile Include="BasicacModels\Publisherr.cs" />
     <Compile Include="BasicacModels\Review.cs" />
     <Compile Include="BasicacModels\UserAchievement.cs" />
     <Compile Include="BasicacModels\Wallet.cs" />

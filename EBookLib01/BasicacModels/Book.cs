@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EBookLib01
+namespace EBookLib01.BasicacModels
 {
     [Serializable]
     public class Book
@@ -25,7 +25,7 @@ namespace EBookLib01
         public int BookInfoId { get; set; }
         public virtual List<BookInfo> BookInfos { get; set; }
         public virtual BookInfo BookInfo { get; set; }
-        public virtual Publisher Publisher { get; set; }    
+        public virtual Publisherr Publisher { get; set; }    
         public virtual Genre Genre { get; set; }
         public virtual Category Category { get; set; }
         public virtual Author Author { get; set; }

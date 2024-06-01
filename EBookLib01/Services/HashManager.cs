@@ -5,7 +5,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EBookLib01
+namespace EBookLib01.Services
 {
     public class HashManager
     {

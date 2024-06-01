@@ -7,7 +7,7 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.ComponentModel.DataAnnotations;
 using EBookLib01.BasicacModels;
 
-namespace EBookLib01
+namespace EBookLib01.BasicacModels
 {
     [Serializable]
     public class User
@@ -26,6 +26,6 @@ namespace EBookLib01
 
         public virtual List<Friend> Friends { get; set; }
         public virtual Role Role { get; set; }
-        public virtual Publisher Publisher { get; set; }
+        public virtual Publisherr Publisher { get; set; }
     }
 }
