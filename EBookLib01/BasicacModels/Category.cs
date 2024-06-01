@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.ComponentModel.DataAnnotations;
 
 namespace EBookLib01
 {
     [Serializable]
     public class Category
     {
+        [Required]
         public int Id { get; set; }
         public string CategoryName { get; set; }
 

@@ -12,6 +12,8 @@
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,19 +44,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Author.cs" />
-    <Compile Include="Book.cs" />
-    <Compile Include="Category.cs" />
-    <Compile Include="Genre.cs" />
-    <Compile Include="HashManager.cs" />
+    <Compile Include="BasicacModels\Achievement.cs" />
+    <Compile Include="BasicacModels\Author.cs" />
+    <Compile Include="BasicacModels\Book.cs" />
+    <Compile Include="BasicacModels\BookInfo.cs" />
+    <Compile Include="BasicacModels\BookSeries.cs" />
+    <Compile Include="BasicacModels\BookStatistic.cs" />
+    <Compile Include="BasicacModels\Category.cs" />
+    <Compile Include="BasicacModels\Friend.cs" />
+    <Compile Include="BasicacModels\Genre.cs" />
+    <Compile Include="BasicacModels\MyLibrary.cs" />
+    <Compile Include="BasicacModels\Publisher.cs" />
+    <Compile Include="BasicacModels\Review.cs" />
+    <Compile Include="BasicacModels\UserAchievement.cs" />
+    <Compile Include="BasicacModels\Wallet.cs" />
+    <Compile Include="BasicacModels\Wishlist.cs" />
+    <Compile Include="ServiceModels\Transaction.cs" />
+    <Compile Include="Services\HashManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Role.cs" />
-    <Compile Include="User.cs" />
-    <Compile Include="UserInformation.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="EBookLIb.csproj" />
-    <None Include="packages.config" />
+    <Compile Include="BasicacModels\Role.cs" />
+    <Compile Include="BasicacModels\User.cs" />
+    <Compile Include="BasicacModels\UserInformation.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

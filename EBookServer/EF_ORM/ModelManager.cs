@@ -2,6 +2,7 @@ using System;
 using System.Data;
 using System.Data.Entity;
 using System.Linq;
+using System.Windows.Forms;
 using EBookLib01;
 
 namespace EBookServer.EF_ORM
@@ -11,7 +12,9 @@ namespace EBookServer.EF_ORM
 
         public ModelManager()
             : base("name=ModelManager")
-        {}
+        {
+           
+        }
         public virtual DbSet<Author> Authors { get; set; }
         public virtual DbSet<Book> Books { get; set; }
         public virtual DbSet<Category> Categories { get; set; }
@@ -19,9 +22,11 @@ namespace EBookServer.EF_ORM
         public virtual DbSet<Role> Roles { get; set; }
         public virtual DbSet<UserInformation> UserInformations { get; set; }
         public virtual DbSet<User> Users { get; set; }
-
+        
+       
+           
+        
     }
-
 }
 
     

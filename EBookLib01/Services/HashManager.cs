@@ -11,7 +11,7 @@ namespace EBookLib01
     {
         public static string GetHash(string passw)
         {
-            string result = string.Empty;
+            //string result = string.Empty;
             MD5 md5 = MD5.Create();
 
             byte[] data = Encoding.UTF8.GetBytes(passw);
