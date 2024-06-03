@@ -40,8 +40,6 @@ namespace EBookServer.EF_ORM
 
         // Service models
         public virtual DbSet<Transaction> Transactions { get; set; }
-
-        
     }
 }
 

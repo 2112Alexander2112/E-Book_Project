@@ -72,14 +72,38 @@
     <Compile Include="Migrations\202406011326432_Third_Update_Database_Migration.Designer.cs">
       <DependentUpon>202406011326432_Third_Update_Database_Migration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202406011457393_Fourth_Update_Database_Migration.cs" />
+    <Compile Include="Migrations\202406011457393_Fourth_Update_Database_Migration.Designer.cs">
+      <DependentUpon>202406011457393_Fourth_Update_Database_Migration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202406011507304_Fifth-Fixed_Migration.cs" />
+    <Compile Include="Migrations\202406011507304_Fifth-Fixed_Migration.Designer.cs">
+      <DependentUpon>202406011507304_Fifth-Fixed_Migration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202406011511202_Sixth-Fixed_Migration.cs" />
+    <Compile Include="Migrations\202406011511202_Sixth-Fixed_Migration.Designer.cs">
+      <DependentUpon>202406011511202_Sixth-Fixed_Migration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202406011258245_Second_Update_Migration.resx">
       <DependentUpon>202406011258245_Second_Update_Migration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202406011326432_Third_Update_Database_Migration.resx">
       <DependentUpon>202406011326432_Third_Update_Database_Migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406011457393_Fourth_Update_Database_Migration.resx">
+      <DependentUpon>202406011457393_Fourth_Update_Database_Migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406011507304_Fifth-Fixed_Migration.resx">
+      <DependentUpon>202406011507304_Fifth-Fixed_Migration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406011511202_Sixth-Fixed_Migration.resx">
+      <DependentUpon>202406011511202_Sixth-Fixed_Migration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -111,6 +135,9 @@
       <Project>{213bc5f9-4644-4fe4-96c3-556ecdfce77c}</Project>
       <Name>EBookLib01</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

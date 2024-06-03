@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EBookLib01.BasicacModels
 {
-    [Serializable]
+
     public class Review
     {
         public int Id { get; set; } 
