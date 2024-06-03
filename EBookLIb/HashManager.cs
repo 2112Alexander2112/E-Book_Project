@@ -5,7 +5,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EBookLIb
+namespace EBookLib01
 {
     public class HashManager
     {
@@ -18,11 +18,12 @@ namespace EBookLIb
             byte[] hash = md5.ComputeHash(data);
 
             StringBuilder sb = new StringBuilder();
+            string Hashpass = sb.ToString();
             foreach (byte b in hash)
             {
-                sb.Append(b.ToString("x2"));
+                sb.Append(b.ToString("X2"));
             }
-            return sb.ToString();
+            return Hashpass;
         }
     }
 }

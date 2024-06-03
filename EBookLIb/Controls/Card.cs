@@ -1,4 +1,4 @@
-﻿using EBookLIb.Animations;
+﻿using EBookLib01.Animations;
 using EBookLIb.Proper;
 using System;
 using System.Collections.Generic;

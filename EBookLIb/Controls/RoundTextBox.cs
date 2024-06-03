@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using EBookLIb.Proper;
-using EBookLIb.Animations;
+using EBookLib01.Animations;
 
 namespace EBookClient.Controls
 {

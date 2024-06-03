@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EBookLIb.Animations
+namespace EBookLib01.Animations
 {
     public class Animation
     {

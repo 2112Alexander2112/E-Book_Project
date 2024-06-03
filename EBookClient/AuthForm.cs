@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using EBookClient.Controls;
 using EBookLIb;
-using EBookLIb.Models;
+using EBookLib01.BasicacModels;
 using EBookLIb.Packages;
 
 namespace EBookClient
@@ -34,37 +34,48 @@ namespace EBookClient
             {
                 if(string.IsNullOrEmpty(Password) )
                 {
+                    label2.Text = "Ви не ввели пароль";
                 }
                 else
                 {
-                    string hashPass = HashManager.GetHash(Password);
-                    var mess = Login + ":" + hashPass;
-                    byte[] bytes = Encoding.UTF8.GetBytes(mess);
-                    var bag = new Package()
+
+                    string mess = "";
+                    string[] path = mess.Split(':');
+                    if ("AUTH_OK" != path[0])
                     {
-                        Host = "GET_AUTH",
-                        Message = bytes
-                    };
+                        label2.Text = path[1];
+                    }
+                    else
+                    {
+                        this.Hide();
+                        var Menu = new Menu();
+                        this.Hide();
+                        if (Menu.ShowDialog() == DialogResult.OK)
+                        {
+
+                        }
+                    }
                 }
             }
         }
 
         private void RegButton_Click(object sender, EventArgs e)
         {
+            this.Hide();
             var reg = new RegForm();
-            var modelReg = new User();
-            if(reg.ShowDialog() == DialogResult.OK)
+            if(reg.ShowDialog() == DialogResult.OK && reg.ShowDialog() == DialogResult.OK)
             {
-                modelReg = reg.RegModel;
+                this.Show();
             }
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            this.Hide();
             var reset = new PassResetForm();
-            if(reset.ShowDialog() == DialogResult.OK)
+            if(reset.ShowDialog() == DialogResult.Cancel && reset.ShowDialog() == DialogResult.OK)
             {
-
+                this.Show();
             }
         }
     }

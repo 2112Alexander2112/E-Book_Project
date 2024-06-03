@@ -272,6 +272,7 @@
             this.Controls.Add(this.LoginField);
             this.Name = "RegForm";
             this.Text = "Форма Реєстрації E-Book";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.RegForm_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

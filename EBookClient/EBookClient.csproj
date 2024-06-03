@@ -42,18 +42,6 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="ExCSS, Version=4.1.4.0, Culture=neutral, PublicKeyToken=bdbe16be9b936b9a, processorArchitecture=MSIL">
-      <HintPath>..\packages\ExCSS.4.1.4\lib\net452\ExCSS.dll</HintPath>
-    </Reference>
-    <Reference Include="Fizzler, Version=1.2.1.0, Culture=neutral, PublicKeyToken=4ebff4844e382110, processorArchitecture=MSIL">
-      <HintPath>..\packages\Fizzler.1.2.1\lib\netstandard2.0\Fizzler.dll</HintPath>
-    </Reference>
-    <Reference Include="FontAwesome.WinForms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FontAwesome.WinForms.1.0.1\lib\net472\FontAwesome.WinForms.dll</HintPath>
-    </Reference>
-    <Reference Include="GumroadLicensing, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\GumroadLicensing.2.0.2\lib\net45\GumroadLicensing.dll</HintPath>
-    </Reference>
     <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net48\Guna.UI2.dll</HintPath>
     </Reference>
@@ -65,9 +53,6 @@
     </Reference>
     <Reference Include="RestSharp, Version=110.2.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
       <HintPath>..\packages\RestSharp.110.2.0\lib\net471\RestSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Svg, Version=3.4.0.0, Culture=neutral, PublicKeyToken=12a0bac221edeae2, processorArchitecture=MSIL">
-      <HintPath>..\packages\Svg.3.4.3\lib\net462\Svg.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
@@ -126,6 +111,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="PassResetForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,11 +131,62 @@
     <Compile Include="RegForm.Designer.cs">
       <DependentUpon>RegForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UC_Control\UC_AllBooks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_AllBooks.Designer.cs">
+      <DependentUpon>UC_AllBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Control\UC_Book.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_Book.Designer.cs">
+      <DependentUpon>UC_Book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Control\UC_MainPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_MainPage.Designer.cs">
+      <DependentUpon>UC_MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Control\UC_MyPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_MyPage.Designer.cs">
+      <DependentUpon>UC_MyPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Control\UC_MyProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_MyProfile.Designer.cs">
+      <DependentUpon>UC_MyProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Control\UC_MySeries.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_MySeries.Designer.cs">
+      <DependentUpon>UC_MySeries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Control\UC_SrBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_SrBook.Designer.cs">
+      <DependentUpon>UC_SrBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Control\UC_WishList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_WishList.Designer.cs">
+      <DependentUpon>UC_WishList.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AuthForm.resx">
       <DependentUpon>AuthForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PassResetForm.resx">
       <DependentUpon>PassResetForm.cs</DependentUpon>
@@ -162,6 +204,30 @@
     <EmbeddedResource Include="RegForm.resx">
       <DependentUpon>RegForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_AllBooks.resx">
+      <DependentUpon>UC_AllBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_Book.resx">
+      <DependentUpon>UC_Book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_MainPage.resx">
+      <DependentUpon>UC_MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_MyPage.resx">
+      <DependentUpon>UC_MyPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_MyProfile.resx">
+      <DependentUpon>UC_MyProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_MySeries.resx">
+      <DependentUpon>UC_MySeries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_SrBook.resx">
+      <DependentUpon>UC_SrBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_WishList.resx">
+      <DependentUpon>UC_WishList.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -177,14 +243,41 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Img\back.png" />
+    <Content Include="Img\Book_Store.png" />
+    <Content Include="Img\close.png" />
+    <Content Include="Img\expand-buttom.png" />
+    <Content Include="Img\expand-up.png" />
+    <Content Include="Img\fast-forward-back.png" />
+    <Content Include="Img\fast-forward.png" />
     <Content Include="Img\Favicon.ico" />
+    <Content Include="Img\forum.png" />
+    <Content Include="Img\Free_Book.png" />
+    <Content Include="Img\frends.png" />
+    <Content Include="Img\Home.png" />
+    <Content Include="Img\icon_roll_up.png" />
     <Content Include="Img\key.png" />
+    <Content Include="Img\library.png" />
     <Content Include="Img\lock.png" />
+    <Content Include="Img\menu.png" />
+    <Content Include="Img\MyBook.png" />
+    <Content Include="Img\next.png" />
+    <Content Include="Img\No_Image_Available.jpg" />
+    <Content Include="Img\Pen.png" />
+    <Content Include="Img\point.png" />
+    <Content Include="Img\Profile.png" />
+    <Content Include="Img\search.png" />
+    <Content Include="Img\settings.png" />
+    <None Include="Resources\library.png" />
+    <None Include="Resources\settings.png" />
+    <None Include="Resources\Book_Store.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\menu.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EBookLIb\EBookLIb.csproj">
+    <ProjectReference Include="..\EBookLIb\EBookLib01.csproj">
       <Project>{53795b0a-0f29-4b08-94e4-da994d8b6dc6}</Project>
-      <Name>EBookLIb</Name>
+      <Name>EBookLib01</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -30,10 +30,13 @@
         {
             this.components = new System.ComponentModel.Container();
             this.egoldsFormStyle1 = new yt_DesignUI.Components.EgoldsFormStyle(this.components);
-            this.roundTextBox1 = new EBookClient.Controls.RoundTextBox();
-            this.roundTextBox2 = new EBookClient.Controls.RoundTextBox();
-            this.roundTextBox3 = new EBookClient.Controls.RoundTextBox();
+            this.CopyNewPassField = new EBookClient.Controls.RoundTextBox();
+            this.NewPassField = new EBookClient.Controls.RoundTextBox();
+            this.EmailField = new EBookClient.Controls.RoundTextBox();
             this.ResetPassButton = new EBookClient.Controls.yt_buttons();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // egoldsFormStyle1
@@ -55,59 +58,59 @@
             this.egoldsFormStyle1.HeaderTextColor = System.Drawing.Color.White;
             this.egoldsFormStyle1.HeaderTextFont = new System.Drawing.Font("Segoe UI", 9.75F);
             // 
-            // roundTextBox1
+            // CopyNewPassField
             // 
-            this.roundTextBox1.BackColor = System.Drawing.Color.White;
-            this.roundTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
-            this.roundTextBox1.BorderColorNotActive = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
-            this.roundTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.roundTextBox1.Font = new System.Drawing.Font("Arial", 11.25F);
-            this.roundTextBox1.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
-            this.roundTextBox1.ForeColor = System.Drawing.Color.Black;
-            this.roundTextBox1.Location = new System.Drawing.Point(12, 146);
-            this.roundTextBox1.Name = "roundTextBox1";
-            this.roundTextBox1.SelectionStart = 0;
-            this.roundTextBox1.Size = new System.Drawing.Size(388, 40);
-            this.roundTextBox1.TabIndex = 0;
-            this.roundTextBox1.TextInput = "";
-            this.roundTextBox1.TextPreview = "Продублюйте пароль";
-            this.roundTextBox1.UseSystemPasswordChar = false;
+            this.CopyNewPassField.BackColor = System.Drawing.Color.White;
+            this.CopyNewPassField.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            this.CopyNewPassField.BorderColorNotActive = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
+            this.CopyNewPassField.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.CopyNewPassField.Font = new System.Drawing.Font("Arial", 11.25F);
+            this.CopyNewPassField.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
+            this.CopyNewPassField.ForeColor = System.Drawing.Color.Black;
+            this.CopyNewPassField.Location = new System.Drawing.Point(12, 146);
+            this.CopyNewPassField.Name = "CopyNewPassField";
+            this.CopyNewPassField.SelectionStart = 0;
+            this.CopyNewPassField.Size = new System.Drawing.Size(388, 40);
+            this.CopyNewPassField.TabIndex = 0;
+            this.CopyNewPassField.TextInput = "";
+            this.CopyNewPassField.TextPreview = "Продублюйте пароль";
+            this.CopyNewPassField.UseSystemPasswordChar = false;
             // 
-            // roundTextBox2
+            // NewPassField
             // 
-            this.roundTextBox2.BackColor = System.Drawing.Color.White;
-            this.roundTextBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
-            this.roundTextBox2.BorderColorNotActive = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
-            this.roundTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.roundTextBox2.Font = new System.Drawing.Font("Arial", 11.25F);
-            this.roundTextBox2.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
-            this.roundTextBox2.ForeColor = System.Drawing.Color.Black;
-            this.roundTextBox2.Location = new System.Drawing.Point(12, 100);
-            this.roundTextBox2.Name = "roundTextBox2";
-            this.roundTextBox2.SelectionStart = 0;
-            this.roundTextBox2.Size = new System.Drawing.Size(388, 40);
-            this.roundTextBox2.TabIndex = 1;
-            this.roundTextBox2.TextInput = "";
-            this.roundTextBox2.TextPreview = "Введіть новий пароль";
-            this.roundTextBox2.UseSystemPasswordChar = false;
+            this.NewPassField.BackColor = System.Drawing.Color.White;
+            this.NewPassField.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            this.NewPassField.BorderColorNotActive = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
+            this.NewPassField.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.NewPassField.Font = new System.Drawing.Font("Arial", 11.25F);
+            this.NewPassField.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
+            this.NewPassField.ForeColor = System.Drawing.Color.Black;
+            this.NewPassField.Location = new System.Drawing.Point(12, 82);
+            this.NewPassField.Name = "NewPassField";
+            this.NewPassField.SelectionStart = 0;
+            this.NewPassField.Size = new System.Drawing.Size(388, 40);
+            this.NewPassField.TabIndex = 1;
+            this.NewPassField.TextInput = "";
+            this.NewPassField.TextPreview = "Введіть новий пароль";
+            this.NewPassField.UseSystemPasswordChar = false;
             // 
-            // roundTextBox3
+            // EmailField
             // 
-            this.roundTextBox3.BackColor = System.Drawing.Color.White;
-            this.roundTextBox3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
-            this.roundTextBox3.BorderColorNotActive = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
-            this.roundTextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.roundTextBox3.Font = new System.Drawing.Font("Arial", 11.25F);
-            this.roundTextBox3.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
-            this.roundTextBox3.ForeColor = System.Drawing.Color.Black;
-            this.roundTextBox3.Location = new System.Drawing.Point(12, 54);
-            this.roundTextBox3.Name = "roundTextBox3";
-            this.roundTextBox3.SelectionStart = 0;
-            this.roundTextBox3.Size = new System.Drawing.Size(388, 40);
-            this.roundTextBox3.TabIndex = 2;
-            this.roundTextBox3.TextInput = "";
-            this.roundTextBox3.TextPreview = "Введіть свій Email ";
-            this.roundTextBox3.UseSystemPasswordChar = false;
+            this.EmailField.BackColor = System.Drawing.Color.White;
+            this.EmailField.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            this.EmailField.BorderColorNotActive = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
+            this.EmailField.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.EmailField.Font = new System.Drawing.Font("Arial", 11.25F);
+            this.EmailField.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
+            this.EmailField.ForeColor = System.Drawing.Color.Black;
+            this.EmailField.Location = new System.Drawing.Point(12, 12);
+            this.EmailField.Name = "EmailField";
+            this.EmailField.SelectionStart = 0;
+            this.EmailField.Size = new System.Drawing.Size(388, 40);
+            this.EmailField.TabIndex = 2;
+            this.EmailField.TextInput = "";
+            this.EmailField.TextPreview = "Введіть свій Email ";
+            this.EmailField.UseSystemPasswordChar = false;
             // 
             // ResetPassButton
             // 
@@ -122,7 +125,7 @@
             this.ResetPassButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ResetPassButton.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.ResetPassButton.ForeColor = System.Drawing.Color.White;
-            this.ResetPassButton.Location = new System.Drawing.Point(12, 193);
+            this.ResetPassButton.Location = new System.Drawing.Point(12, 231);
             this.ResetPassButton.Name = "ResetPassButton";
             this.ResetPassButton.RippleColor = System.Drawing.Color.Black;
             this.ResetPassButton.Rounding = 50;
@@ -135,29 +138,65 @@
             this.ResetPassButton.UseRippleEffect = true;
             this.ResetPassButton.UseVisualStyleBackColor = false;
             this.ResetPassButton.UseZoomEffectOnHover = false;
+            this.ResetPassButton.Click += new System.EventHandler(this.ResetPassButton_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(13, 59);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 20);
+            this.label1.TabIndex = 4;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(12, 125);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(0, 20);
+            this.label2.TabIndex = 5;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(12, 199);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 20);
+            this.label3.TabIndex = 6;
             // 
             // PassResetForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(411, 232);
+            this.ClientSize = new System.Drawing.Size(411, 273);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.ResetPassButton);
-            this.Controls.Add(this.roundTextBox3);
-            this.Controls.Add(this.roundTextBox2);
-            this.Controls.Add(this.roundTextBox1);
+            this.Controls.Add(this.EmailField);
+            this.Controls.Add(this.NewPassField);
+            this.Controls.Add(this.CopyNewPassField);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "PassResetForm";
             this.Text = "Змінити пароль";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.PassResetForm_FormClosed);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private yt_DesignUI.Components.EgoldsFormStyle egoldsFormStyle1;
-        private Controls.RoundTextBox roundTextBox1;
+        private Controls.RoundTextBox CopyNewPassField;
         private Controls.yt_buttons ResetPassButton;
-        private Controls.RoundTextBox roundTextBox3;
-        private Controls.RoundTextBox roundTextBox2;
+        private Controls.RoundTextBox EmailField;
+        private Controls.RoundTextBox NewPassField;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }

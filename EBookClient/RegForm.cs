@@ -1,5 +1,4 @@
-﻿using EBookLIb.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,7 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
-using EBookLIb.Models;
+using EBookLib01.BasicacModels;
+using EBookLib01;
 
 namespace EBookClient
 {
@@ -71,17 +71,16 @@ namespace EBookClient
                         }
                         else
                         {
-                            if(copyPass != pass )
+                            if (copyPass != pass)
                             {
                                 label5.Text = "Пароль не збігається!";
                                 timer1.Start();
                             }
                             else
                             {
-                                RegModel = new User()
-                                {
-                                    Id = 0, UserLogin = login, Email = emai, Password = pass, RegDate = DateTime.Now, RoleId = 1
-                                };
+                                string hashPass = HashManager.GetHash(pass);
+                                string regMess = $"REG_USER:{login}:{emai}:{hashPass}:{DateTime.Now}:{1}";
+                                byte[] reguser = Encoding.UTF8.GetBytes(regMess);
                                 this.DialogResult = DialogResult.OK;
                             }
                         }
@@ -98,6 +97,11 @@ namespace EBookClient
             }
 
             timer1.Stop();
+        }
+
+        private void RegForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
         }
     }
 }
