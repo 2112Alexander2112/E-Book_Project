@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBookClient", "EBookClient\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBookServer", "EBookServer\EBookServer.csproj", "{90A78072-6433-4A78-89E4-CE5532877DF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBookLIb", "EBookLIb\EBookLIb.csproj", "{53795B0A-0F29-4B08-94E4-DA994D8B6DC6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBookLib01", "EBookLib01\EBookLib01.csproj", "{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{90A78072-6433-4A78-89E4-CE5532877DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90A78072-6433-4A78-89E4-CE5532877DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90A78072-6433-4A78-89E4-CE5532877DF0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{53795B0A-0F29-4B08-94E4-DA994D8B6DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{53795B0A-0F29-4B08-94E4-DA994D8B6DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{53795B0A-0F29-4B08-94E4-DA994D8B6DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{53795B0A-0F29-4B08-94E4-DA994D8B6DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
