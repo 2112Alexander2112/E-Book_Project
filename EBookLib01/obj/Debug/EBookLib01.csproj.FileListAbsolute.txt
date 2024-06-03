@@ -10,3 +10,13 @@ C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\
 C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\obj\Debug\EBookLib01.csproj.CoreCompileInputs.cache
 C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\obj\Debug\EBookLib01.dll
 C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\obj\Debug\EBookLib01.pdb
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\System.Memory.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\System.Text.Json.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\System.Numerics.Vectors.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\System.Buffers.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\System.ValueTuple.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\System.Text.Encodings.Web.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\obj\Debug\EBookLib01.csproj.Up2Date
