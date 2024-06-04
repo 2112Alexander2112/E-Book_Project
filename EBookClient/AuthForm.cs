@@ -45,11 +45,9 @@ namespace EBookClient
                     {
                         this.Hide();
                         var Menu = new Menu();
+                        Menu.ShowDialog();
                         this.Hide();
-                        if (Menu.ShowDialog() == DialogResult.OK)
-                        {
-
-                        }
+                        
                     }
                 }
             }
@@ -59,20 +57,16 @@ namespace EBookClient
         {
             this.Hide();
             var reg = new RegForm();
-            if(reg.ShowDialog() == DialogResult.OK && reg.ShowDialog() == DialogResult.OK)
-            {
-                this.Show();
-            }
+            reg.ShowDialog();
+            this.Show();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Hide();
             var reset = new PassResetForm();
-            if(reset.ShowDialog() == DialogResult.Cancel && reset.ShowDialog() == DialogResult.OK)
-            {
-                this.Show();
-            }
+            reset.ShowDialog();
+            this.Show();
         }
     }
 }

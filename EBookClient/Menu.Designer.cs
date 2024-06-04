@@ -30,8 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.ClosedsButt = new System.Windows.Forms.Button();
             this.MenuBox = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -58,7 +56,6 @@
             this.LibraryTime = new System.Windows.Forms.Timer(this.components);
             this.PanelBox = new System.Windows.Forms.Panel();
             this.egoldsFormStyle1 = new EBookLib01.Components.EgoldsFormStyle(this.components);
-            this.flowLayoutPanel1.SuspendLayout();
             this.MenuBox.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MenuButton)).BeginInit();
@@ -67,32 +64,6 @@
             this.LibraryBox.SuspendLayout();
             this.SettingsBox.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Gray;
-            this.flowLayoutPanel1.Controls.Add(this.ClosedsButt);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1200, 30);
-            this.flowLayoutPanel1.TabIndex = 0;
-            this.flowLayoutPanel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.flowLayoutPanel1_MouseDown);
-            this.flowLayoutPanel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.flowLayoutPanel1_MouseMove);
-            this.flowLayoutPanel1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.flowLayoutPanel1_MouseUp);
-            // 
-            // ClosedsButt
-            // 
-            this.ClosedsButt.BackColor = System.Drawing.Color.Transparent;
-            this.ClosedsButt.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ClosedsButt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ClosedsButt.Image = global::EBookClient.Properties.Resources.close;
-            this.ClosedsButt.Location = new System.Drawing.Point(3, 3);
-            this.ClosedsButt.Name = "ClosedsButt";
-            this.ClosedsButt.Size = new System.Drawing.Size(24, 23);
-            this.ClosedsButt.TabIndex = 2;
-            this.ClosedsButt.UseVisualStyleBackColor = false;
-            this.ClosedsButt.Click += new System.EventHandler(this.ClosedsButt_Click);
             // 
             // MenuBox
             // 
@@ -103,9 +74,9 @@
             this.MenuBox.Controls.Add(this.LibraryBox);
             this.MenuBox.Controls.Add(this.SettingsBox);
             this.MenuBox.Dock = System.Windows.Forms.DockStyle.Left;
-            this.MenuBox.Location = new System.Drawing.Point(0, 30);
-            this.MenuBox.MaximumSize = new System.Drawing.Size(200, 800);
-            this.MenuBox.MinimumSize = new System.Drawing.Size(60, 800);
+            this.MenuBox.Location = new System.Drawing.Point(0, 0);
+            this.MenuBox.MaximumSize = new System.Drawing.Size(200, 0);
+            this.MenuBox.MinimumSize = new System.Drawing.Size(60, 0);
             this.MenuBox.Name = "MenuBox";
             this.MenuBox.Size = new System.Drawing.Size(200, 800);
             this.MenuBox.TabIndex = 1;
@@ -388,9 +359,9 @@
             // 
             this.PanelBox.BackColor = System.Drawing.Color.White;
             this.PanelBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelBox.Location = new System.Drawing.Point(200, 30);
+            this.PanelBox.Location = new System.Drawing.Point(200, 0);
             this.PanelBox.Name = "PanelBox";
-            this.PanelBox.Size = new System.Drawing.Size(1000, 770);
+            this.PanelBox.Size = new System.Drawing.Size(1000, 800);
             this.PanelBox.TabIndex = 2;
             // 
             // egoldsFormStyle1
@@ -399,15 +370,15 @@
             this.egoldsFormStyle1.BackColor = System.Drawing.Color.White;
             this.egoldsFormStyle1.ContextMenuForm = null;
             this.egoldsFormStyle1.ControlBoxButtonsWidth = 20;
-            this.egoldsFormStyle1.EnableControlBoxIconsLight = false;
-            this.egoldsFormStyle1.EnableControlBoxMouseLight = false;
-            this.egoldsFormStyle1.Form = null;
+            this.egoldsFormStyle1.EnableControlBoxIconsLight = true;
+            this.egoldsFormStyle1.EnableControlBoxMouseLight = true;
+            this.egoldsFormStyle1.Form = this;
             this.egoldsFormStyle1.FormStyle = EBookLib01.Components.EgoldsFormStyle.fStyle.SimpleDark;
             this.egoldsFormStyle1.HeaderColor = System.Drawing.Color.DimGray;
             this.egoldsFormStyle1.HeaderColorAdditional = System.Drawing.Color.White;
             this.egoldsFormStyle1.HeaderColorGradientEnable = false;
             this.egoldsFormStyle1.HeaderColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
-            this.egoldsFormStyle1.HeaderHeight = 38;
+            this.egoldsFormStyle1.HeaderHeight = 0;
             this.egoldsFormStyle1.HeaderImage = null;
             this.egoldsFormStyle1.HeaderTextColor = System.Drawing.Color.White;
             this.egoldsFormStyle1.HeaderTextFont = new System.Drawing.Font("Segoe UI", 9.75F);
@@ -419,13 +390,11 @@
             this.ClientSize = new System.Drawing.Size(1200, 800);
             this.Controls.Add(this.PanelBox);
             this.Controls.Add(this.MenuBox);
-            this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Menu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Menu_Load);
-            this.flowLayoutPanel1.ResumeLayout(false);
             this.MenuBox.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -439,14 +408,11 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.FlowLayoutPanel MenuBox;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox MenuButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer MenuTimer;
-        private System.Windows.Forms.Button ClosedsButt;
         private System.Windows.Forms.Panel StoreBox;
         private System.Windows.Forms.Button StoreButt;
         private System.Windows.Forms.Button Settings;
