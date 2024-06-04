@@ -1,0 +1,38 @@
+<<<<<<< HEAD:EBookLib01/obj/Debug/EBookLib01.csproj.FileListAbsolute.txt
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookLib01\bin\Debug\EBookLib01.dll
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookLib01\bin\Debug\EBookLib01.pdb
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.csproj.AssemblyReference.cache
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.csproj.CoreCompileInputs.cache
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.dll
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.pdb
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\EBookLib01.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\EBookLib01.pdb
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\obj\Debug\EBookLib01.csproj.AssemblyReference.cache
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\obj\Debug\EBookLib01.csproj.CoreCompileInputs.cache
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\obj\Debug\EBookLib01.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\obj\Debug\EBookLib01.pdb
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\System.Memory.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\System.Text.Json.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\System.Numerics.Vectors.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\System.Buffers.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\System.ValueTuple.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\System.Text.Encodings.Web.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookLib01\obj\Debug\EBookLib01.csproj.Up2Date
+=======
+D:\NP2\E-Book_Project\EBookLIb\obj\Debug\EBookLib01.csproj.AssemblyReference.cache
+D:\NP2\E-Book_Project\EBookLIb\obj\Debug\EBookLib01.csproj.CoreCompileInputs.cache
+D:\NP2\E-Book_Project\EBookLIb\obj\Debug\EBookLIb.dll
+D:\NP2\E-Book_Project\EBookLIb\obj\Debug\EBookLIb.pdb
+D:\NP2\E-Book_Project\EBookLIb\bin\Debug\EBookLIb.dll.config
+D:\NP2\E-Book_Project\EBookLIb\bin\Debug\EBookLIb.dll
+D:\NP2\E-Book_Project\EBookLIb\bin\Debug\EBookLIb.pdb
+D:\NP2\E-Book_Project\EBookLIb\bin\Debug\EntityFramework.dll
+D:\NP2\E-Book_Project\EBookLIb\bin\Debug\EntityFramework.SqlServer.dll
+D:\NP2\E-Book_Project\EBookLIb\bin\Debug\Guna.UI2.dll
+D:\NP2\E-Book_Project\EBookLIb\bin\Debug\EntityFramework.xml
+D:\NP2\E-Book_Project\EBookLIb\bin\Debug\EntityFramework.SqlServer.xml
+D:\NP2\E-Book_Project\EBookLIb\obj\Debug\EBookLib01.csproj.Up2Date
+>>>>>>> origin/Alexander:EBookLIb/obj/Debug/EBookLib01.csproj.FileListAbsolute.txt

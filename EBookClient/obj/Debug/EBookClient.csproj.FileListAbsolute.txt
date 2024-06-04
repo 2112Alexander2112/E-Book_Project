@@ -1,3 +1,28 @@
+<<<<<<< HEAD
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookClient\bin\Debug\EBookClient.exe.config
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookClient\bin\Debug\EBookClient.exe
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookClient\bin\Debug\EBookClient.pdb
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookClient\bin\Debug\EntityFramework.dll
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookClient\bin\Debug\EntityFramework.xml
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookClient\obj\Debug\EBookClient.csproj.AssemblyReference.cache
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookClient\obj\Debug\EBookClient.Properties.Resources.resources
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookClient\obj\Debug\EBookClient.csproj.GenerateResource.cache
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookClient\obj\Debug\EBookClient.csproj.CoreCompileInputs.cache
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookClient\obj\Debug\EBookCli.306F338C.Up2Date
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookClient\obj\Debug\EBookClient.exe
+C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookClient\obj\Debug\EBookClient.pdb
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookClient\bin\Debug\EBookClient.exe.config
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookClient\bin\Debug\EBookClient.exe
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookClient\bin\Debug\EBookClient.pdb
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookClient\obj\Debug\EBookClient.csproj.AssemblyReference.cache
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookClient\obj\Debug\EBookClient.Properties.Resources.resources
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookClient\obj\Debug\EBookClient.csproj.GenerateResource.cache
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookClient\obj\Debug\EBookClient.csproj.CoreCompileInputs.cache
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookClient\obj\Debug\EBookClient.exe
+C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookClient\obj\Debug\EBookClient.pdb
+=======
 D:\NP2\E-Book_Project\EBookClient\obj\Debug\EBookClient.csproj.AssemblyReference.cache
 D:\NP2\E-Book_Project\EBookClient\obj\Debug\EBookClient.AuthForm.resources
 D:\NP2\E-Book_Project\EBookClient\obj\Debug\EBookClient.Properties.Resources.resources
@@ -53,3 +78,4 @@ D:\NP2\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_MyProfile.
 D:\NP2\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_AllBooks.resources
 D:\NP2\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_MySeries.resources
 D:\NP2\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_Book.resources
+>>>>>>> origin/Alexander

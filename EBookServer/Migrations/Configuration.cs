@@ -14,6 +14,7 @@
 
         protected override void Seed(EBookServer.EF_ORM.EBookBase context)
         {
+           
         }
     }
 }
