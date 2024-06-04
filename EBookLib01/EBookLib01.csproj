@@ -33,11 +33,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
-    <Reference Include="System.Text.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +58,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animations\Animation.cs" />
+    <Compile Include="Animations\Animator.cs" />
     <Compile Include="BasicacModels\Achievement.cs" />
     <Compile Include="BasicacModels\Author.cs" />
     <Compile Include="BasicacModels\Book.cs" />
@@ -58,13 +72,36 @@
     <Compile Include="BasicacModels\MyLibrary.cs" />
     <Compile Include="BasicacModels\Publisherr.cs" />
     <Compile Include="BasicacModels\Review.cs" />
+    <Compile Include="BasicacModels\Role.cs" />
+    <Compile Include="BasicacModels\Transaction.cs" />
+    <Compile Include="BasicacModels\User.cs" />
     <Compile Include="BasicacModels\UserAchievement.cs" />
+    <Compile Include="BasicacModels\UserInformation.cs" />
     <Compile Include="BasicacModels\Wallet.cs" />
     <Compile Include="BasicacModels\Wishlist.cs" />
-    <Compile Include="ServiceModels\ClientMessage.cs" />
-    <Compile Include="ServiceModels\ServerMessage.cs" />
-    <Compile Include="ServiceModels\Transaction.cs" />
-    <Compile Include="Services\HashManager.cs" />
+    <Compile Include="Components\EgoldsStyle.cs" />
+    <Compile Include="Components\yt_DesignUI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Card.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\RoundBtm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\RoundTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ToggleSwitch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\yt_buttons.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HashManager.cs" />
+    <Compile Include="Packages\Package.cs" />
+    <Compile Include="Proper\Drawer.cs" />
+    <Compile Include="Proper\FlatColors.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BasicacModels\Role.cs" />
     <Compile Include="BasicacModels\User.cs" />

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EBookLib01.BasicacModels
 {
-
+    [Serializable]
     public class Wallet
     {
         public int Id { get; set; }

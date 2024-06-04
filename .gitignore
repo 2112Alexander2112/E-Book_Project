@@ -9,4 +9,8 @@ EBookLIb/packages.config
 EBookServer/App.config
 EBookServer/EBookServer.csproj
 EBookServer/bin/Debug/
+<<<<<<< HEAD
 EBookServer/obj/Debug/
+=======
+EBookServer/obj/Debug/
+>>>>>>> origin/Alexander

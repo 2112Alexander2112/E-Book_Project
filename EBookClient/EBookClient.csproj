@@ -35,9 +35,58 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.7.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=110.2.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.110.2.0\lib\net471\RestSharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.CodeDom, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.CodeDom.8.0.0\lib\net462\System.CodeDom.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.7.0.0\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=7.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.7.0.2\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,22 +98,97 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AuthForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuthForm.Designer.cs">
+      <DependentUpon>AuthForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SearchForBookForm.cs">
+    <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SearchForBookForm.Designer.cs">
-      <DependentUpon>SearchForBookForm.cs</DependentUpon>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="PassResetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PassResetForm.Designer.cs">
+      <DependentUpon>PassResetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegForm.Designer.cs">
+      <DependentUpon>RegForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Control\UC_AllBooks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_AllBooks.Designer.cs">
+      <DependentUpon>UC_AllBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Control\UC_Book.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_Book.Designer.cs">
+      <DependentUpon>UC_Book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Control\UC_MainPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_MainPage.Designer.cs">
+      <DependentUpon>UC_MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Control\UC_MyPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_MyPage.Designer.cs">
+      <DependentUpon>UC_MyPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Control\UC_MyProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_MyProfile.Designer.cs">
+      <DependentUpon>UC_MyProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Control\UC_MySeries.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_MySeries.Designer.cs">
+      <DependentUpon>UC_MySeries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Control\UC_SrBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_SrBook.Designer.cs">
+      <DependentUpon>UC_SrBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Control\UC_WishList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_WishList.Designer.cs">
+      <DependentUpon>UC_WishList.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AuthForm.resx">
+      <DependentUpon>AuthForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PassResetForm.resx">
+      <DependentUpon>PassResetForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -74,10 +198,36 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="SearchForBookForm.resx">
-      <DependentUpon>SearchForBookForm.cs</DependentUpon>
+    <EmbeddedResource Include="RegForm.resx">
+      <DependentUpon>RegForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_AllBooks.resx">
+      <DependentUpon>UC_AllBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_Book.resx">
+      <DependentUpon>UC_Book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_MainPage.resx">
+      <DependentUpon>UC_MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_MyPage.resx">
+      <DependentUpon>UC_MyPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_MyProfile.resx">
+      <DependentUpon>UC_MyProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_MySeries.resx">
+      <DependentUpon>UC_MySeries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_SrBook.resx">
+      <DependentUpon>UC_SrBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_WishList.resx">
+      <DependentUpon>UC_WishList.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -92,10 +242,50 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EBookLib01\EBookLib01.csproj">
-      <Project>{213bc5f9-4644-4fe4-96c3-556ecdfce77c}</Project>
+    <Content Include="Img\back.png" />
+    <Content Include="Img\Book_Store.png" />
+    <Content Include="Img\close.png" />
+    <Content Include="Img\expand-buttom.png" />
+    <Content Include="Img\expand-up.png" />
+    <Content Include="Img\fast-forward-back.png" />
+    <Content Include="Img\fast-forward.png" />
+    <Content Include="Img\Favicon.ico" />
+    <Content Include="Img\forum.png" />
+    <Content Include="Img\Free_Book.png" />
+    <Content Include="Img\frends.png" />
+    <Content Include="Img\Home.png" />
+    <Content Include="Img\icon_roll_up.png" />
+    <Content Include="Img\key.png" />
+    <Content Include="Img\library.png" />
+    <Content Include="Img\lock.png" />
+    <Content Include="Img\menu.png" />
+    <Content Include="Img\MyBook.png" />
+    <Content Include="Img\next.png" />
+    <Content Include="Img\No_Image_Available.jpg" />
+    <Content Include="Img\Pen.png" />
+    <Content Include="Img\point.png" />
+    <Content Include="Img\Profile.png" />
+    <Content Include="Img\search.png" />
+    <Content Include="Img\settings.png" />
+    <None Include="Resources\library.png" />
+    <None Include="Resources\settings.png" />
+    <None Include="Resources\Book_Store.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EBookLIb\EBookLib01.csproj">
+      <Project>{53795b0a-0f29-4b08-94e4-da994d8b6dc6}</Project>
       <Name>EBookLib01</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
 </Project>

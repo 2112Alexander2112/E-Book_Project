@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EBookLib01.BasicacModels
 {
-  
+    [Serializable]
     public class BookStatistic
     {
         
