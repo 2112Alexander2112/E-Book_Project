@@ -7,10 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using EBookLIb.Proper;
+using EBookLib01.Proper;
 using EBookLib01.Animations;
 
-namespace EBookClient.Controls
+namespace EBookLib01.Controls
 {
     [DefaultProperty("TextPreview")]
     public class RoundTextBox : Control

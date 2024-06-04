@@ -1,5 +1,5 @@
 ﻿using EBookLib01.Animations;
-using EBookLIb.Proper;
+using EBookLib01.Proper;
 using System;
 using System.Collections.Generic;
 using System.Drawing.Drawing2D;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace EBookClient.Controls
+namespace EBookLib01.Controls
 {
     public class Card : Control
     {

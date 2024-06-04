@@ -20,11 +20,11 @@ namespace EBookClient
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            var auth = new AuthForm();
-            if(auth.ShowDialog() == DialogResult.OK)
-            {
+                var auth = new AuthForm();
+                if (auth.ShowDialog() == DialogResult.OK)
+                {
 
-            }
+                }
         }
     }
 }

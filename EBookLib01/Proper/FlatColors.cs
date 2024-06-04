@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
 
-namespace EBookLIb.Proper
+namespace EBookLib01.Proper
 {
     public class FlatColors
     {

@@ -9,14 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 using EBookLib01.BasicacModels;
-using EBookLib01;
 
 namespace EBookClient
 {
     public partial class RegForm : Form
     {
         private Label[] labelsToClear;
-        public User RegModel;
+        public EBookLib01.BasicModels.User RegModel;
         public RegForm()
         {
             InitializeComponent();
@@ -78,7 +77,7 @@ namespace EBookClient
                             }
                             else
                             {
-                                string hashPass = HashManager.GetHash(pass);
+                                string hashPass = EBookLib01.HashManager.GetHash(pass);
                                 string regMess = $"REG_USER:{login}:{emai}:{hashPass}:{DateTime.Now}:{1}";
                                 byte[] reguser = Encoding.UTF8.GetBytes(regMess);
                                 this.DialogResult = DialogResult.OK;

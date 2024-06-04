@@ -1,7 +1,7 @@
 ﻿using System.Drawing;
 using System.Windows.Forms;
 
-namespace yt_DesignUI.Components
+namespace EBookLib01.Components
 {
     public class EgoldsStyle
     {

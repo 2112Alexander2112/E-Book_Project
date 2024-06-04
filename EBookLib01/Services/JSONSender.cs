@@ -1,5 +1,4 @@
 ﻿using EBookLib01.BasicacModels;
-using EBookLib01.ServiceModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Text.Json;
 using System.Web;
+using EBookLib01.HelperModels.TransitModels;
 
-namespace EBookLib01.Services
+namespace EBookLib01
 {
     public class JSONSender
     {
@@ -34,9 +34,9 @@ namespace EBookLib01.Services
         {
             return JsonSerializer.Deserialize<ServerMessage>
                 (jsonRows, new JsonSerializerOptions()
-            {
-                PropertyNameCaseInsensitive = true
-            });
+                {
+                    PropertyNameCaseInsensitive = true
+                });
         }
     }
 }

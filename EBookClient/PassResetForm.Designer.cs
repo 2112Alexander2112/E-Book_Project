@@ -30,10 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             this.egoldsFormStyle1 = new yt_DesignUI.Components.EgoldsFormStyle(this.components);
-            this.CopyNewPassField = new EBookClient.Controls.RoundTextBox();
-            this.NewPassField = new EBookClient.Controls.RoundTextBox();
-            this.EmailField = new EBookClient.Controls.RoundTextBox();
-            this.ResetPassButton = new EBookClient.Controls.yt_buttons();
+            this.CopyNewPassField = new EBookLib01.Controls.RoundTextBox();
+            this.NewPassField = new EBookLib01.Controls.RoundTextBox();
+            this.EmailField = new EBookLib01.Controls.RoundTextBox();
+            this.ResetPassButton = new EBookLib01.Controls.yt_buttons();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -191,10 +191,10 @@
         #endregion
 
         private yt_DesignUI.Components.EgoldsFormStyle egoldsFormStyle1;
-        private Controls.RoundTextBox CopyNewPassField;
-        private Controls.yt_buttons ResetPassButton;
-        private Controls.RoundTextBox EmailField;
-        private Controls.RoundTextBox NewPassField;
+        private EBookLib01.Controls.RoundTextBox CopyNewPassField;
+        private EBookLib01.Controls.yt_buttons ResetPassButton;
+        private EBookLib01.Controls.RoundTextBox EmailField;
+        private EBookLib01.Controls.RoundTextBox NewPassField;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;

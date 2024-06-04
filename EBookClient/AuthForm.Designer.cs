@@ -1,6 +1,10 @@
-﻿namespace EBookClient
+﻿using System;
+using System.Windows.Forms;
+using EBookLib01;
+using EBookLib01.Components;
+namespace EBookClient
 {
-    partial class AuthForm
+    partial class AuthForm : Form
     {
         /// <summary>
         /// Required designer variable.
@@ -33,13 +37,13 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.toggleSwitch1 = new EBookLIb.Controls.ToggleSwitch();
+            this.toggleSwitch1 = new EBookLib01.Controls.ToggleSwitch();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.RegButton = new EBookClient.Controls.yt_buttons();
-            this.AuthButton = new EBookClient.Controls.yt_buttons();
-            this.PassField = new EBookClient.Controls.RoundTextBox();
-            this.LoginField = new EBookClient.Controls.RoundTextBox();
-            this.egoldsFormStyle1 = new yt_DesignUI.Components.EgoldsFormStyle(this.components);
+            this.RegButton = new EBookLib01.Controls.yt_buttons();
+            this.AuthButton = new EBookLib01.Controls.yt_buttons();
+            this.PassField = new EBookLib01.Controls.RoundTextBox();
+            this.LoginField = new EBookLib01.Controls.RoundTextBox();
+            this.egoldsFormStyle1 = new EBookLib01.Components.EgoldsFormStyle(this.components);
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -207,7 +211,7 @@
             this.egoldsFormStyle1.EnableControlBoxIconsLight = true;
             this.egoldsFormStyle1.EnableControlBoxMouseLight = true;
             this.egoldsFormStyle1.Form = this;
-            this.egoldsFormStyle1.FormStyle = yt_DesignUI.Components.EgoldsFormStyle.fStyle.SimpleDark;
+            this.egoldsFormStyle1.FormStyle = EBookLib01.Components.EgoldsFormStyle.fStyle.SimpleDark;
             this.egoldsFormStyle1.HeaderColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(200)))), ((int)(((byte)(80)))));
             this.egoldsFormStyle1.HeaderColorAdditional = System.Drawing.Color.White;
             this.egoldsFormStyle1.HeaderColorGradientEnable = true;
@@ -235,13 +239,13 @@
 
         #endregion
         private System.Windows.Forms.Panel panel2;
-        private yt_DesignUI.Components.EgoldsFormStyle egoldsFormStyle1;
+        private EBookLib01.Components.EgoldsFormStyle egoldsFormStyle1;
         private System.Windows.Forms.LinkLabel linkLabel1;
-        private Controls.yt_buttons RegButton;
-        private Controls.yt_buttons AuthButton;
-        private Controls.RoundTextBox PassField;
-        private Controls.RoundTextBox LoginField;
-        private EBookLIb.Controls.ToggleSwitch toggleSwitch1;
+        private EBookLib01.Controls.yt_buttons RegButton;
+        private EBookLib01.Controls.yt_buttons AuthButton;
+        private EBookLib01.Controls.RoundTextBox PassField;
+        private EBookLib01.Controls.RoundTextBox LoginField;
+        private EBookLib01.Controls.ToggleSwitch toggleSwitch1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
     }

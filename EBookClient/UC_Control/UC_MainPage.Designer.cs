@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.SearchField = new EBookClient.Controls.RoundTextBox();
+            this.SearchField = new EBookLib01.Controls.RoundTextBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -188,7 +188,7 @@
 
         #endregion
 
-        private Controls.RoundTextBox SearchField;
+        private EBookLib01.Controls.RoundTextBox SearchField;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.TextBox textBox1;

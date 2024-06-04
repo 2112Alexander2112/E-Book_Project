@@ -16,7 +16,7 @@ namespace EBookClient
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SearchForBookForm());
+            Application.Run(new Form1());
         }
     }
 }

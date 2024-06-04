@@ -9,9 +9,9 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
 using System.Reflection;
-using EBookLIb.Proper;
+using EBookLib01.Proper;
 
-namespace yt_DesignUI.Components
+namespace EBookLib01.Components
 {
     public partial class EgoldsFormStyle : Component
     {

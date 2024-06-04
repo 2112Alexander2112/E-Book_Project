@@ -8,10 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 using System.Windows.Forms;
-using EBookLIb.Proper;
+using EBookLib01.Proper;
 using EBookLib01.Animations;
 
-namespace EBookClient.Controls
+namespace EBookLib01.Controls
 {
     public class yt_buttons : Button
     {

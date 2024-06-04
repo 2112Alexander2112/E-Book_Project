@@ -1,4 +1,4 @@
-﻿using EBookLIb.Proper;
+﻿using EBookLib01.Proper;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using EBookLib01.Animations;
 
-namespace EBookLIb.Controls
+namespace EBookLib01.Controls
 {
         [DefaultEvent("CheckedChanged")]
         public class ToggleSwitch : Control

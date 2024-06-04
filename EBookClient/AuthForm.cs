@@ -7,10 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using EBookClient.Controls;
-using EBookLIb;
-using EBookLib01.BasicacModels;
-using EBookLIb.Packages;
 
 namespace EBookClient
 {
@@ -41,9 +37,9 @@ namespace EBookClient
 
                     string mess = "";
                     string[] path = mess.Split(':');
-                    if ("AUTH_OK" != path[0])
+                    if ("AUTH_OK" == path[0])
                     {
-                        label2.Text = path[1];
+                        //label2.Text = path[1];
                     }
                     else
                     {

@@ -57,6 +57,7 @@
             this.ProfileTime = new System.Windows.Forms.Timer(this.components);
             this.LibraryTime = new System.Windows.Forms.Timer(this.components);
             this.PanelBox = new System.Windows.Forms.Panel();
+            this.egoldsFormStyle1 = new EBookLib01.Components.EgoldsFormStyle(this.components);
             this.flowLayoutPanel1.SuspendLayout();
             this.MenuBox.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -392,6 +393,25 @@
             this.PanelBox.Size = new System.Drawing.Size(1000, 770);
             this.PanelBox.TabIndex = 2;
             // 
+            // egoldsFormStyle1
+            // 
+            this.egoldsFormStyle1.AllowUserResize = false;
+            this.egoldsFormStyle1.BackColor = System.Drawing.Color.White;
+            this.egoldsFormStyle1.ContextMenuForm = null;
+            this.egoldsFormStyle1.ControlBoxButtonsWidth = 20;
+            this.egoldsFormStyle1.EnableControlBoxIconsLight = false;
+            this.egoldsFormStyle1.EnableControlBoxMouseLight = false;
+            this.egoldsFormStyle1.Form = null;
+            this.egoldsFormStyle1.FormStyle = EBookLib01.Components.EgoldsFormStyle.fStyle.SimpleDark;
+            this.egoldsFormStyle1.HeaderColor = System.Drawing.Color.DimGray;
+            this.egoldsFormStyle1.HeaderColorAdditional = System.Drawing.Color.White;
+            this.egoldsFormStyle1.HeaderColorGradientEnable = false;
+            this.egoldsFormStyle1.HeaderColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.egoldsFormStyle1.HeaderHeight = 38;
+            this.egoldsFormStyle1.HeaderImage = null;
+            this.egoldsFormStyle1.HeaderTextColor = System.Drawing.Color.White;
+            this.egoldsFormStyle1.HeaderTextFont = new System.Drawing.Font("Segoe UI", 9.75F);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -447,5 +467,6 @@
         private System.Windows.Forms.Timer LibraryTime;
         private System.Windows.Forms.Panel PanelBox;
         private System.Windows.Forms.Button MyProfileButt;
+        private EBookLib01.Components.EgoldsFormStyle egoldsFormStyle1;
     }
 }

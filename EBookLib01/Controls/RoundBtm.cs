@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TreeView;
 
-namespace EBookClient.Controls
+namespace EBookLib01.Controls
 {
     public class RoundBtm : Control
     {

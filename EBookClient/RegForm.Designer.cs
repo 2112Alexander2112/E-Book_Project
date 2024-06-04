@@ -30,13 +30,13 @@
         {
             this.components = new System.ComponentModel.Container();
             this.egoldsFormStyle1 = new yt_DesignUI.Components.EgoldsFormStyle(this.components);
-            this.LoginField = new EBookClient.Controls.RoundTextBox();
-            this.EmailField = new EBookClient.Controls.RoundTextBox();
-            this.CopyEmailField = new EBookClient.Controls.RoundTextBox();
-            this.PassField = new EBookClient.Controls.RoundTextBox();
-            this.CopyPassField = new EBookClient.Controls.RoundTextBox();
-            this.toggleSwitch1 = new EBookLIb.Controls.ToggleSwitch();
-            this.RegButton = new EBookClient.Controls.yt_buttons();
+            this.LoginField = new EBookLib01.Controls.RoundTextBox();
+            this.EmailField = new EBookLib01.Controls.RoundTextBox();
+            this.CopyEmailField = new EBookLib01.Controls.RoundTextBox();
+            this.PassField = new EBookLib01.Controls.RoundTextBox();
+            this.CopyPassField = new EBookLib01.Controls.RoundTextBox();
+            this.toggleSwitch1 = new EBookLib01.Controls.ToggleSwitch();
+            this.RegButton = new EBookLib01.Controls.yt_buttons();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -168,7 +168,7 @@
             this.toggleSwitch1.TabIndex = 5;
             this.toggleSwitch1.Text = "Я приймаю ліцензійну угоду";
             this.toggleSwitch1.TextOnChecked = "";
-            this.toggleSwitch1.CheckedChanged += new EBookLIb.Controls.ToggleSwitch.OnCheckedChangedHandler(this.toggleSwitch1_CheckedChanged);
+            this.toggleSwitch1.CheckedChanged += new EBookLib01.Controls.ToggleSwitch.OnCheckedChangedHandler(this.toggleSwitch1_CheckedChanged);
             // 
             // RegButton
             // 
@@ -281,13 +281,13 @@
         #endregion
 
         private yt_DesignUI.Components.EgoldsFormStyle egoldsFormStyle1;
-        private Controls.RoundTextBox CopyPassField;
-        private Controls.RoundTextBox PassField;
-        private Controls.RoundTextBox CopyEmailField;
-        private Controls.RoundTextBox EmailField;
-        private Controls.RoundTextBox LoginField;
-        private EBookLIb.Controls.ToggleSwitch toggleSwitch1;
-        private Controls.yt_buttons RegButton;
+        private EBookLib01.Controls.RoundTextBox CopyPassField;
+        private EBookLib01.Controls.RoundTextBox PassField;
+        private EBookLib01.Controls.RoundTextBox CopyEmailField;
+        private EBookLib01.Controls.RoundTextBox EmailField;
+        private EBookLib01.Controls.RoundTextBox LoginField;
+        private EBookLib01.Controls.ToggleSwitch toggleSwitch1;
+        private EBookLib01.Controls.yt_buttons RegButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label5;
