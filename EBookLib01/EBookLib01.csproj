@@ -88,7 +88,6 @@
   <ItemGroup>
     <Compile Include="Animations\Animation.cs" />
     <Compile Include="Animations\Animator.cs" />
-    <Compile Include="BasicacModels\Role.cs" />
     <Compile Include="BasicModels\Achievement.cs" />
     <Compile Include="BasicModels\Author.cs" />
     <Compile Include="BasicModels\Book.cs" />
@@ -99,7 +98,7 @@
     <Compile Include="BasicModels\Friend.cs" />
     <Compile Include="BasicModels\Genre.cs" />
     <Compile Include="BasicModels\MyLibrary.cs" />
-    <Compile Include="BasicModels\Publisher.cs" />
+    <Compile Include="BasicModels\Publisherr.cs" />
     <Compile Include="BasicModels\Review.cs" />
     <Compile Include="BasicModels\Role.cs" />
     <Compile Include="BasicModels\Transaction.cs" />
@@ -132,7 +131,6 @@
     <Compile Include="HelperModels\TransitModels\ClientMessage.cs" />
     <Compile Include="HelperModels\TransitModels\ServerMessage.cs" />
     <Compile Include="Services\JSONSender.cs" />
-    <Compile Include="Packages\Package.cs" />
     <Compile Include="Proper\Drawer.cs" />
     <Compile Include="Proper\FlatColors.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

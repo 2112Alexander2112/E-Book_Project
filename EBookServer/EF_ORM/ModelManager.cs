@@ -3,8 +3,8 @@ using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Windows.Forms;
-using EBookLib01.ServiceModels;
-using EBookLib01.BasicacModels;
+using EBookLib01.HelperModels.TransitModels;
+using EBookLib01.BasicModels;
 using System.Security.Policy;
 
 

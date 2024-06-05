@@ -1,160 +1,161 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\EBook\\E-Book_Project\\",
+  "WorkspaceRootPath": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|D:\\EBook\\E-Book_Project\\ebookclient\\authform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\authform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|d:\\ebook\\e-book_project\\ebookclient\\authform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\authform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\services\\jsonsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\services\\jsonsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\services\\jsonsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|D:\\EBook\\E-Book_Project\\ebookclient\\regform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\regform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90A78072-6433-4A78-89E4-CE5532877DF0}|EBookServer\\EBookServer.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebookserver\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{90A78072-6433-4A78-89E4-CE5532877DF0}|EBookServer\\EBookServer.csproj|solutionrelative:ebookserver\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\basicacmodels\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicacmodels\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\basicmodels\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|d:\\ebook\\e-book_project\\ebookclient\\regform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\regform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|d:\\ebook\\e-book_project\\ebookclient\\passresetform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\passresetform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\basicmodels\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\basicmodels\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|D:\\EBook\\E-Book_Project\\ebookclient\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|D:\\EBook\\E-Book_Project\\ebookclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebookclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|D:\\EBook\\E-Book_Project\\ebookclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90A78072-6433-4A78-89E4-CE5532877DF0}|EBookServer\\EBookServer.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebookserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A78072-6433-4A78-89E4-CE5532877DF0}|EBookServer\\EBookServer.csproj|solutionrelative:ebookserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|D:\\EBook\\E-Book_Project\\ebookclient\\passresetform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\passresetform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90A78072-6433-4A78-89E4-CE5532877DF0}|EBookServer\\EBookServer.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebookserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A78072-6433-4A78-89E4-CE5532877DF0}|EBookServer\\EBookServer.csproj|solutionrelative:ebookserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|D:\\EBook\\E-Book_Project\\ebookclient\\authform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\authform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90A78072-6433-4A78-89E4-CE5532877DF0}|EBookServer\\EBookServer.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebookserver\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{90A78072-6433-4A78-89E4-CE5532877DF0}|EBookServer\\EBookServer.csproj|solutionrelative:ebookserver\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\controls\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\controls\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90A78072-6433-4A78-89E4-CE5532877DF0}|EBookServer\\EBookServer.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebookserver\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A78072-6433-4A78-89E4-CE5532877DF0}|EBookServer\\EBookServer.csproj|solutionrelative:ebookserver\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\controls\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\controls\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{90A78072-6433-4A78-89E4-CE5532877DF0}|EBookServer\\EBookServer.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebookserver\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A78072-6433-4A78-89E4-CE5532877DF0}|EBookServer\\EBookServer.csproj|solutionrelative:ebookserver\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\proper\\flatcolors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\proper\\flatcolors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90A78072-6433-4A78-89E4-CE5532877DF0}|EBookServer\\EBookServer.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebookserver\\migrations\\202405311104200_two-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A78072-6433-4A78-89E4-CE5532877DF0}|EBookServer\\EBookServer.csproj|solutionrelative:ebookserver\\migrations\\202405311104200_two-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\proper\\drawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\proper\\drawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90A78072-6433-4A78-89E4-CE5532877DF0}|EBookServer\\EBookServer.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebookserver\\migrations\\202405311056249_one-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A78072-6433-4A78-89E4-CE5532877DF0}|EBookServer\\EBookServer.csproj|solutionrelative:ebookserver\\migrations\\202405311056249_one-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\basicmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\basicmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\basicmodels\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90A78072-6433-4A78-89E4-CE5532877DF0}|EBookServer\\EBookServer.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebookserver\\ef_orm\\modelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90A78072-6433-4A78-89E4-CE5532877DF0}|EBookServer\\EBookServer.csproj|solutionrelative:ebookserver\\ef_orm\\modelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\basicmodels\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\helpermodels\\transitmodels\\servermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\helpermodels\\transitmodels\\servermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\basicmodels\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\basicmodels\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\basicmodels\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\basicmodels\\mylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\mylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\basicmodels\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\basicmodels\\friend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\friend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\basicmodels\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\basicmodels\\bookstatistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\bookstatistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\basicmodels\\bookseries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\bookseries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\basicmodels\\bookinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\bookinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\basicmodels\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\basicmodels\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\basicmodels\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|EBookLib01||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\basicmodels\\publisherr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\publisherr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\helpermodels\\transitmodels\\clientmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\basicmodels\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\basicmodels\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\basicmodels\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebookclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebookclient\\passresetform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\passresetform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebookclient\\authform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\authform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\controls\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\controls\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\proper\\flatcolors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\proper\\flatcolors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\proper\\drawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\proper\\drawer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\helpermodels\\transitmodels\\servermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\helpermodels\\transitmodels\\servermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\basicmodels\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\basicmodels\\mylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\mylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\basicmodels\\friend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\friend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\basicmodels\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\basicmodels\\bookstatistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\bookstatistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\basicmodels\\bookseries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\bookseries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\basicmodels\\bookinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\bookinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\basicmodels\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\helpermodels\\transitmodels\\clientmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\helpermodels\\transitmodels\\clientmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\controls\\yt_buttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\controls\\yt_buttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\controls\\yt_buttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\controls\\toggleswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\controls\\toggleswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\controls\\toggleswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\controls\\roundtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\controls\\roundtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\controls\\roundtextbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|D:\\EBook\\E-Book_Project\\ebooklib01\\controls\\roundbtm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\ebooklib01\\controls\\roundbtm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\controls\\roundbtm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -165,83 +166,211 @@
       "DocumentGroups": [
         {
           "DockedWidth": 291,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegForm.cs [Design]",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookClient\\RegForm.cs",
-              "RelativeDocumentMoniker": "EBookClient\\RegForm.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookClient\\RegForm.cs [Design]",
-              "RelativeToolTip": "EBookClient\\RegForm.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookServer\\Program.cs",
+              "RelativeDocumentMoniker": "EBookServer\\Program.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookServer\\Program.cs",
+              "RelativeToolTip": "EBookServer\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T15:37:32.994Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicacModels\\Role.cs",
-              "RelativeDocumentMoniker": "EBookLib01\\BasicacModels\\Role.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicacModels\\Role.cs",
-              "RelativeToolTip": "EBookLib01\\BasicacModels\\Role.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T14:21:25.449Z",
+              "WhenOpened": "2024-06-05T10:05:31.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Wallet.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Wallet.cs",
-              "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\Wallet.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Wallet.cs",
-              "RelativeToolTip": "EBookLib01\\BasicModels\\Wallet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T14:20:39.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Review.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Review.cs",
-              "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\Review.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Review.cs",
-              "RelativeToolTip": "EBookLib01\\BasicModels\\Review.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T14:19:58.807Z",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookServer\\App.config",
+              "RelativeDocumentMoniker": "EBookServer\\App.config",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookServer\\App.config",
+              "RelativeToolTip": "EBookServer\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-05T10:04:28.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Publisher.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Publisher.cs",
-              "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\Publisher.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Publisher.cs",
-              "RelativeToolTip": "EBookLib01\\BasicModels\\Publisher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Title": "202405311104200_Two-migration.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookServer\\Migrations\\202405311104200_Two-migration.cs",
+              "RelativeDocumentMoniker": "EBookServer\\Migrations\\202405311104200_Two-migration.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookServer\\Migrations\\202405311104200_Two-migration.cs",
+              "RelativeToolTip": "EBookServer\\Migrations\\202405311104200_Two-migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T14:19:45.93Z",
+              "WhenOpened": "2024-06-05T10:04:24.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookServer\\packages.config",
+              "RelativeDocumentMoniker": "EBookServer\\packages.config",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookServer\\packages.config",
+              "RelativeToolTip": "EBookServer\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-05T10:05:23.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookClient\\Form1.cs",
+              "RelativeDocumentMoniker": "EBookClient\\Form1.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookClient\\Form1.cs",
+              "RelativeToolTip": "EBookClient\\Form1.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:15:11.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 0,
+              "Title": "JSONSender.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\Services\\JSONSender.cs",
+              "RelativeDocumentMoniker": "EBookLib01\\Services\\JSONSender.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\Services\\JSONSender.cs",
+              "RelativeToolTip": "EBookLib01\\Services\\JSONSender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:05:04.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookServer\\Form1.cs",
+              "RelativeDocumentMoniker": "EBookServer\\Form1.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookServer\\Form1.cs",
+              "RelativeToolTip": "EBookServer\\Form1.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAiwGoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T09:47:19.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookServer\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "EBookServer\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookServer\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "EBookServer\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T10:04:38.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "202405311056249_One-Migration.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookServer\\Migrations\\202405311056249_One-Migration.cs",
+              "RelativeDocumentMoniker": "EBookServer\\Migrations\\202405311056249_One-Migration.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookServer\\Migrations\\202405311056249_One-Migration.cs",
+              "RelativeToolTip": "EBookServer\\Migrations\\202405311056249_One-Migration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T10:04:23.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookServer\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "EBookServer\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookServer\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "EBookServer\\Migrations\\Configuration.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T09:57:19.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ModelManager.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookServer\\EF_ORM\\ModelManager.cs",
+              "RelativeDocumentMoniker": "EBookServer\\EF_ORM\\ModelManager.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookServer\\EF_ORM\\ModelManager.cs",
+              "RelativeToolTip": "EBookServer\\EF_ORM\\ModelManager.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAADwvwUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T09:52:19.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\User.cs",
+              "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\User.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\User.cs",
+              "RelativeToolTip": "EBookLib01\\BasicModels\\User.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAmwBUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:54:05.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Book.cs",
+              "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\Book.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Book.cs",
+              "RelativeToolTip": "EBookLib01\\BasicModels\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:18:44.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Achievement.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Achievement.cs",
+              "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\Achievement.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Achievement.cs",
+              "RelativeToolTip": "EBookLib01\\BasicModels\\Achievement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:34:21.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Publisherr.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Publisherr.cs",
+              "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\Publisherr.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Publisherr.cs",
+              "RelativeToolTip": "EBookLib01\\BasicModels\\Publisherr.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:19:45.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Role.cs",
+              "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\Role.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Role.cs",
+              "RelativeToolTip": "EBookLib01\\BasicModels\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:03:47.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "MyLibrary.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\MyLibrary.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\MyLibrary.cs",
               "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\MyLibrary.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\MyLibrary.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\MyLibrary.cs",
               "RelativeToolTip": "EBookLib01\\BasicModels\\MyLibrary.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -249,74 +378,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegForm.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookClient\\RegForm.cs",
-              "RelativeDocumentMoniker": "EBookClient\\RegForm.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookClient\\RegForm.cs",
-              "RelativeToolTip": "EBookClient\\RegForm.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAvwGYAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T13:52:10.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthForm.cs [Design]",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookClient\\AuthForm.cs",
-              "RelativeDocumentMoniker": "EBookClient\\AuthForm.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookClient\\AuthForm.cs [Design]",
-              "RelativeToolTip": "EBookClient\\AuthForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T15:28:06.279Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthForm.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookClient\\AuthForm.cs",
-              "RelativeDocumentMoniker": "EBookClient\\AuthForm.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookClient\\AuthForm.cs",
-              "RelativeToolTip": "EBookClient\\AuthForm.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAQwC8AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T13:30:43.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JSONSender.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\Services\\JSONSender.cs",
-              "RelativeDocumentMoniker": "EBookLib01\\Services\\JSONSender.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\Services\\JSONSender.cs",
-              "RelativeToolTip": "EBookLib01\\Services\\JSONSender.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T14:05:04.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PassResetForm.cs [Design]",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookClient\\PassResetForm.cs",
-              "RelativeDocumentMoniker": "EBookClient\\PassResetForm.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookClient\\PassResetForm.cs [Design]",
-              "RelativeToolTip": "EBookClient\\PassResetForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T15:37:56.333Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookClient\\Program.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookClient\\Program.cs",
               "RelativeDocumentMoniker": "EBookClient\\Program.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookClient\\Program.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookClient\\Program.cs",
               "RelativeToolTip": "EBookClient\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -324,23 +390,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Menu.cs [Design]",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookClient\\Menu.cs",
-              "RelativeDocumentMoniker": "EBookClient\\Menu.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookClient\\Menu.cs [Design]",
-              "RelativeToolTip": "EBookClient\\Menu.cs [Design]",
+              "DocumentIndex": 18,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Review.cs",
+              "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\Review.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Review.cs",
+              "RelativeToolTip": "EBookLib01\\BasicModels\\Review.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T15:25:05.493Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-04T14:19:58.807Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 17,
+              "Title": "Wallet.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Wallet.cs",
+              "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\Wallet.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Wallet.cs",
+              "RelativeToolTip": "EBookLib01\\BasicModels\\Wallet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:20:39.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Genre.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Genre.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Genre.cs",
               "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\Genre.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Genre.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Genre.cs",
               "RelativeToolTip": "EBookLib01\\BasicModels\\Genre.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -348,11 +426,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Friend.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Friend.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Friend.cs",
               "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\Friend.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Friend.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Friend.cs",
               "RelativeToolTip": "EBookLib01\\BasicModels\\Friend.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -360,11 +438,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Category.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Category.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Category.cs",
               "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\Category.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Category.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Category.cs",
               "RelativeToolTip": "EBookLib01\\BasicModels\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -372,11 +450,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "BookStatistic.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\BookStatistic.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\BookStatistic.cs",
               "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\BookStatistic.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\BookStatistic.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\BookStatistic.cs",
               "RelativeToolTip": "EBookLib01\\BasicModels\\BookStatistic.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -384,11 +462,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "BookSeries.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\BookSeries.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\BookSeries.cs",
               "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\BookSeries.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\BookSeries.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\BookSeries.cs",
               "RelativeToolTip": "EBookLib01\\BasicModels\\BookSeries.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -396,11 +474,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "BookInfo.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\BookInfo.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\BookInfo.cs",
               "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\BookInfo.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\BookInfo.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\BookInfo.cs",
               "RelativeToolTip": "EBookLib01\\BasicModels\\BookInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -408,23 +486,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Book.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Book.cs",
-              "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\Book.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Book.cs",
-              "RelativeToolTip": "EBookLib01\\BasicModels\\Book.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAzwBcAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T14:18:44.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "Transaction.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Transaction.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Transaction.cs",
               "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\Transaction.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Transaction.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Transaction.cs",
               "RelativeToolTip": "EBookLib01\\BasicModels\\Transaction.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -432,22 +498,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "EBookLib01",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\EBookLib01.csproj",
-              "RelativeDocumentMoniker": "EBookLib01\\EBookLib01.csproj",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\EBookLib01.csproj",
-              "RelativeToolTip": "EBookLib01\\EBookLib01.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-04T14:12:17.482Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "ServerMessage.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\HelperModels\\TransitModels\\ServerMessage.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\HelperModels\\TransitModels\\ServerMessage.cs",
               "RelativeDocumentMoniker": "EBookLib01\\HelperModels\\TransitModels\\ServerMessage.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\HelperModels\\TransitModels\\ServerMessage.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\HelperModels\\TransitModels\\ServerMessage.cs",
               "RelativeToolTip": "EBookLib01\\HelperModels\\TransitModels\\ServerMessage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -457,9 +512,9 @@
               "$type": "Document",
               "DocumentIndex": 34,
               "Title": "ClientMessage.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\HelperModels\\TransitModels\\ClientMessage.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\HelperModels\\TransitModels\\ClientMessage.cs",
               "RelativeDocumentMoniker": "EBookLib01\\HelperModels\\TransitModels\\ClientMessage.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\HelperModels\\TransitModels\\ClientMessage.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\HelperModels\\TransitModels\\ClientMessage.cs",
               "RelativeToolTip": "EBookLib01\\HelperModels\\TransitModels\\ClientMessage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -467,35 +522,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Role.cs",
-              "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\Role.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Role.cs",
-              "RelativeToolTip": "EBookLib01\\BasicModels\\Role.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T14:03:47.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\User.cs",
-              "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\User.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\User.cs",
-              "RelativeToolTip": "EBookLib01\\BasicModels\\User.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAYwBsAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T13:54:05.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "Author.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Author.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Author.cs",
               "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\Author.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Author.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\BasicModels\\Author.cs",
               "RelativeToolTip": "EBookLib01\\BasicModels\\Author.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -503,24 +534,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "PassResetForm.Designer.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookClient\\PassResetForm.Designer.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookClient\\PassResetForm.Designer.cs",
               "RelativeDocumentMoniker": "EBookClient\\PassResetForm.Designer.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookClient\\PassResetForm.Designer.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookClient\\PassResetForm.Designer.cs",
               "RelativeToolTip": "EBookClient\\PassResetForm.Designer.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAiwCQAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T13:52:06.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T13:52:06.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "Drawer.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\Proper\\Drawer.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\Proper\\Drawer.cs",
               "RelativeDocumentMoniker": "EBookLib01\\Proper\\Drawer.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\Proper\\Drawer.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\Proper\\Drawer.cs",
               "RelativeToolTip": "EBookLib01\\Proper\\Drawer.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAgwAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -528,11 +558,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "FlatColors.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\Proper\\FlatColors.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\Proper\\FlatColors.cs",
               "RelativeDocumentMoniker": "EBookLib01\\Proper\\FlatColors.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\Proper\\FlatColors.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\Proper\\FlatColors.cs",
               "RelativeToolTip": "EBookLib01\\Proper\\FlatColors.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -540,36 +570,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "AuthForm.Designer.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookClient\\AuthForm.Designer.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookClient\\AuthForm.Designer.cs",
               "RelativeDocumentMoniker": "EBookClient\\AuthForm.Designer.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookClient\\AuthForm.Designer.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookClient\\AuthForm.Designer.cs",
               "RelativeToolTip": "EBookClient\\AuthForm.Designer.cs",
               "ViewState": "AQIAAMQAAAAAAAAAAAAqwNAAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T13:41:01.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Achievement.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Achievement.cs",
-              "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\Achievement.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\BasicModels\\Achievement.cs",
-              "RelativeToolTip": "EBookLib01\\BasicModels\\Achievement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T13:34:21.956Z"
+              "WhenOpened": "2024-06-04T13:41:01.667Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
               "Title": "yt_buttons.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\Controls\\yt_buttons.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\Controls\\yt_buttons.cs",
               "RelativeDocumentMoniker": "EBookLib01\\Controls\\yt_buttons.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\Controls\\yt_buttons.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\Controls\\yt_buttons.cs",
               "RelativeToolTip": "EBookLib01\\Controls\\yt_buttons.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAiwA8AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -579,9 +596,9 @@
               "$type": "Document",
               "DocumentIndex": 36,
               "Title": "ToggleSwitch.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\Controls\\ToggleSwitch.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\Controls\\ToggleSwitch.cs",
               "RelativeDocumentMoniker": "EBookLib01\\Controls\\ToggleSwitch.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\Controls\\ToggleSwitch.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\Controls\\ToggleSwitch.cs",
               "RelativeToolTip": "EBookLib01\\Controls\\ToggleSwitch.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAiwA8AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -591,9 +608,9 @@
               "$type": "Document",
               "DocumentIndex": 37,
               "Title": "RoundTextBox.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\Controls\\RoundTextBox.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\Controls\\RoundTextBox.cs",
               "RelativeDocumentMoniker": "EBookLib01\\Controls\\RoundTextBox.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\Controls\\RoundTextBox.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\Controls\\RoundTextBox.cs",
               "RelativeToolTip": "EBookLib01\\Controls\\RoundTextBox.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAiwA8AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -603,9 +620,9 @@
               "$type": "Document",
               "DocumentIndex": 38,
               "Title": "RoundBtm.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\Controls\\RoundBtm.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\Controls\\RoundBtm.cs",
               "RelativeDocumentMoniker": "EBookLib01\\Controls\\RoundBtm.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\Controls\\RoundBtm.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\Controls\\RoundBtm.cs",
               "RelativeToolTip": "EBookLib01\\Controls\\RoundBtm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -613,38 +630,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "Card.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\Controls\\Card.cs",
+              "DocumentMoniker": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\Controls\\Card.cs",
               "RelativeDocumentMoniker": "EBookLib01\\Controls\\Card.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookLib01\\Controls\\Card.cs",
+              "ToolTip": "C:\\Programming\\\u0410\u0440\u0445\u0456\u0432\\\u041D\u043E\u0432\u0438\u0439 \u0410\u0440\u0445\u0456\u0432\\E-Book_Project\\EBookLib01\\Controls\\Card.cs",
               "RelativeToolTip": "EBookLib01\\Controls\\Card.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAiwBYAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T13:31:58.573Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 425,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Card.cs [Design]",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookLib01\\Controls\\Card.cs",
-              "RelativeDocumentMoniker": "EBookLib01\\Controls\\Card.cs",
-              "ToolTip": "C:\\Users\\solod\\IT\\Step\\E-Book_Project\\EBookLib01\\Controls\\Card.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T13:31:50.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\EBook\\E-Book_Project\\EBookClient\\Form1.cs",
-              "RelativeDocumentMoniker": "EBookClient\\Form1.cs",
-              "ToolTip": "D:\\EBook\\E-Book_Project\\EBookClient\\Form1.cs",
-              "RelativeToolTip": "EBookClient\\Form1.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAcwA4AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T13:15:11.257Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }

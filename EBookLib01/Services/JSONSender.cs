@@ -1,4 +1,4 @@
-﻿using EBookLib01.BasicacModels;
+﻿using EBookLib01.BasicModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Text.Json;
 using System.Web;
 using EBookLib01.HelperModels.TransitModels;
 
-namespace EBookLib01
+namespace EBookLib01.Services
 {
     public class JSONSender
     {

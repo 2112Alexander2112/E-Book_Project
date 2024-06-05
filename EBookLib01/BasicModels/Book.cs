@@ -1,4 +1,4 @@
-﻿using EBookLib01.BasicacModels;
+﻿using EBookLib01.BasicModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -21,7 +21,7 @@ namespace EBookLib01.BasicModels
         public int BookInfoId { get; set; }
         public virtual List<BookInfo> BookInfos { get; set; }
         public virtual BookInfo BookInfo { get; set; }
-        public virtual Publisher Publisher { get; set; }    
+        public virtual Publisherr Publisher { get; set; }    
         public virtual Genre Genre { get; set; }
         public virtual Category Category { get; set; }
         public virtual Author Author { get; set; }
