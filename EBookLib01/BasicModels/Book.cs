@@ -1,5 +1,4 @@
-﻿using EBookLib01.BasicacModels;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
@@ -17,8 +16,8 @@ namespace EBookLib01.BasicModels
         public string AlterName { get; set; }
         public DateTime Published { get; set; }
         public int PublisherId { get; set; }
-
         public int BookInfoId { get; set; }
+
         public virtual List<BookInfo> BookInfos { get; set; }
         public virtual BookInfo BookInfo { get; set; }
         public virtual Publisher Publisher { get; set; }    

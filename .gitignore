@@ -1,4 +1,15 @@
 .vs/
+/bin/
+/obj/
+/out/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+project.lock.json
+project.fragment.lock.json
+artifacts/
 E-Book_Project.sln
 EBookClient/EBookClient.csproj
 EBookClient/Form1.Designer.cs

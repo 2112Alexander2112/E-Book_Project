@@ -29,3 +29,5 @@ C:\Users\solod\IT\Step\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.csproj.Cor
 C:\Users\solod\IT\Step\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.csproj.Up2Date
 C:\Users\solod\IT\Step\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.dll
 C:\Users\solod\IT\Step\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.pdb
+C:\Users\solod\IT\Step\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.Migrations.DbCreated.resources
+C:\Users\solod\IT\Step\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.csproj.GenerateResource.cache
