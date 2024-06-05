@@ -55,7 +55,7 @@
             this.SearchField.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.SearchField.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
             this.SearchField.ForeColor = System.Drawing.Color.Black;
-            this.SearchField.Location = new System.Drawing.Point(40, 0);
+            this.SearchField.Location = new System.Drawing.Point(100, 0);
             this.SearchField.MaximumSize = new System.Drawing.Size(254, 40);
             this.SearchField.MinimumSize = new System.Drawing.Size(254, 40);
             this.SearchField.Name = "SearchField";
@@ -78,11 +78,11 @@
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(56, 3);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox1.Location = new System.Drawing.Point(447, 3);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(29, 26);
+            this.textBox1.Size = new System.Drawing.Size(29, 44);
             this.textBox1.TabIndex = 3;
             // 
             // contextMenuStrip1
@@ -94,9 +94,9 @@
             // 
             this.buttonBack.Dock = System.Windows.Forms.DockStyle.Left;
             this.buttonBack.Image = global::EBookClient.Properties.Resources.fast_forward_back;
-            this.buttonBack.Location = new System.Drawing.Point(25, 0);
+            this.buttonBack.Location = new System.Drawing.Point(100, 0);
             this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(25, 46);
+            this.buttonBack.Size = new System.Drawing.Size(100, 51);
             this.buttonBack.TabIndex = 8;
             this.buttonBack.UseVisualStyleBackColor = true;
             this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
@@ -107,7 +107,7 @@
             this.buttonPreviousPage.Image = global::EBookClient.Properties.Resources.back;
             this.buttonPreviousPage.Location = new System.Drawing.Point(0, 0);
             this.buttonPreviousPage.Name = "buttonPreviousPage";
-            this.buttonPreviousPage.Size = new System.Drawing.Size(25, 46);
+            this.buttonPreviousPage.Size = new System.Drawing.Size(100, 51);
             this.buttonPreviousPage.TabIndex = 7;
             this.buttonPreviousPage.UseVisualStyleBackColor = true;
             this.buttonPreviousPage.Click += new System.EventHandler(this.buttonPreviousPage_Click);
@@ -116,9 +116,9 @@
             // 
             this.buttonNextFast.Dock = System.Windows.Forms.DockStyle.Right;
             this.buttonNextFast.Image = global::EBookClient.Properties.Resources.fast_forward;
-            this.buttonNextFast.Location = new System.Drawing.Point(950, 0);
+            this.buttonNextFast.Location = new System.Drawing.Point(800, 0);
             this.buttonNextFast.Name = "buttonNextFast";
-            this.buttonNextFast.Size = new System.Drawing.Size(25, 46);
+            this.buttonNextFast.Size = new System.Drawing.Size(100, 51);
             this.buttonNextFast.TabIndex = 6;
             this.buttonNextFast.UseVisualStyleBackColor = true;
             this.buttonNextFast.Click += new System.EventHandler(this.buttonNextFast_Click);
@@ -127,9 +127,9 @@
             // 
             this.buttonNext.Dock = System.Windows.Forms.DockStyle.Right;
             this.buttonNext.Image = global::EBookClient.Properties.Resources.next;
-            this.buttonNext.Location = new System.Drawing.Point(975, 0);
+            this.buttonNext.Location = new System.Drawing.Point(900, 0);
             this.buttonNext.Name = "buttonNext";
-            this.buttonNext.Size = new System.Drawing.Size(25, 46);
+            this.buttonNext.Size = new System.Drawing.Size(100, 51);
             this.buttonNext.TabIndex = 5;
             this.buttonNext.UseVisualStyleBackColor = true;
             this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
@@ -140,7 +140,7 @@
             this.pictureBox1.Image = global::EBookClient.Properties.Resources.search;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(40, 51);
+            this.pictureBox1.Size = new System.Drawing.Size(100, 51);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -153,9 +153,9 @@
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.buttonNext);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 727);
+            this.panel1.Location = new System.Drawing.Point(0, 722);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1000, 46);
+            this.panel1.Size = new System.Drawing.Size(1000, 51);
             this.panel1.TabIndex = 9;
             // 
             // panel2
