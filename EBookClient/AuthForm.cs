@@ -59,10 +59,8 @@ namespace EBookClient
         {
             this.Hide();
             var reg = new RegForm();
-            if(reg.ShowDialog() == DialogResult.OK && reg.ShowDialog() == DialogResult.OK)
-            {
-                this.Show();
-            }
+            reg.ShowDialog();
+            this.Show();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

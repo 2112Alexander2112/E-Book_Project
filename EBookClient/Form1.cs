@@ -25,6 +25,7 @@ namespace EBookClient
                 {
 
                 }
+                this.Close();
         }
     }
 }
