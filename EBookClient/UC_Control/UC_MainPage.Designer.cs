@@ -73,7 +73,7 @@
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1000, 780);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1000, 773);
             this.flowLayoutPanel1.TabIndex = 2;
             // 
             // textBox1
@@ -153,7 +153,7 @@
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.buttonNext);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 734);
+            this.panel1.Location = new System.Drawing.Point(0, 727);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1000, 46);
             this.panel1.TabIndex = 9;
@@ -176,7 +176,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "UC_MainPage";
-            this.Size = new System.Drawing.Size(1000, 780);
+            this.Size = new System.Drawing.Size(1000, 773);
             this.Load += new System.EventHandler(this.UC_MainPage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);

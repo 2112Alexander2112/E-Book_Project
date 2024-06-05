@@ -22,7 +22,9 @@ namespace EBookClient
 
         private void addUserContorol(UserControl userControl)
         {
-            userControl.Dock = DockStyle.Fill;
+            //TODO: Fix
+            userControl.Dock = DockStyle.Top;
+            userControl.Height -= 200;
             PanelBox.Controls.Clear();
             PanelBox.Controls.Add(userControl);
             userControl.BringToFront();

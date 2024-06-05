@@ -4,42 +4,25 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace EBookClient.UC_Control
 {
     public partial class UC_MainPage : UserControl
     {
 
-        private int currentPage = 0; 
-        private int totalPages = 0; 
-        private int booksPerPage = 12; 
-        private UC_Book[] books;
+        private int currentPage = 0;
+        private int totalPages = 0;
+        private int booksPerPage = 12;
+        private UC_Book[] booksElements;
 
-        List<string> titles = new List<string> { "Стрелок", "Парашутист", "Самолет", "Автомат", "Битва", "Стрелок", "Парашутист", "Самолет", "Автомат", "Битва", "Стрелок", "Парашутист",
-                "Стрелок", "Парашутист", "Самолет", "Автомат", "Битва", "Стрелок", "Парашутист", "Самолет", "Автомат", "Битва", "Стрелок", "Парашутист",
-                "Стрелок", "Парашутист", "Самолет", "Автомат", "Битва", "Стрелок", "Парашутист", "Самолет", "Автомат", "Битва", "Стрелок", "Парашутист",
-                "Стрелок", "Парашутист", "Самолет", "Автомат", "Битва", "Стрелок", "Парашутист", "Самолет", "Автомат", "Битва", "Стрелок", "Парашутист"};
+        static List<Author> authors = GenerateRandomAuthors(17);
+        static List<Book> books = GenerateRandomBooks(52, authors);
+        static List<Image> icons = CreateIconArray(books.Count);
 
-        List<string> authors = new List<string> { "Bob", "Alex", "Dred", "John", "Tom", "Bob", "Alex", "Dred", "John", "Tom", "Bob", "Alex",
-                "Bob", "Alex", "Dred", "John", "Tom", "Bob", "Alex", "Dred", "John", "Tom", "Bob", "Alex",
-                "Bob", "Alex", "Dred", "John", "Tom", "Bob", "Alex", "Dred", "John", "Tom", "Bob", "Alex",
-                "Bob", "Alex", "Dred", "John", "Tom", "Bob", "Alex", "Dred", "John", "Tom", "Bob", "Alex"};
         int totalBooks = 0;
 
 
-        System.Drawing.Image[] icons = new System.Drawing.Image[48] {Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available,
-            Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available,
-            Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available,
-            Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available,Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available,
-            Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available,
-            Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available,
-            Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available,Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available,
-            Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available,
-            Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available,
-            Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available,Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available,
-            Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available,
-            Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available,
-            Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available, Properties.Resources.No_Image_Available };
         public UC_MainPage()
         {
             InitializeComponent();
@@ -47,7 +30,7 @@ namespace EBookClient.UC_Control
 
         void UC_Book_Click(object sender, EventArgs e)
         {
-            var obj =(UC_Book)sender;
+            var obj = (UC_Book)sender;
         }
 
         private void UC_MainPage_Load(object sender, EventArgs e)
@@ -61,22 +44,22 @@ namespace EBookClient.UC_Control
 
             int startIndex = currentPage * booksPerPage;
 
-            int remainingBooks = titles.Count - startIndex;
+            int remainingBooks = books.Count - startIndex;
             int booksToShow = Math.Min(booksPerPage, remainingBooks);
 
-            totalBooks = titles.Count;
+            totalBooks = books.Count;
             totalPages = (totalBooks + booksPerPage - 1) / booksPerPage;
-            books = new UC_Book[booksToShow];
+            booksElements = new UC_Book[booksToShow];
 
-            for (int i = 0; i < books.Length; i++)
+            for (int i = 0; i < booksElements.Length; i++)
             {
-                books[i] = new UC_Book();
-                books[i].Title = titles[startIndex + i];
-                books[i].Author = authors[startIndex + i];
-                books[i].Icon = icons[startIndex + i];
-                books[i].Click += new System.EventHandler(this.UC_Book_Click);
+                booksElements[i] = new UC_Book();
+                booksElements[i].Title = books[startIndex + i].BookName;
+                booksElements[i].Author = books[startIndex + i].Author.AuthorName;
+                booksElements[i].Icon = icons[startIndex + i];
+                booksElements[i].Click += new System.EventHandler(this.UC_Book_Click);
 
-                flowLayoutPanel1.Controls.Add(books[i]);
+                flowLayoutPanel1.Controls.Add(booksElements[i]);
             }
             UpdateNavigationButtons();
         }
@@ -86,28 +69,10 @@ namespace EBookClient.UC_Control
             buttonPreviousPage.Enabled = (currentPage > 0);
             buttonBack.Enabled = (currentPage > 0);
 
-            buttonNext.Enabled = (currentPage < (titles.Count - 1) / booksPerPage);
-            buttonNextFast.Enabled = (currentPage < (titles.Count - 1) / booksPerPage);
+            buttonNext.Enabled = (currentPage < (books.Count - 1) / booksPerPage);
+            buttonNextFast.Enabled = (currentPage < (books.Count - 1) / booksPerPage);
             textBox1.Text = (currentPage + 1).ToString();
         }
-
-        /*
-        private void UpdateBookList(List<Book> books)
-        { 
-            flowLayoutPanel1.Controls.Clear();
-
-            foreach (var book in books)
-            {        
-                var bookControl = new UC_Book();
-                bookControl.Title = 
-                bookControl.Author = book.Author;
-                bookControl.Icon = book.I; 
-
-                flowLayoutPanel1.Controls.Add(bookControl);
-            }
-            
-        }
-        */
 
         private void buttonBack_Click(object sender, EventArgs e)
         {
@@ -117,7 +82,7 @@ namespace EBookClient.UC_Control
                 ShowCurrentPage();
             }
         }
-    
+
 
         private void buttonNext_Click(object sender, EventArgs e)
         {
@@ -141,8 +106,7 @@ namespace EBookClient.UC_Control
         {
             string query = SearchField.Text.ToLower();
 
-            List<string> filteredBooks = SearchItems(titles, query);
-            List<string> filteredAuthors = SearchItems(titles, query);
+            List<Book> filteredBooks = SearchBooks(books, query);
 
             flowLayoutPanel1.Controls.Clear();
 
@@ -153,32 +117,126 @@ namespace EBookClient.UC_Control
 
             totalBooks = filteredBooks.Count;
             totalPages = (totalBooks + booksPerPage - 1) / booksPerPage;
-            books = new UC_Book[booksToShow];
+            booksElements = new UC_Book[booksToShow];
 
-            for (int i = 0; i < books.Length; i++)
+            for (int i = 0; i < booksElements.Length; i++)
             {
-                books[i] = new UC_Book();
-                books[i].Title = filteredBooks[startIndex + i];
-                books[i].Author = filteredAuthors[startIndex + i];
-                books[i].Icon = icons[startIndex + i];
-                books[i].Click += new System.EventHandler(this.UC_Book_Click);
+                booksElements[i] = new UC_Book();
+                booksElements[i].Title = filteredBooks[startIndex + i].BookName;
+                booksElements[i].Author = filteredBooks[startIndex + i].Author.AuthorName;
+                booksElements[i].Icon = icons[startIndex + i];
+                booksElements[i].Click += new System.EventHandler(this.UC_Book_Click);
 
-                flowLayoutPanel1.Controls.Add(books[i]);
+                flowLayoutPanel1.Controls.Add(booksElements[i]);
             }
             UpdateNavigationButtons();
         }
 
-        static List<string> SearchItems(List<string> items, string searchTerm)
+        static List<Book> SearchBooks(List<Book> books, string searchTerm)
         {
             if (string.IsNullOrEmpty(searchTerm))
             {
-                return items;
+                return books;
             }
 
             searchTerm = searchTerm.ToLower();
 
-            return items.Where(item => item.ToLower().Contains(searchTerm)).ToList();
+            return books.Where(book => 
+            book.BookName.ToLower().Contains(searchTerm) || 
+            book.AlterName.ToLower().Contains(searchTerm) || 
+            book.Author.AuthorName.ToLower().Contains(searchTerm)
+            ).ToList();
+        }
+        //TODO: Delete Later
+        public static List<Book> GenerateRandomBooks(int count, List<Author> authors)
+        {
+            var random = new Random();
+            var books = new List<Book>();
+
+            var sampleBookNames = new List<string>
+            {
+                "The Great Adventure", "Mystery of the Night", "Journey to the Unknown", "The Last Frontier", "Echoes of the Past",
+                "Whispers of the Wind", "Shadows in the Moonlight", "The Enchanted Forest", "Beyond the Horizon", "Silent Thunder",
+                "The Lost Kingdom", "Rise of the Phoenix", "Secrets of the Deep", "The Time Traveler's Diary", "Legends of the Ancient",
+                "Guardian of the Realm", "The Hidden Path", "Voice of the Sea", "The Eternal Quest", "Realm of Dreams",
+                "The Forgotten Temple", "Echoes in the Valley", "Winds of Change", "Beneath the Surface", "The Crystal Cave"
+            };
+
+            var sampleAlterNames = new List<string>
+            {
+                "Adventure Series", "Night Tales", "Unknown Chronicles", "Frontier Stories", "Past Echoes",
+                "Wind Whispers", "Moonlight Shadows", "Forest Enchantment", "Horizon Beyond", "Thunder Silence",
+                "Kingdom Lost", "Phoenix Rising", "Deep Secrets", "Traveler's Tales", "Ancient Legends",
+                "Realm Guardians", "Path Hidden", "Sea Voices", "Quest Eternal", "Dream Realms",
+                "Temple Forgotten", "Valley Echoes", "Change Winds", "Surface Depths", "Cave Crystals"
+            };
+
+            for (int i = 0; i < count; i++)
+            {
+                var author = authors[random.Next(authors.Count)];
+                var book = new Book
+                {
+                    Id = i + 1,
+                    GenreId = random.Next(1, 10),
+                    CategoryId = random.Next(1, 10),
+                    AuthorId = author.Id,
+                    BookName = sampleBookNames[random.Next(sampleBookNames.Count)],
+                    AlterName = sampleAlterNames[random.Next(sampleAlterNames.Count)],
+                    Published = DateTime.Now.AddDays(-random.Next(0, 3650)), // Random date within the last 10 years
+                    PublisherId = random.Next(1, 10),
+                    BookInfoId = random.Next(1, 10),
+                    BookInfos = new List<BookInfo>(),
+                    BookInfo = new BookInfo(),
+                    Publisher = new Publisher(),
+                    Genre = new Genre(),
+                    Category = new Category(),
+                    Author = author,
+                    Books = new List<Book>(),
+                    Reviews = new List<Review>(),
+                    Wishlists = new List<Wishlist>(),
+                    Transactions = new List<Transaction>()
+                };
+
+                author.Books.Add(book);
+                books.Add(book);
+            }
+        return books;
+    }
+
+        public static List<Author> GenerateRandomAuthors(int count)
+        {
+            var random = new Random();
+            var authors = new List<Author>();
+
+            var sampleAuthorNames = new List<string>
+            {
+                "John Smith", "Emily Johnson", "Michael Williams", "Sarah Jones", "David Brown",
+                "Laura Davis", "James Wilson", "Linda Martinez", "Robert Taylor", "Barbara Anderson",
+                "Daniel Thomas", "Jennifer Lee", "Matthew Harris", "Elizabeth Clark", "Andrew Lewis",
+                "Jessica Walker", "Joshua Robinson", "Sophia Hall", "William Young", "Olivia King"
+            };
+
+            for (int i = 0; i < count; i++)
+            {
+                authors.Add(new Author
+                {
+                    Id = i + 1,
+                    AuthorName = sampleAuthorNames[random.Next(sampleAuthorNames.Count)],
+                    Rate = (float)Math.Round(random.NextDouble() * 5, 2),
+                    Books = new List<Book>()
+                });
+            }
+
+            return authors;
+        }
+        public static List<Image> CreateIconArray(int numberOfIcons)
+        {
+            List <Image> images = new List<Image>();
+            for (int i = 0; i < numberOfIcons; i++)
+            {
+                images.Add(Properties.Resources.No_Image_Available);
+            }
+            return images;
         }
     }
-    
 }
