@@ -57,8 +57,8 @@
             this.egoldsFormStyle1.FormStyle = yt_DesignUI.Components.EgoldsFormStyle.fStyle.SimpleDark;
             this.egoldsFormStyle1.HeaderColor = System.Drawing.Color.DimGray;
             this.egoldsFormStyle1.HeaderColorAdditional = System.Drawing.Color.White;
-            this.egoldsFormStyle1.HeaderColorGradientEnable = true;
-            this.egoldsFormStyle1.HeaderColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.egoldsFormStyle1.HeaderColorGradientEnable = false;
+            this.egoldsFormStyle1.HeaderColorGradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
             this.egoldsFormStyle1.HeaderHeight = 0;
             this.egoldsFormStyle1.HeaderImage = null;
             this.egoldsFormStyle1.HeaderTextColor = System.Drawing.Color.White;

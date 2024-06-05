@@ -45,11 +45,9 @@ namespace EBookClient
                     {
                         this.Hide();
                         var Menu = new Menu();
+                        Menu.ShowDialog();
                         this.Hide();
-                        if (Menu.ShowDialog() == DialogResult.OK)
-                        {
-
-                        }
+                        
                     }
                 }
             }
@@ -67,10 +65,8 @@ namespace EBookClient
         {
             this.Hide();
             var reset = new PassResetForm();
-            if(reset.ShowDialog() == DialogResult.Cancel && reset.ShowDialog() == DialogResult.OK)
-            {
-                this.Show();
-            }
+            reset.ShowDialog();
+            this.Show();
         }
     }
 }
