@@ -24,7 +24,7 @@ namespace EBookClient
         {
             //TODO: Fix
             userControl.Dock = DockStyle.Top;
-            userControl.Height -= 200;
+            userControl.Height -= 20;
             PanelBox.Controls.Clear();
             PanelBox.Controls.Add(userControl);
             userControl.BringToFront();
