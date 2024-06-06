@@ -144,6 +144,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BasicModels\User.cs" />
     <Compile Include="BasicModels\UserInformation.cs" />
+    <Compile Include="TCPQueries\TcpQuery.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202406051350260_DbCreated.resx">

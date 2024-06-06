@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegForm));
             this.egoldsFormStyle1 = new yt_DesignUI.Components.EgoldsFormStyle(this.components);
             this.LoginField = new EBookLib01.Controls.RoundTextBox();
             this.EmailField = new EBookLib01.Controls.RoundTextBox();
@@ -134,7 +135,7 @@
             this.PassField.TabIndex = 3;
             this.PassField.TextInput = "";
             this.PassField.TextPreview = "Введіть свій пароль";
-            this.PassField.UseSystemPasswordChar = false;
+            this.PassField.UseSystemPasswordChar = true;
             // 
             // CopyPassField
             // 
@@ -152,7 +153,7 @@
             this.CopyPassField.TabIndex = 4;
             this.CopyPassField.TextInput = "";
             this.CopyPassField.TextPreview = "Продублюйте свій пароль";
-            this.CopyPassField.UseSystemPasswordChar = false;
+            this.CopyPassField.UseSystemPasswordChar = true;
             // 
             // toggleSwitch1
             // 
@@ -250,7 +251,7 @@
             // 
             // timer1
             // 
-            this.timer1.Interval = 2000;
+            this.timer1.Interval = 5000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // RegForm
@@ -270,6 +271,7 @@
             this.Controls.Add(this.CopyEmailField);
             this.Controls.Add(this.EmailField);
             this.Controls.Add(this.LoginField);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "RegForm";
             this.Text = "Форма Реєстрації E-Book";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.RegForm_FormClosed);

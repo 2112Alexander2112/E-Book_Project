@@ -147,7 +147,6 @@ namespace EBookClient.UC_Control
             book.Author.AuthorName.ToLower().Contains(searchTerm)
             ).ToList();
         }
-        //TODO: Delete Later
         public static List<Book> GenerateRandomBooks(int count, List<Author> authors)
         {
             var random = new Random();
@@ -182,7 +181,8 @@ namespace EBookClient.UC_Control
                     AuthorId = author.Id,
                     BookName = sampleBookNames[random.Next(sampleBookNames.Count)],
                     AlterName = sampleAlterNames[random.Next(sampleAlterNames.Count)],
-                    Published = DateTime.Now.AddDays(-random.Next(0, 3650)), // Random date within the last 10 years
+                    
+                    Published = DateTime.Now.AddDays(-random.Next(0, 3650)),
                     PublisherId = random.Next(1, 10),
                     BookInfoId = random.Next(1, 10),
                     BookInfos = new List<BookInfo>(),

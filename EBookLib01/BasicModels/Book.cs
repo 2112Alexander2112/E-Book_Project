@@ -14,6 +14,7 @@ namespace EBookLib01.BasicModels
         public int AuthorId { get; set; }
         public string BookName { get; set; }
         public string AlterName { get; set; }
+        public byte[] TitleImage { get; set; }
         public DateTime Published { get; set; }
         public int PublisherId { get; set; }
         public int BookInfoId { get; set; }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PassResetForm));
             this.egoldsFormStyle1 = new yt_DesignUI.Components.EgoldsFormStyle(this.components);
             this.CopyNewPassField = new EBookLib01.Controls.RoundTextBox();
             this.NewPassField = new EBookLib01.Controls.RoundTextBox();
@@ -37,6 +38,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // egoldsFormStyle1
@@ -74,7 +76,7 @@
             this.CopyNewPassField.TabIndex = 0;
             this.CopyNewPassField.TextInput = "";
             this.CopyNewPassField.TextPreview = "Продублюйте пароль";
-            this.CopyNewPassField.UseSystemPasswordChar = false;
+            this.CopyNewPassField.UseSystemPasswordChar = true;
             // 
             // NewPassField
             // 
@@ -92,7 +94,7 @@
             this.NewPassField.TabIndex = 1;
             this.NewPassField.TextInput = "";
             this.NewPassField.TextPreview = "Введіть новий пароль";
-            this.NewPassField.UseSystemPasswordChar = false;
+            this.NewPassField.UseSystemPasswordChar = true;
             // 
             // EmailField
             // 
@@ -167,11 +169,16 @@
             this.label3.Size = new System.Drawing.Size(0, 20);
             this.label3.TabIndex = 6;
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 5000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // PassResetForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(411, 273);
+            this.ClientSize = new System.Drawing.Size(440, 332);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -180,6 +187,7 @@
             this.Controls.Add(this.NewPassField);
             this.Controls.Add(this.CopyNewPassField);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PassResetForm";
             this.Text = "Змінити пароль";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.PassResetForm_FormClosed);
@@ -198,5 +206,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Timer timer1;
     }
 }

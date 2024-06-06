@@ -9,8 +9,11 @@ namespace EBookLib01.HelperModels.TransitModels
 {
     public class ServerMessage
     {
+        public string Header { get; set; }
         public string Messagge { get; set; }
         public Book FindedBook { get; set; }
+        public User User { get; set; }
+        public List<Book> Books { get; set;}
 
     }
 }

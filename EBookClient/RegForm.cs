@@ -8,17 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
+using EBookLib01.BasicModels;
+using System.Net;
+using EBookLib01.TCPQueries;
 
 namespace EBookClient
 {
     public partial class RegForm : Form
     {
+        public IPEndPoint ep;
         private Label[] labelsToClear;
         public EBookLib01.BasicModels.User RegModel;
+        public readonly TcpQuery query;
         public RegForm()
         {
             InitializeComponent();
             labelsToClear = new Label[] { label1, label2, label3, label4, label5 };     
+            query = new TcpQuery();
         }
 
         private void toggleSwitch1_CheckedChanged(object sender)
@@ -77,9 +83,34 @@ namespace EBookClient
                             else
                             {
                                 string hashPass = EBookLib01.HashManager.GetHash(pass);
-                                string regMess = $"REG_USER:{login}:{emai}:{hashPass}:{DateTime.Now}:{1}";
-                                byte[] reguser = Encoding.UTF8.GetBytes(regMess);
-                                this.DialogResult = DialogResult.OK;
+                                var user = new User()
+                                {
+                                    Id = 0,
+                                    UserLogin = login,
+                                    Email = emai,
+                                    Password = hashPass,
+                                    RegDate = DateTime.Now,
+                                    RoleId = 1,
+                                    PublicsherId = 0
+                                };
+
+                                var serverMess = query.RegUserQueryTcp(user, ep);
+                                switch (serverMess.Header)
+                                {
+                                    case "OK":
+                                        MessageBox.Show("Успішна реєстрація");
+                                        this.DialogResult = DialogResult.OK;
+                                        break;
+                                    case "LOGIN_AUTH":
+                                        label1.Text = serverMess.Messagge;
+                                        timer1.Start();
+                                        break;
+                                    case "EMAIL_AUTH":
+                                        label2.Text= serverMess.Messagge;
+                                        timer1.Start();
+                                        break;
+                                }
+
                             }
                         }
                     }

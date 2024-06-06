@@ -41,3 +41,5 @@ C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.csproj.C
 C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookSer.C9D82F8A.Up2Date
 C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.exe
 C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.pdb
+D:\EBook\E-Book_Project\EBookServer\obj\Debug\EBookServer.exe
+D:\EBook\E-Book_Project\EBookServer\obj\Debug\EBookServer.pdb

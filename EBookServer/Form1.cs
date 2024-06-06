@@ -73,6 +73,7 @@ namespace EBookServer
                                 };
                                 var response = _jsonSender.ServerMessageSerialize(serverMessage);
                                 StreamWriter sw = new StreamWriter(ns);
+                                sw.WriteLine(response);
                                 sw.Flush();
 
                                 sw.Close();

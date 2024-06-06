@@ -37,13 +37,14 @@ namespace EBookClient
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.toggleSwitch1 = new EBookLib01.Controls.ToggleSwitch();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.RegButton = new EBookLib01.Controls.yt_buttons();
             this.AuthButton = new EBookLib01.Controls.yt_buttons();
             this.PassField = new EBookLib01.Controls.RoundTextBox();
             this.LoginField = new EBookLib01.Controls.RoundTextBox();
             this.egoldsFormStyle1 = new EBookLib01.Components.EgoldsFormStyle(this.components);
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -84,18 +85,6 @@ namespace EBookClient
             this.label1.Size = new System.Drawing.Size(0, 20);
             this.label1.TabIndex = 6;
             // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.linkLabel1.Location = new System.Drawing.Point(412, 203);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(160, 25);
-            this.linkLabel1.TabIndex = 4;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Забув пароль?";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel1_LinkClicked);
-            // 
             // toggleSwitch1
             // 
             this.toggleSwitch1.BackColor = System.Drawing.Color.White;
@@ -110,6 +99,18 @@ namespace EBookClient
             this.toggleSwitch1.TabIndex = 5;
             this.toggleSwitch1.Text = "Запамятати мене";
             this.toggleSwitch1.TextOnChecked = "";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.linkLabel1.Location = new System.Drawing.Point(412, 203);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(160, 25);
+            this.linkLabel1.TabIndex = 4;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Забув пароль?";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel1_LinkClicked);
             // 
             // RegButton
             // 
@@ -181,7 +182,7 @@ namespace EBookClient
             this.PassField.TabIndex = 1;
             this.PassField.TextInput = "";
             this.PassField.TextPreview = "Введіть свій пароль";
-            this.PassField.UseSystemPasswordChar = false;
+            this.PassField.UseSystemPasswordChar = true;
             // 
             // LoginField
             // 
@@ -220,6 +221,11 @@ namespace EBookClient
             this.egoldsFormStyle1.HeaderTextColor = System.Drawing.Color.White;
             this.egoldsFormStyle1.HeaderTextFont = new System.Drawing.Font("Segoe UI", 9.75F);
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 5000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // AuthForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -247,5 +253,6 @@ namespace EBookClient
         private EBookLib01.Controls.ToggleSwitch toggleSwitch1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private Timer timer1;
     }
 }
