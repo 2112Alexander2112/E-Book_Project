@@ -1,23 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using System.Threading;
 using System.Net.Sockets;
 using System.Net;
-using EBookLib01.BasicacModels;
-using EBookLib01.Services;
-using EBookLib01.ServiceModels;
-using EBookServer.EF_ORM;
-//using System.Runtime.CompilerServices;
 using System.IO;
-using System.Runtime.InteropServices.ComTypes;
+
+using EBookLib01;
+using EBookLib01.HelperModels.TransitModels;
+using EBookLib01.EF;
 
 
 namespace EBookServer
@@ -33,7 +26,7 @@ namespace EBookServer
         private TcpListener _tcpListener;
         private Thread _listenerThread;
 
-        private ModelManager _modelManager;
+        private ShopDb _shopDb;
         private JSONSender _jsonSender;
         public Form1()
         {
@@ -41,9 +34,9 @@ namespace EBookServer
             _port = 9001;
             _ipAdress = IPAddress.Parse("127.0.0.1");
             _ep = new IPEndPoint(_ipAdress, _port);
-            _modelManager = new ModelManager();
+            _shopDb = new ShopDb();
             _numberOfUsers = 20;
-            _jsonSender = new JSONSender(); 
+            _jsonSender = new JSONSender();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -51,8 +44,9 @@ namespace EBookServer
             _tcpListener = new TcpListener(_ep);
             _tcpListener.Start();
 
-            _listenerThread.IsBackground = true;
-            _listenerThread.Start();    
+
+           // _listenerThread.IsBackground = true;
+            //_listenerThread.Start();    
         }
         private void MainLoop()
         {
@@ -69,7 +63,7 @@ namespace EBookServer
                     switch (clientMessage.Header)
                     {
                         case "SHOWBOOK":
-                            var searchbook = _modelManager.Books
+                            var searchbook = _shopDb.Books
                                 .Where(b => b.BookName == clientMessage.SeacrhingBook).FirstOrDefault();
                             if(searchbook == null)
                             {

@@ -1,92 +1,43 @@
-<<<<<<< HEAD
-C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookServer\bin\Debug\EBookServer.exe.config
-C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookServer\bin\Debug\EBookServer.exe
-C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookServer\bin\Debug\EBookServer.pdb
-C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookServer\bin\Debug\EBookLib01.dll
-C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookServer\bin\Debug\EntityFramework.dll
-C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookServer\bin\Debug\EntityFramework.SqlServer.dll
-C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookServer\bin\Debug\EBookLib01.pdb
-C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookServer\bin\Debug\EntityFramework.xml
-C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookServer\bin\Debug\EntityFramework.SqlServer.xml
-C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookServer\obj\Debug\EBookServer.csproj.AssemblyReference.cache
-C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookServer\obj\Debug\EBookServer.Properties.Resources.resources
-C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookServer\obj\Debug\EBookServer.csproj.GenerateResource.cache
-C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookServer\obj\Debug\EBookServer.csproj.CoreCompileInputs.cache
-C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookServer\obj\Debug\EBookSer.C9D82F8A.Up2Date
-C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookServer\obj\Debug\EBookServer.exe
-C:\Programming\Архів\Мій Архів\PortableGit\E-Book_Project\EBookServer\obj\Debug\EBookServer.pdb
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\bin\Debug\App.config
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\bin\Debug\EBookServer.exe.config
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\bin\Debug\EBookServer.exe
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\bin\Debug\EBookServer.pdb
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\bin\Debug\EBookLib01.dll
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\bin\Debug\EntityFramework.dll
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\bin\Debug\EntityFramework.SqlServer.dll
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\bin\Debug\EBookLib01.pdb
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\bin\Debug\EntityFramework.xml
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\bin\Debug\EntityFramework.SqlServer.xml
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\obj\Debug\EBookServer.csproj.AssemblyReference.cache
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\obj\Debug\EBookServer.Properties.Resources.resources
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\obj\Debug\EBookServer.csproj.GenerateResource.cache
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\obj\Debug\EBookServer.csproj.CoreCompileInputs.cache
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\obj\Debug\EBookSer.C9D82F8A.Up2Date
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\obj\Debug\EBookServer.exe
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\obj\Debug\EBookServer.pdb
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\obj\Debug\EBookServer.Migrations.Second_Update_Migration.resources
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\obj\Debug\EBookServer.Migrations.Third_Update_Database_Migration.resources
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\obj\Debug\EBookServer.Migrations.Fourth_Update_Database_Migration.resources
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\obj\Debug\EBookServer.Migrations.FifthFixed_Migration.resources
-C:\Programming\Архів\Мій Архів\PortableGit\EBookProject\EBookServer\obj\Debug\EBookServer.Migrations.SixthFixed_Migration.resources
-=======
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\EBookServer.exe.config
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\EBookServer.exe
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\EBookServer.pdb
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\EBookLIb.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\EntityFramework.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\EntityFramework.SqlServer.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\ExCSS.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\Fizzler.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\FontAwesome.WinForms.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\GumroadLicensing.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\Guna.UI2.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\Newtonsoft.Json.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\RestSharp.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\Svg.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\System.Buffers.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\System.CodeDom.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\System.Memory.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\System.Numerics.Vectors.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\System.Text.Encodings.Web.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\System.Text.Json.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\System.Threading.Tasks.Extensions.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\System.ValueTuple.dll
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\EBookLIb.pdb
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\EBookLIb.dll.config
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\EntityFramework.xml
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\EntityFramework.SqlServer.xml
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\Fizzler.pdb
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\Newtonsoft.Json.xml
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\RestSharp.xml
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\Svg.xml
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\System.Buffers.xml
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\System.CodeDom.xml
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\System.Memory.xml
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\System.Numerics.Vectors.xml
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\System.Text.Encodings.Web.xml
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\System.Text.Json.xml
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\System.Threading.Tasks.Extensions.xml
-D:\NP2\E-Book_Project\EBookServer\bin\Debug\System.ValueTuple.xml
-D:\NP2\E-Book_Project\EBookServer\obj\Debug\EBookServer.csproj.AssemblyReference.cache
-D:\NP2\E-Book_Project\EBookServer\obj\Debug\EBookServer.Properties.Resources.resources
-D:\NP2\E-Book_Project\EBookServer\obj\Debug\EBookServer.csproj.GenerateResource.cache
-D:\NP2\E-Book_Project\EBookServer\obj\Debug\EBookServer.csproj.CoreCompileInputs.cache
-D:\NP2\E-Book_Project\EBookServer\obj\Debug\EBookSer.C9D82F8A.Up2Date
-D:\NP2\E-Book_Project\EBookServer\obj\Debug\EBookServer.exe
-D:\NP2\E-Book_Project\EBookServer\obj\Debug\EBookServer.pdb
-D:\NP2\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.OneMigration.resources
-D:\NP2\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.Twomigration.resources
->>>>>>> origin/Alexander
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\App.config
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\EBookServer.exe.config
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\EBookServer.exe
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\EBookServer.pdb
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\EBookLib01.dll
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\EntityFramework.dll
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\Guna.UI2.dll
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\RestSharp.dll
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Buffers.dll
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.CodeDom.dll
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Memory.dll
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Text.Json.dll
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.ValueTuple.dll
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\EBookLib01.pdb
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\EBookLib01.dll.config
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\EntityFramework.xml
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\RestSharp.xml
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Buffers.xml
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.CodeDom.xml
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Memory.xml
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Text.Json.xml
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.ValueTuple.xml
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.csproj.AssemblyReference.cache
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.Properties.Resources.resources
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.csproj.GenerateResource.cache
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.csproj.CoreCompileInputs.cache
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookSer.C9D82F8A.Up2Date
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.exe
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.pdb
