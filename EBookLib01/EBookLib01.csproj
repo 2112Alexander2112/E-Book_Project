@@ -133,6 +133,10 @@
     <Compile Include="Migrations\202406051350260_DbCreated.Designer.cs">
       <DependentUpon>202406051350260_DbCreated.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202406061109102_BookFixed.cs" />
+    <Compile Include="Migrations\202406061109102_BookFixed.Designer.cs">
+      <DependentUpon>202406061109102_BookFixed.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Services\HashManager.cs" />
     <Compile Include="HelperModels\TransitModels\ClientMessage.cs" />
@@ -148,6 +152,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202406051350260_DbCreated.resx">
       <DependentUpon>202406051350260_DbCreated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406061109102_BookFixed.resx">
+      <DependentUpon>202406061109102_BookFixed.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

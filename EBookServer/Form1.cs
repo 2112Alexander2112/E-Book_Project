@@ -45,7 +45,7 @@ namespace EBookServer
             _tcpListener.Start();
 
 
-           // _listenerThread.IsBackground = true;
+            //_listenerThread.IsBackground = true;
             //_listenerThread.Start();    
         }
         private void MainLoop()
@@ -73,6 +73,7 @@ namespace EBookServer
                                 };
                                 var response = _jsonSender.ServerMessageSerialize(serverMessage);
                                 StreamWriter sw = new StreamWriter(ns);
+                                sw.WriteLine(response);
                                 sw.Flush();
 
                                 sw.Close();

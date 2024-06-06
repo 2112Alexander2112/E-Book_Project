@@ -17,6 +17,8 @@ namespace EBookLib01.BasicModels
         public DateTime Published { get; set; }
         public int PublisherId { get; set; }
         public int BookInfoId { get; set; }
+        public float Price { get; set; }
+        public string IconPath { get; set; }
 
         public virtual List<BookInfo> BookInfos { get; set; }
         public virtual BookInfo BookInfo { get; set; }
