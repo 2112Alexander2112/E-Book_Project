@@ -29,7 +29,6 @@ EBookClient/packages.config
 EBookLIb/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 EBookLIb/obj/Debug/EBookLIb.csproj.AssemblyReference.cache
 EBookLIb/packages.config
-EBookServer/App.config
 EBookServer/EBookServer.csproj
 EBookServer/Migrations/Configuration.cs
 EBookServer/bin/Debug/EBookServer.exe
