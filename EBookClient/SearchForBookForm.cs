@@ -1,18 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using EBookLib01;
 using System.Net.Sockets;
 using System.Net;
-using EBookLib01.ServiceModels;
-using EBookLib01.BasicacModels;
-using EBookLib01.Services;
 
 
 namespace EBookClient
