@@ -42,3 +42,16 @@ EBookServer/bin/Debug/
 EBookClient/obj/Debug/
 EBookLib01/obj/Debug/
 EBookLib01/bin/Debug/
+.vs/E-Book_Project/v17/.suo
+.vs/E-Book_Project/v17/DocumentLayout.json
+EBookClient/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+EBookClient/obj/Debug/EBookClient.csproj.AssemblyReference.cache
+EBookClient/obj/Debug/EBookClient.csproj.CoreCompileInputs.cache
+EBookLib01/bin/Debug/EBookLib01.dll
+EBookLib01/bin/Debug/EBookLib01.pdb
+EBookLib01/obj/Debug/EBookLib01.csproj.CoreCompileInputs.cache
+EBookLib01/obj/Debug/EBookLib01.csproj.FileListAbsolute.txt
+EBookLib01/obj/Debug/EBookLib01.dll
+EBookLib01/obj/Debug/EBookLib01.pdb
+EBookServer/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+EBookServer/obj/Debug/EBookServer.csproj.AssemblyReference.cache
