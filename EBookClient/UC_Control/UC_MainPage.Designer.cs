@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.SearchField = new EBookLib01.Controls.RoundTextBox();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.buttonBack = new System.Windows.Forms.Button();
@@ -40,6 +39,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -66,15 +66,6 @@
             this.SearchField.TextPreview = "Search";
             this.SearchField.UseSystemPasswordChar = false;
             this.SearchField.TextChanged += new System.EventHandler(this.SearchField_TextChanged);
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.White;
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1000, 773);
-            this.flowLayoutPanel1.TabIndex = 2;
             // 
             // textBox1
             // 
@@ -116,7 +107,7 @@
             // 
             this.buttonNextFast.Dock = System.Windows.Forms.DockStyle.Right;
             this.buttonNextFast.Image = global::EBookClient.Properties.Resources.fast_forward;
-            this.buttonNextFast.Location = new System.Drawing.Point(800, 0);
+            this.buttonNextFast.Location = new System.Drawing.Point(700, 0);
             this.buttonNextFast.Name = "buttonNextFast";
             this.buttonNextFast.Size = new System.Drawing.Size(100, 51);
             this.buttonNextFast.TabIndex = 6;
@@ -127,7 +118,7 @@
             // 
             this.buttonNext.Dock = System.Windows.Forms.DockStyle.Right;
             this.buttonNext.Image = global::EBookClient.Properties.Resources.next;
-            this.buttonNext.Location = new System.Drawing.Point(900, 0);
+            this.buttonNext.Location = new System.Drawing.Point(800, 0);
             this.buttonNext.Name = "buttonNext";
             this.buttonNext.Size = new System.Drawing.Size(100, 51);
             this.buttonNext.TabIndex = 5;
@@ -153,9 +144,9 @@
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.buttonNext);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 722);
+            this.panel1.Location = new System.Drawing.Point(0, 709);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1000, 51);
+            this.panel1.Size = new System.Drawing.Size(900, 51);
             this.panel1.TabIndex = 9;
             // 
             // panel2
@@ -165,18 +156,28 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1000, 51);
+            this.panel2.Size = new System.Drawing.Size(900, 51);
             this.panel2.TabIndex = 10;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.White;
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 51);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(900, 658);
+            this.flowLayoutPanel1.TabIndex = 15;
             // 
             // UC_MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "UC_MainPage";
-            this.Size = new System.Drawing.Size(1000, 773);
+            this.Size = new System.Drawing.Size(900, 760);
             this.Load += new System.EventHandler(this.UC_MainPage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -190,7 +191,6 @@
 
         private EBookLib01.Controls.RoundTextBox SearchField;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Button buttonNext;
@@ -199,5 +199,6 @@
         private System.Windows.Forms.Button buttonPreviousPage;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }

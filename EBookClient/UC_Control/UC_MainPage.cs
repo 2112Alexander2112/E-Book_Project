@@ -238,5 +238,11 @@ namespace EBookClient.UC_Control
             }
             return images;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            flowLayoutPanel1.Visible = false; ;
+
+        }
     }
 }

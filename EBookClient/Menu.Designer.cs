@@ -54,8 +54,8 @@
             this.TimerStore = new System.Windows.Forms.Timer(this.components);
             this.ProfileTime = new System.Windows.Forms.Timer(this.components);
             this.LibraryTime = new System.Windows.Forms.Timer(this.components);
-            this.PanelBox = new System.Windows.Forms.Panel();
             this.egoldsFormStyle1 = new EBookLib01.Components.EgoldsFormStyle(this.components);
+            this.PanelBox = new System.Windows.Forms.Panel();
             this.MenuBox.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MenuButton)).BeginInit();
@@ -355,15 +355,6 @@
             this.LibraryTime.Interval = 10;
             this.LibraryTime.Tick += new System.EventHandler(this.LibraryTime_Tick);
             // 
-            // PanelBox
-            // 
-            this.PanelBox.BackColor = System.Drawing.Color.White;
-            this.PanelBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelBox.Location = new System.Drawing.Point(200, 0);
-            this.PanelBox.Name = "PanelBox";
-            this.PanelBox.Size = new System.Drawing.Size(1000, 800);
-            this.PanelBox.TabIndex = 2;
-            // 
             // egoldsFormStyle1
             // 
             this.egoldsFormStyle1.AllowUserResize = false;
@@ -383,11 +374,20 @@
             this.egoldsFormStyle1.HeaderTextColor = System.Drawing.Color.White;
             this.egoldsFormStyle1.HeaderTextFont = new System.Drawing.Font("Segoe UI", 9.75F);
             // 
+            // PanelBox
+            // 
+            this.PanelBox.BackColor = System.Drawing.Color.White;
+            this.PanelBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PanelBox.Location = new System.Drawing.Point(200, 0);
+            this.PanelBox.Name = "PanelBox";
+            this.PanelBox.Size = new System.Drawing.Size(900, 800);
+            this.PanelBox.TabIndex = 3;
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 800);
+            this.ClientSize = new System.Drawing.Size(1100, 800);
             this.Controls.Add(this.PanelBox);
             this.Controls.Add(this.MenuBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -431,8 +431,8 @@
         private System.Windows.Forms.Button MSButt;
         private System.Windows.Forms.Button AllBooksButt;
         private System.Windows.Forms.Timer LibraryTime;
-        private System.Windows.Forms.Panel PanelBox;
         private System.Windows.Forms.Button MyProfileButt;
         private EBookLib01.Components.EgoldsFormStyle egoldsFormStyle1;
+        private System.Windows.Forms.Panel PanelBox;
     }
 }

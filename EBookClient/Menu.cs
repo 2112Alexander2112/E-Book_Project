@@ -24,7 +24,6 @@ namespace EBookClient
         {
             //TODO: Fix
             userControl.Dock = DockStyle.Top;
-            userControl.Height -= 20;
             PanelBox.Controls.Clear();
             PanelBox.Controls.Add(userControl);
             userControl.BringToFront();
@@ -150,8 +149,8 @@ namespace EBookClient
 
         private void WishlistButt_Click(object sender, EventArgs e)
         {
-            var WishList = new UC_WishList();
-            addUserContorol(WishList);
+            var whishList = new UC_WhishList();
+            addUserContorol(whishList);
         }
 
         private void SoBButt_Click(object sender, EventArgs e)

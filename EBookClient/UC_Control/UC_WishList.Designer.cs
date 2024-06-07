@@ -1,6 +1,6 @@
 ﻿namespace EBookClient.UC_Control
 {
-    partial class UC_WishList
+    partial class UC_WhishList
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,33 +28,163 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.SearchField = new EBookLib01.Controls.RoundTextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.buttonNextFast = new System.Windows.Forms.Button();
+            this.buttonBack = new System.Windows.Forms.Button();
+            this.buttonPreviousPage = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.buttonNext = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // SearchField
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(267, 161);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(407, 108);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "WishList";
+            this.SearchField.BackColor = System.Drawing.Color.White;
+            this.SearchField.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            this.SearchField.BorderColorNotActive = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
+            this.SearchField.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.SearchField.Dock = System.Windows.Forms.DockStyle.Left;
+            this.SearchField.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SearchField.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
+            this.SearchField.ForeColor = System.Drawing.Color.Black;
+            this.SearchField.Location = new System.Drawing.Point(100, 0);
+            this.SearchField.MaximumSize = new System.Drawing.Size(254, 40);
+            this.SearchField.MinimumSize = new System.Drawing.Size(254, 40);
+            this.SearchField.Name = "SearchField";
+            this.SearchField.SelectionStart = 0;
+            this.SearchField.Size = new System.Drawing.Size(254, 40);
+            this.SearchField.TabIndex = 0;
+            this.SearchField.TextInput = "";
+            this.SearchField.TextPreview = "Search Wishlist";
+            this.SearchField.UseSystemPasswordChar = false;
             // 
-            // UC_WishList
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox1.Image = global::EBookClient.Properties.Resources.search;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 51);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.SearchField);
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(900, 51);
+            this.panel2.TabIndex = 12;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.buttonNextFast);
+            this.panel1.Controls.Add(this.buttonBack);
+            this.panel1.Controls.Add(this.buttonPreviousPage);
+            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.buttonNext);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 709);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(900, 51);
+            this.panel1.TabIndex = 13;
+            // 
+            // buttonNextFast
+            // 
+            this.buttonNextFast.Dock = System.Windows.Forms.DockStyle.Right;
+            this.buttonNextFast.Image = global::EBookClient.Properties.Resources.fast_forward;
+            this.buttonNextFast.Location = new System.Drawing.Point(700, 0);
+            this.buttonNextFast.Name = "buttonNextFast";
+            this.buttonNextFast.Size = new System.Drawing.Size(100, 51);
+            this.buttonNextFast.TabIndex = 6;
+            this.buttonNextFast.UseVisualStyleBackColor = true;
+            // 
+            // buttonBack
+            // 
+            this.buttonBack.Dock = System.Windows.Forms.DockStyle.Left;
+            this.buttonBack.Image = global::EBookClient.Properties.Resources.fast_forward_back;
+            this.buttonBack.Location = new System.Drawing.Point(100, 0);
+            this.buttonBack.Name = "buttonBack";
+            this.buttonBack.Size = new System.Drawing.Size(100, 51);
+            this.buttonBack.TabIndex = 8;
+            this.buttonBack.UseVisualStyleBackColor = true;
+            // 
+            // buttonPreviousPage
+            // 
+            this.buttonPreviousPage.Dock = System.Windows.Forms.DockStyle.Left;
+            this.buttonPreviousPage.Image = global::EBookClient.Properties.Resources.back;
+            this.buttonPreviousPage.Location = new System.Drawing.Point(0, 0);
+            this.buttonPreviousPage.Name = "buttonPreviousPage";
+            this.buttonPreviousPage.Size = new System.Drawing.Size(100, 51);
+            this.buttonPreviousPage.TabIndex = 7;
+            this.buttonPreviousPage.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox1.Location = new System.Drawing.Point(447, 3);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(29, 44);
+            this.textBox1.TabIndex = 3;
+            // 
+            // buttonNext
+            // 
+            this.buttonNext.Dock = System.Windows.Forms.DockStyle.Right;
+            this.buttonNext.Image = global::EBookClient.Properties.Resources.next;
+            this.buttonNext.Location = new System.Drawing.Point(800, 0);
+            this.buttonNext.Name = "buttonNext";
+            this.buttonNext.Size = new System.Drawing.Size(100, 51);
+            this.buttonNext.TabIndex = 5;
+            this.buttonNext.UseVisualStyleBackColor = true;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.White;
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 51);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(900, 658);
+            this.flowLayoutPanel1.TabIndex = 14;
+            // 
+            // UC_WhishList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label1);
-            this.Name = "UC_WishList";
-            this.Size = new System.Drawing.Size(1000, 570);
+            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
+            this.Name = "UC_WhishList";
+            this.Size = new System.Drawing.Size(900, 760);
+            this.Load += new System.EventHandler(this.UC_WhishList_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
+        private EBookLib01.Controls.RoundTextBox SearchField;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button buttonNextFast;
+        private System.Windows.Forms.Button buttonBack;
+        private System.Windows.Forms.Button buttonPreviousPage;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button buttonNext;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }
