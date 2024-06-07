@@ -10,7 +10,7 @@ namespace EBookLib01.HelperModels.TransitModels
     public class ServerMessage
     {
         public string Messagge { get; set; }
-        public Book FindedBook { get; set; }
+        public AboutBookModel About { get; set; }
 
     }
 }
