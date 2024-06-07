@@ -10,7 +10,8 @@ using System.IO;
 
 using EBookLib01;
 using EBookLib01.HelperModels.TransitModels;
-using EBookLib01.EF;
+using EBookServer.EF_ORM;
+using EBookLib01.HelperModels;
 
 
 namespace EBookServer
@@ -26,7 +27,7 @@ namespace EBookServer
         private TcpListener _tcpListener;
         private Thread _listenerThread;
 
-        private ShopDb _shopDb;
+        private EBookBase _shopDb;
         private JSONSender _jsonSender;
         public Form1()
         {
@@ -34,7 +35,7 @@ namespace EBookServer
             _port = 9001;
             _ipAdress = IPAddress.Parse("127.0.0.1");
             _ep = new IPEndPoint(_ipAdress, _port);
-            _shopDb = new ShopDb();
+            _shopDb = new EBookBase();
             _numberOfUsers = 20;
             _jsonSender = new JSONSender();
         }
@@ -44,9 +45,9 @@ namespace EBookServer
             _tcpListener = new TcpListener(_ep);
             _tcpListener.Start();
 
-
-            //_listenerThread.IsBackground = true;
-            //_listenerThread.Start();    
+            _listenerThread = new Thread(new ThreadStart(MainLoop));
+            _listenerThread.IsBackground = true;
+            _listenerThread.Start();    
         }
         private void MainLoop()
         {
@@ -82,13 +83,26 @@ namespace EBookServer
                             }
                             else
                             {
+                                var genre = _shopDb.Genres.Where(g => g.Id == searchbook.Id).First();
+                                var publisher = _shopDb.Publishers.Where(p => p.Id == searchbook.PublisherId).First();
+                                var autor = _shopDb.Authors.Where(a => a.Id == searchbook.AuthorId).First();
+                                var infoaboutbook = new AboutBookModel()
+                                {
+                                    Price = Convert.ToString(searchbook.Price),
+                                    Genre = genre.GenreName,
+                                    AlterName = searchbook.AlterName,
+                                    Publisher = publisher.PublisherName,
+                                    Published = Convert.ToString(searchbook.Published),
+                                    Author = autor.AuthorName
+                                };
                                 var findedBookMessage = new ServerMessage()
                                 {
                                     Messagge = "BOOKFOUNDED",
-                                    FindedBook = searchbook
+                                    
                                 };
                                 var findedBook = _jsonSender.ServerMessageSerialize(findedBookMessage);
                                 StreamWriter sw = new StreamWriter(ns);
+                                sw.WriteLine(findedBook);
                                 sw.Flush();
 
                                 sw.Close();
@@ -96,6 +110,13 @@ namespace EBookServer
                                 ns.Close();
                             }
                         break;
+                        case "REG_USER":
+                            break;
+                        case "GET_USER":
+                            break;
+                        case "GET_BOOK":
+                            break;
+
                     }
                 }
             }
