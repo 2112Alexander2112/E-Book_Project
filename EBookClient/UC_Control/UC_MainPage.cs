@@ -57,6 +57,7 @@ namespace EBookClient.UC_Control
                 booksElements[i].Title = books[startIndex + i].BookName;
                 booksElements[i].Author = books[startIndex + i].Author.AuthorName;
                 booksElements[i].Icon = icons[startIndex + i];
+                booksElements[i].Price = "1000";
                 booksElements[i].Click += new System.EventHandler(this.UC_Book_Click);
 
                 flowLayoutPanel1.Controls.Add(booksElements[i]);
@@ -125,6 +126,7 @@ namespace EBookClient.UC_Control
                 booksElements[i].Title = filteredBooks[startIndex + i].BookName;
                 booksElements[i].Author = filteredBooks[startIndex + i].Author.AuthorName;
                 booksElements[i].Icon = icons[startIndex + i];
+                booksElements[i].Price = "1000";
                 booksElements[i].Click += new System.EventHandler(this.UC_Book_Click);
 
                 flowLayoutPanel1.Controls.Add(booksElements[i]);
@@ -187,6 +189,7 @@ namespace EBookClient.UC_Control
                     BookInfoId = random.Next(1, 10),
                     BookInfos = new List<BookInfo>(),
                     BookInfo = new BookInfo(),
+                    Price = 1000,
                     Publisher = new Publisher(),
                     Genre = new Genre(),
                     Category = new Category(),
