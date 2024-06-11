@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\uc_control\\uc_myfriends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|c:\\users\\solod\\it\\step\\e-book_project\\ebooklib01\\basicmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|c:\\users\\solod\\it\\step\\e-book_project\\ebookclient\\uc_control\\uc_friends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|C:\\Users\\solod\\IT\\Step\\E-Book_Project\\ebookclient\\uc_control\\uc_friends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\uc_control\\uc_friends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|c:\\users\\solod\\it\\step\\e-book_project\\ebookclient\\uc_control\\uc_friends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|C:\\Users\\solod\\IT\\Step\\E-Book_Project\\ebookclient\\uc_control\\uc_friends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\uc_control\\uc_friends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|c:\\users\\solod\\it\\step\\e-book_project\\ebookclient\\uc_control\\uc_myfriends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Users\\solod\\IT\\Step\\E-Book_Project\\ebooklib01\\basicmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|C:\\Users\\solod\\IT\\Step\\E-Book_Project\\ebookclient\\uc_control\\uc_myfriends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\uc_control\\uc_myfriends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|c:\\users\\solod\\it\\step\\e-book_project\\ebookclient\\regform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\regform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|C:\\Users\\solod\\IT\\Step\\E-Book_Project\\ebookclient\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,15 +35,11 @@
       "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|c:\\users\\solod\\it\\step\\e-book_project\\ebookclient\\regform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\regform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|c:\\users\\solod\\it\\step\\e-book_project\\ebookclient\\uc_control\\uc_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|C:\\Users\\solod\\IT\\Step\\E-Book_Project\\ebookclient\\uc_control\\uc_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\uc_control\\uc_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|c:\\users\\solod\\it\\step\\e-book_project\\ebookclient\\uc_control\\uc_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|C:\\Users\\solod\\IT\\Step\\E-Book_Project\\ebookclient\\uc_control\\uc_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\uc_control\\uc_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -55,11 +55,11 @@
       "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\uc_control\\uc_wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|c:\\users\\solod\\it\\step\\e-book_project\\ebookclient\\uc_control\\uc_myprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|C:\\Users\\solod\\IT\\Step\\E-Book_Project\\ebookclient\\uc_control\\uc_myprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\uc_control\\uc_myprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|c:\\users\\solod\\it\\step\\e-book_project\\ebookclient\\authform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|C:\\Users\\solod\\IT\\Step\\E-Book_Project\\ebookclient\\authform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\authform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -89,20 +89,16 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 478,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 428,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\solod\\IT\\Step\\E-Book_Project\\EBookLib01\\BasicModels\\User.cs",
               "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\User.cs",
@@ -110,8 +106,7 @@
               "RelativeToolTip": "EBookLib01\\BasicModels\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T10:35:38.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T10:35:38.682Z"
             },
             {
               "$type": "Document",
@@ -121,7 +116,7 @@
               "RelativeDocumentMoniker": "EBookClient\\UC_Control\\UC_MyFriends.cs",
               "ToolTip": "C:\\Users\\solod\\IT\\Step\\E-Book_Project\\EBookClient\\UC_Control\\UC_MyFriends.cs*",
               "RelativeToolTip": "EBookClient\\UC_Control\\UC_MyFriends.cs*",
-              "ViewState": "AQIAACMAAAAAAAAAAAAlwDUAAAANAAAA",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAswKIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T10:23:01.718Z",
               "EditorCaption": ""
@@ -132,11 +127,10 @@
               "Title": "UC_MyFriends.cs [Design]",
               "DocumentMoniker": "C:\\Users\\solod\\IT\\Step\\E-Book_Project\\EBookClient\\UC_Control\\UC_MyFriends.cs",
               "RelativeDocumentMoniker": "EBookClient\\UC_Control\\UC_MyFriends.cs",
-              "ToolTip": "C:\\Users\\solod\\IT\\Step\\E-Book_Project\\EBookClient\\UC_Control\\UC_MyFriends.cs [Design]*",
-              "RelativeToolTip": "EBookClient\\UC_Control\\UC_MyFriends.cs [Design]*",
+              "ToolTip": "C:\\Users\\solod\\IT\\Step\\E-Book_Project\\EBookClient\\UC_Control\\UC_MyFriends.cs [Design]",
+              "RelativeToolTip": "EBookClient\\UC_Control\\UC_MyFriends.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T10:23:00.053Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-11T10:23:00.053Z"
             },
             {
               "$type": "Document",
@@ -148,8 +142,7 @@
               "RelativeToolTip": "EBookClient\\UC_Control\\UC_Book.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T10:11:09.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T10:11:09.367Z"
             },
             {
               "$type": "Document",
@@ -160,33 +153,30 @@
               "ToolTip": "C:\\Users\\solod\\IT\\Step\\E-Book_Project\\EBookClient\\UC_Control\\UC_Book.cs [Design]",
               "RelativeToolTip": "EBookClient\\UC_Control\\UC_Book.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T10:11:07.181Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-11T10:11:07.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UC_Friends.cs",
               "DocumentMoniker": "C:\\Users\\solod\\IT\\Step\\E-Book_Project\\EBookClient\\UC_Control\\UC_Friends.cs",
               "RelativeDocumentMoniker": "EBookClient\\UC_Control\\UC_Friends.cs",
               "ToolTip": "C:\\Users\\solod\\IT\\Step\\E-Book_Project\\EBookClient\\UC_Control\\UC_Friends.cs",
               "RelativeToolTip": "EBookClient\\UC_Control\\UC_Friends.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAWAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAADgvz4AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T09:58:33.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T09:58:33.432Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "UC_Friends.cs [Design]",
               "DocumentMoniker": "C:\\Users\\solod\\IT\\Step\\E-Book_Project\\EBookClient\\UC_Control\\UC_Friends.cs",
               "RelativeDocumentMoniker": "EBookClient\\UC_Control\\UC_Friends.cs",
               "ToolTip": "C:\\Users\\solod\\IT\\Step\\E-Book_Project\\EBookClient\\UC_Control\\UC_Friends.cs [Design]",
               "RelativeToolTip": "EBookClient\\UC_Control\\UC_Friends.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T09:58:30.394Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-11T09:58:30.394Z"
             },
             {
               "$type": "Document",
@@ -197,8 +187,7 @@
               "ToolTip": "C:\\Users\\solod\\IT\\Step\\E-Book_Project\\EBookClient\\UC_Control\\UC_MyProfile.cs [Design]",
               "RelativeToolTip": "EBookClient\\UC_Control\\UC_MyProfile.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T09:51:22.472Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-11T09:51:22.472Z"
             },
             {
               "$type": "Document",
@@ -210,8 +199,7 @@
               "RelativeToolTip": "EBookClient\\AuthForm.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T15:45:42.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T15:45:42.654Z"
             },
             {
               "$type": "Document",
@@ -257,8 +245,7 @@
               "RelativeToolTip": "EBookClient\\UC_Control\\UC_WishList.cs",
               "ViewState": "AQIAAFIAAAAAAAAAAAAUwOsAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T18:15:31.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T18:15:31.806Z"
             },
             {
               "$type": "Document",
@@ -269,8 +256,7 @@
               "ToolTip": "C:\\Users\\solod\\IT\\Step\\E-Book_Project\\EBookClient\\UC_Control\\UC_WishList.cs [Design]",
               "RelativeToolTip": "EBookClient\\UC_Control\\UC_WishList.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T18:12:06.202Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-07T18:12:06.202Z"
             },
             {
               "$type": "Document",
@@ -281,8 +267,7 @@
               "ToolTip": "C:\\Users\\solod\\IT\\Step\\E-Book_Project\\EBookClient\\UC_Control\\UC_MainPage.cs [Design]",
               "RelativeToolTip": "EBookClient\\UC_Control\\UC_MainPage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T17:24:09.387Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-05T17:24:09.387Z"
             },
             {
               "$type": "Document",
@@ -298,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\solod\\IT\\Step\\E-Book_Project\\EBookClient\\Menu.cs",
               "RelativeDocumentMoniker": "EBookClient\\Menu.cs",
@@ -306,36 +291,34 @@
               "RelativeToolTip": "EBookClient\\Menu.cs",
               "ViewState": "AQIAAEsAAAAAAAAAAAAUwLYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T12:55:10.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T12:55:10.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Menu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\solod\\IT\\Step\\E-Book_Project\\EBookClient\\Menu.cs",
               "RelativeDocumentMoniker": "EBookClient\\Menu.cs",
               "ToolTip": "C:\\Users\\solod\\IT\\Step\\E-Book_Project\\EBookClient\\Menu.cs [Design]",
               "RelativeToolTip": "EBookClient\\Menu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T12:54:47.432Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-05T12:54:47.432Z"
             }
           ]
         },
         {
-          "DockedWidth": 112,
+          "DockedWidth": 162,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "RegForm.cs",
               "DocumentMoniker": "C:\\Users\\solod\\IT\\Step\\E-Book_Project\\EBookClient\\RegForm.cs",
               "RelativeDocumentMoniker": "EBookClient\\RegForm.cs",
               "ToolTip": "C:\\Users\\solod\\IT\\Step\\E-Book_Project\\EBookClient\\RegForm.cs",
               "RelativeToolTip": "EBookClient\\RegForm.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAtwB0AAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAtwBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-11T09:20:44.703Z",
               "EditorCaption": ""
@@ -350,8 +333,7 @@
               "RelativeToolTip": "EBookClient\\UC_Control\\UC_MainPage.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAA9wBcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T13:02:32.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T13:02:32.462Z"
             }
           ]
         }

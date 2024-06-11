@@ -57,10 +57,10 @@ namespace EBookClient.UC_Control
         {
             this.BackColor = Color.FromArgb(255, 255, 255);
         }
-
+        public event EventHandler FriendRemoved;
         private void Remove_Friend_Button_Click(object sender, EventArgs e)
         {
-
+            FriendRemoved?.Invoke(this, EventArgs.Empty);
         }
     }
 }
