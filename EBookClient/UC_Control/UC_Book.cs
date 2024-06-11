@@ -22,6 +22,7 @@ namespace EBookClient.UC_Control
         private Image _icon;
         private string _title;
         private string _author;
+        private string _price;
 
         [Category("Custom Props")]
         public Image Icon
@@ -41,6 +42,14 @@ namespace EBookClient.UC_Control
         {
             get { return _author; }
             set { _author = value; AuthorLabel.Text = value; }
+            //#endregion
+        }
+
+        [Category("Custom Props")]
+        public string Price
+        {
+            get { return _price; }
+            set { _price = value; PriceLabel.Text = value; }
             #endregion
         }
 
@@ -64,6 +73,18 @@ namespace EBookClient.UC_Control
         private void ImageBox_MouseLeave(object sender, EventArgs e)
         {
             this.BackColor = Color.FromArgb(255, 255, 255);
+        }
+
+        private void AddToWishlistButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("The book has been successfully added to your wishlist", "Message",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void AddToOrderButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("The book has been successfully added to your order", "Message",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
