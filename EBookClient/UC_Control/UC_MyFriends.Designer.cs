@@ -1,6 +1,6 @@
 ﻿namespace EBookClient.UC_Control
 {
-    partial class UC_MainPage
+    partial class UC_MyFriends
     {
         /// <summary> 
         /// Required designer variable.
@@ -63,7 +63,7 @@
             this.SearchField.Size = new System.Drawing.Size(254, 40);
             this.SearchField.TabIndex = 0;
             this.SearchField.TextInput = "";
-            this.SearchField.TextPreview = "Search";
+            this.SearchField.TextPreview = "Search Friends";
             this.SearchField.UseSystemPasswordChar = false;
             this.SearchField.TextChanged += new System.EventHandler(this.SearchField_TextChanged);
             // 
@@ -170,14 +170,14 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(900, 658);
             this.flowLayoutPanel1.TabIndex = 15;
             // 
-            // UC_MainPage
+            // UC_MyFriends
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "UC_MainPage";
+            this.Name = "UC_MyFriends";
             this.Size = new System.Drawing.Size(900, 760);
             this.Load += new System.EventHandler(this.UC_MainPage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

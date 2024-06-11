@@ -179,7 +179,8 @@ namespace EBookClient
 
         private void FriendsButt_Click(object sender, EventArgs e)
         {
-
+            var FriendsPage = new UC_MyFriends();
+            addUserContorol(FriendsPage);
         }
 
         private void flowLayoutPanel1_MouseDown(object sender, MouseEventArgs e)

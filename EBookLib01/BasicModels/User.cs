@@ -18,7 +18,7 @@ namespace EBookLib01.BasicModels
         public string Password { get; set; }
         public DateTime RegDate { get; set; }
         public int RoleId { get; set; }
-        public int PublicsherId { get; set; }
+        public int PublisherId { get; set; }
 
         public virtual List<Wishlist> Wishlist { get; set; }
         public virtual List<MyLibrary> MyLibraries { get; set; }

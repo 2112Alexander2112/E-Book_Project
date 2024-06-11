@@ -145,11 +145,23 @@
     <Compile Include="UC_Control\UC_AllBooks.Designer.cs">
       <DependentUpon>UC_AllBooks.cs</DependentUpon>
     </Compile>
+    <Compile Include="UC_Control\UC_Friends.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_Friends.Designer.cs">
+      <DependentUpon>UC_Friends.cs</DependentUpon>
+    </Compile>
     <Compile Include="UC_Control\UC_Book.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UC_Control\UC_Book.Designer.cs">
       <DependentUpon>UC_Book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Control\UC_MyFriends.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_MyFriends.Designer.cs">
+      <DependentUpon>UC_MyFriends.cs</DependentUpon>
     </Compile>
     <Compile Include="UC_Control\UC_MainPage.cs">
       <SubType>UserControl</SubType>
@@ -218,8 +230,14 @@
     <EmbeddedResource Include="UC_Control\UC_AllBooks.resx">
       <DependentUpon>UC_AllBooks.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_Friends.resx">
+      <DependentUpon>UC_Friends.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UC_Control\UC_Book.resx">
       <DependentUpon>UC_Book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_MyFriends.resx">
+      <DependentUpon>UC_MyFriends.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UC_Control\UC_MainPage.resx">
       <DependentUpon>UC_MainPage.cs</DependentUpon>
