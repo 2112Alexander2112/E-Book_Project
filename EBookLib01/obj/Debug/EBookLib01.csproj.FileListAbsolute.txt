@@ -25,13 +25,10 @@ C:\Users\solod\IT\Step\E-Book_Project\EBookLib01\bin\Debug\System.Text.Json.xml
 C:\Users\solod\IT\Step\E-Book_Project\EBookLib01\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\solod\IT\Step\E-Book_Project\EBookLib01\bin\Debug\System.ValueTuple.xml
 C:\Users\solod\IT\Step\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.csproj.AssemblyReference.cache
-C:\Users\solod\IT\Step\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.Migrations.DbCreated.resources
-C:\Users\solod\IT\Step\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.csproj.GenerateResource.cache
 C:\Users\solod\IT\Step\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.csproj.CoreCompileInputs.cache
 C:\Users\solod\IT\Step\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.csproj.Up2Date
 C:\Users\solod\IT\Step\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.dll
 C:\Users\solod\IT\Step\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.pdb
-C:\Users\solod\IT\Step\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.Migrations.BookFixed.resources
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.csproj.AssemblyReference.cache
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.csproj.CoreCompileInputs.cache
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.dll
