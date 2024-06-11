@@ -70,7 +70,6 @@ C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\D
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Numerics.Vectors.dll
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Text.Encodings.Web.dll
-C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Text.Json.dll
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.ValueTuple.dll
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\EBookLib01.pdb

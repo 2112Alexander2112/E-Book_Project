@@ -10,5 +10,7 @@ namespace EBookLib01.BasicModels
         public DateTime CreateDate { get; set; }
         public string BookName { get; set; }
         public string AlterName { get; set; }
+
+        public virtual List<BookInfo> Books { get; set; }
     }
 }

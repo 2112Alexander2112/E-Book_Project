@@ -27,7 +27,7 @@ namespace EBookServer
         private TcpListener _tcpListener;
         private Thread _listenerThread;
 
-        private EBookBase _shopDb;
+        private NewDataModel _shopDb;
         private JSONSender _jsonSender;
         public Form1()
         {
@@ -35,7 +35,7 @@ namespace EBookServer
             _port = 9001;
             _ipAdress = IPAddress.Parse("127.0.0.1");
             _ep = new IPEndPoint(_ipAdress, _port);
-            _shopDb = new EBookBase();
+            _shopDb = new NewDataModel();
             _numberOfUsers = 20;
             _jsonSender = new JSONSender();
         }

@@ -73,10 +73,11 @@
             this.LoginField.Font = new System.Drawing.Font("Arial", 11.25F);
             this.LoginField.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
             this.LoginField.ForeColor = System.Drawing.Color.Black;
-            this.LoginField.Location = new System.Drawing.Point(23, 47);
+            this.LoginField.Location = new System.Drawing.Point(31, 58);
+            this.LoginField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LoginField.Name = "LoginField";
             this.LoginField.SelectionStart = 0;
-            this.LoginField.Size = new System.Drawing.Size(297, 40);
+            this.LoginField.Size = new System.Drawing.Size(396, 49);
             this.LoginField.TabIndex = 0;
             this.LoginField.TextInput = "";
             this.LoginField.TextPreview = "Введіть свій логін";
@@ -91,10 +92,11 @@
             this.EmailField.Font = new System.Drawing.Font("Arial", 11.25F);
             this.EmailField.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
             this.EmailField.ForeColor = System.Drawing.Color.Black;
-            this.EmailField.Location = new System.Drawing.Point(23, 116);
+            this.EmailField.Location = new System.Drawing.Point(31, 143);
+            this.EmailField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EmailField.Name = "EmailField";
             this.EmailField.SelectionStart = 0;
-            this.EmailField.Size = new System.Drawing.Size(297, 40);
+            this.EmailField.Size = new System.Drawing.Size(396, 49);
             this.EmailField.TabIndex = 1;
             this.EmailField.TextInput = "";
             this.EmailField.TextPreview = "Введіть свій Email";
@@ -109,10 +111,11 @@
             this.CopyEmailField.Font = new System.Drawing.Font("Arial", 11.25F);
             this.CopyEmailField.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
             this.CopyEmailField.ForeColor = System.Drawing.Color.Black;
-            this.CopyEmailField.Location = new System.Drawing.Point(23, 182);
+            this.CopyEmailField.Location = new System.Drawing.Point(31, 224);
+            this.CopyEmailField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CopyEmailField.Name = "CopyEmailField";
             this.CopyEmailField.SelectionStart = 0;
-            this.CopyEmailField.Size = new System.Drawing.Size(297, 40);
+            this.CopyEmailField.Size = new System.Drawing.Size(396, 49);
             this.CopyEmailField.TabIndex = 2;
             this.CopyEmailField.TextInput = "";
             this.CopyEmailField.TextPreview = "Продублюйте свій Email";
@@ -127,10 +130,11 @@
             this.PassField.Font = new System.Drawing.Font("Arial", 11.25F);
             this.PassField.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
             this.PassField.ForeColor = System.Drawing.Color.Black;
-            this.PassField.Location = new System.Drawing.Point(23, 241);
+            this.PassField.Location = new System.Drawing.Point(31, 297);
+            this.PassField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PassField.Name = "PassField";
             this.PassField.SelectionStart = 0;
-            this.PassField.Size = new System.Drawing.Size(297, 40);
+            this.PassField.Size = new System.Drawing.Size(396, 49);
             this.PassField.TabIndex = 3;
             this.PassField.TextInput = "";
             this.PassField.TextPreview = "Введіть свій пароль";
@@ -145,10 +149,11 @@
             this.CopyPassField.Font = new System.Drawing.Font("Arial", 11.25F);
             this.CopyPassField.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
             this.CopyPassField.ForeColor = System.Drawing.Color.Black;
-            this.CopyPassField.Location = new System.Drawing.Point(23, 303);
+            this.CopyPassField.Location = new System.Drawing.Point(31, 373);
+            this.CopyPassField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CopyPassField.Name = "CopyPassField";
             this.CopyPassField.SelectionStart = 0;
-            this.CopyPassField.Size = new System.Drawing.Size(297, 40);
+            this.CopyPassField.Size = new System.Drawing.Size(396, 49);
             this.CopyPassField.TabIndex = 4;
             this.CopyPassField.TextInput = "";
             this.CopyPassField.TextPreview = "Продублюйте свій пароль";
@@ -162,9 +167,10 @@
             this.toggleSwitch1.Checked = false;
             this.toggleSwitch1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.toggleSwitch1.Font = new System.Drawing.Font("Verdana", 9F);
-            this.toggleSwitch1.Location = new System.Drawing.Point(23, 371);
+            this.toggleSwitch1.Location = new System.Drawing.Point(31, 457);
+            this.toggleSwitch1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.toggleSwitch1.Name = "toggleSwitch1";
-            this.toggleSwitch1.Size = new System.Drawing.Size(232, 15);
+            this.toggleSwitch1.Size = new System.Drawing.Size(355, 18);
             this.toggleSwitch1.TabIndex = 5;
             this.toggleSwitch1.Text = "Я приймаю ліцензійну угоду";
             this.toggleSwitch1.TextOnChecked = "";
@@ -184,11 +190,12 @@
             this.RegButton.Enabled = false;
             this.RegButton.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.RegButton.ForeColor = System.Drawing.Color.White;
-            this.RegButton.Location = new System.Drawing.Point(23, 392);
+            this.RegButton.Location = new System.Drawing.Point(31, 482);
+            this.RegButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.RegButton.Name = "RegButton";
             this.RegButton.RippleColor = System.Drawing.Color.Black;
             this.RegButton.RoundingEnable = false;
-            this.RegButton.Size = new System.Drawing.Size(297, 30);
+            this.RegButton.Size = new System.Drawing.Size(396, 37);
             this.RegButton.TabIndex = 6;
             this.RegButton.Text = "Зареєструватися";
             this.RegButton.TextHover = null;
@@ -203,9 +210,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(23, 94);
+            this.label1.Location = new System.Drawing.Point(31, 116);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 20);
+            this.label1.Size = new System.Drawing.Size(0, 25);
             this.label1.TabIndex = 7;
             // 
             // label2
@@ -213,9 +221,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(23, 163);
+            this.label2.Location = new System.Drawing.Point(31, 201);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 20);
+            this.label2.Size = new System.Drawing.Size(0, 25);
             this.label2.TabIndex = 8;
             // 
             // label3
@@ -223,9 +232,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(23, 225);
+            this.label3.Location = new System.Drawing.Point(31, 277);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 20);
+            this.label3.Size = new System.Drawing.Size(0, 25);
             this.label3.TabIndex = 9;
             // 
             // label4
@@ -233,9 +243,10 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(23, 284);
+            this.label4.Location = new System.Drawing.Point(31, 350);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(0, 20);
+            this.label4.Size = new System.Drawing.Size(0, 25);
             this.label4.TabIndex = 10;
             // 
             // label5
@@ -243,9 +254,10 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(23, 346);
+            this.label5.Location = new System.Drawing.Point(31, 426);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 20);
+            this.label5.Size = new System.Drawing.Size(0, 25);
             this.label5.TabIndex = 11;
             // 
             // timer1
@@ -255,9 +267,9 @@
             // 
             // RegForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(344, 450);
+            this.ClientSize = new System.Drawing.Size(459, 554);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -270,6 +282,7 @@
             this.Controls.Add(this.CopyEmailField);
             this.Controls.Add(this.EmailField);
             this.Controls.Add(this.LoginField);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "RegForm";
             this.Text = "Форма Реєстрації E-Book";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.RegForm_FormClosed);

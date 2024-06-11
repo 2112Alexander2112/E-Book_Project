@@ -24,7 +24,7 @@ namespace EBookClient
         public BookSearch()
         {
             InitializeComponent();
-        
+        _jsonsender = new JSONSender();
     }
 
         private void button1_Click(object sender, EventArgs e)

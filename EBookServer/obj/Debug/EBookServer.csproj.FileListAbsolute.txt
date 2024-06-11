@@ -84,3 +84,7 @@ C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\obj\D
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\obj\Debug\EBookServer.csproj.GenerateResource.cache
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\obj\Debug\EBookServer.csproj.CoreCompileInputs.cache
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\obj\Debug\EBookSer.C9D82F8A.Up2Date
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.FirstMigrationSova.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.SecondMigrationSova.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.ThirdFixedMigrationSova.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.FouthFixedMigrationSova.resources

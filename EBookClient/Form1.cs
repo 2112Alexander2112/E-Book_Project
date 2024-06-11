@@ -16,20 +16,11 @@ namespace EBookClient
 {
     public partial class Form1 : Form
     {
-        private int _port;
-        private IPAddress _ipAddres;
-        private IPEndPoint _ep;
-        private TcpClient _tcpClient;
-        private JSONSender _jsonSender;
+       
         public Form1()
         {
             InitializeComponent();
-           
-            _port = 9001;
-            _ipAddres = IPAddress.Parse("127.0.0.1");
-            _tcpClient = new TcpClient();
-            _ep = new IPEndPoint(_ipAddres, _port);
-            _jsonSender = new JSONSender();
+         
 
         }
 
@@ -45,16 +36,6 @@ namespace EBookClient
 
         private void AboutBook_Click(object sender, EventArgs e)
         {
-            var searchForm = new BookSearch()
-            {
-                PortDTO = _port,
-                AddrDTO = _ipAddres,
-            };
-            if (searchForm.ShowDialog() == DialogResult.OK)
-            {
-
-            }
-
         }
     }
 }
