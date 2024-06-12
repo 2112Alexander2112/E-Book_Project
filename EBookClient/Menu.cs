@@ -1,4 +1,5 @@
 ﻿using EBookClient.UC_Control;
+using EBookLib01.BasicModels;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -7,19 +8,19 @@ namespace EBookClient
 {
     public partial class Menu : Form
     {
-        public Menu()
+        public Menu(string user)
         {
             InitializeComponent();
+            currentUserName = user;
         }
 
         private bool MenuBarEx;
         private bool StoreBarEx;
         private bool PfBarEx;
         private bool LibBarEx;
-
         private bool dragging = false;
         private Point startPoint = new Point(0, 0);
-
+        private string currentUserName;
         private void addUserContorol(UserControl userControl)
         {
             //TODO: Fix
@@ -167,7 +168,7 @@ namespace EBookClient
 
         private void MyProfileButt_Click(object sender, EventArgs e)
         {
-            var MyProfile = new UC_MyProfile();
+            var MyProfile = new UC_MyProfile(currentUserName);
             addUserContorol(MyProfile);
         }
 
@@ -213,6 +214,11 @@ namespace EBookClient
         {
             var ms = new UC_MySeries();
             addUserContorol(ms);
+        }
+        private void Setting_Click(object sender, EventArgs e)
+        {
+            var bs = new BookSearch();
+            bs.ShowDialog();
         }
     }
 }

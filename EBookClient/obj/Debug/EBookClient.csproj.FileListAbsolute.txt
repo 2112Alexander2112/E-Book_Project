@@ -30,7 +30,6 @@ C:\Users\solod\IT\Step\E-Book_Project\EBookClient\bin\Debug\System.Memory.xml
 C:\Users\solod\IT\Step\E-Book_Project\EBookClient\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\solod\IT\Step\E-Book_Project\EBookClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\solod\IT\Step\E-Book_Project\EBookClient\bin\Debug\System.Text.Encodings.Web.xml
-C:\Users\solod\IT\Step\E-Book_Project\EBookClient\bin\Debug\System.Text.Json.xml
 C:\Users\solod\IT\Step\E-Book_Project\EBookClient\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\solod\IT\Step\E-Book_Project\EBookClient\bin\Debug\System.ValueTuple.xml
 C:\Users\solod\IT\Step\E-Book_Project\EBookClient\obj\Debug\EBookClient.csproj.AssemblyReference.cache
@@ -112,3 +111,4 @@ C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\D
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.pdb
 C:\Users\solod\IT\Step\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_Friends.resources
 C:\Users\solod\IT\Step\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_MyFriends.resources
+C:\Users\solod\IT\Step\E-Book_Project\EBookClient\bin\Debug\System.Text.Json.xml

@@ -1,6 +1,6 @@
 ﻿namespace EBookClient
 {
-    partial class SearchForBookForm
+    partial class AuthForm
     {
     }
 }

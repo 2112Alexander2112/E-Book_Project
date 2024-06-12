@@ -28,26 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.AboutBook = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // AboutBook
-            // 
-            this.AboutBook.Location = new System.Drawing.Point(53, 59);
-            this.AboutBook.Name = "AboutBook";
-            this.AboutBook.Size = new System.Drawing.Size(187, 50);
-            this.AboutBook.TabIndex = 0;
-            this.AboutBook.Text = "Про книгу";
-            this.AboutBook.UseVisualStyleBackColor = true;
-            this.AboutBook.Click += new System.EventHandler(this.AboutBook_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(372, 158);
-            this.Controls.Add(this.AboutBook);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.ClientSize = new System.Drawing.Size(279, 128);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -56,8 +43,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button AboutBook;
     }
 }
 

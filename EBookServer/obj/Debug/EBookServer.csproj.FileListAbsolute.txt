@@ -31,7 +31,6 @@ C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Memory.xml
 C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Text.Encodings.Web.xml
-C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Text.Json.xml
 C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.ValueTuple.xml
 C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.csproj.AssemblyReference.cache

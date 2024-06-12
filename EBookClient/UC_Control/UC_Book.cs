@@ -12,9 +12,17 @@ namespace EBookClient.UC_Control
 {
     public partial class UC_Book : UserControl
     {
-        public UC_Book()
+        public UC_Book(bool isWishlisted)
         {
             InitializeComponent();
+            if(isWishlisted)
+            {
+                AddToWishlistButton.Text = "Remove from wishlist";
+            }
+            else
+            {
+                AddToWishlistButton.Text = "Add to wishlist";
+            }
         }
 
         #region Getter & Setter For Labes & Picture

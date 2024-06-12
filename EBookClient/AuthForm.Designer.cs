@@ -37,8 +37,8 @@ namespace EBookClient
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.toggleSwitch1 = new EBookLib01.Controls.ToggleSwitch();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.RegButton = new EBookLib01.Controls.yt_buttons();
             this.AuthButton = new EBookLib01.Controls.yt_buttons();
             this.PassField = new EBookLib01.Controls.RoundTextBox();
@@ -84,18 +84,6 @@ namespace EBookClient
             this.label1.Size = new System.Drawing.Size(0, 20);
             this.label1.TabIndex = 6;
             // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.linkLabel1.Location = new System.Drawing.Point(412, 203);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(160, 25);
-            this.linkLabel1.TabIndex = 4;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Забув пароль?";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel1_LinkClicked);
-            // 
             // toggleSwitch1
             // 
             this.toggleSwitch1.BackColor = System.Drawing.Color.White;
@@ -110,6 +98,18 @@ namespace EBookClient
             this.toggleSwitch1.TabIndex = 5;
             this.toggleSwitch1.Text = "Запамятати мене";
             this.toggleSwitch1.TextOnChecked = "";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.linkLabel1.Location = new System.Drawing.Point(412, 203);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(160, 25);
+            this.linkLabel1.TabIndex = 4;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Забув пароль?";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel1_LinkClicked);
             // 
             // RegButton
             // 
@@ -229,6 +229,7 @@ namespace EBookClient
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AuthForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Увійти E-Book";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

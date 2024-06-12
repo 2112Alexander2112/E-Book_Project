@@ -334,6 +334,7 @@
             this.Settings.TabIndex = 0;
             this.Settings.Text = "Settings";
             this.Settings.UseVisualStyleBackColor = true;
+            this.Settings.Click += new System.EventHandler(this.Setting_Click);
             // 
             // MenuTimer
             // 

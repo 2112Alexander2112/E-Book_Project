@@ -52,7 +52,7 @@ namespace EBookClient.UC_Control
 
             for (int i = 0; i < booksElements.Length; i++)
             {
-                booksElements[i] = new UC_Book();
+                booksElements[i] = new UC_Book(true);
                 booksElements[i].Title = books[startIndex + i].BookName;
                 booksElements[i].Author = books[startIndex + i].Author.AuthorName;
                 booksElements[i].Icon = icons[startIndex + i];
@@ -113,7 +113,7 @@ namespace EBookClient.UC_Control
 
             for (int i = 0; i < booksElements.Length; i++)
             {
-                booksElements[i] = new UC_Book();
+                booksElements[i] = new UC_Book(true);
                 booksElements[i].Title = filteredBooks[startIndex + i].BookName;
                 booksElements[i].Author = filteredBooks[startIndex + i].Author.AuthorName;
                 booksElements[i].Icon = icons[startIndex + i];

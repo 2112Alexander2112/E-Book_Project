@@ -44,7 +44,7 @@ namespace EBookClient
                     else
                     {
                         this.Hide();
-                        var Menu = new Menu();
+                        var Menu = new Menu("currentUserTest");
                         Menu.ShowDialog();
                         this.Hide();
                         
