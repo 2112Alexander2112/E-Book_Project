@@ -9,7 +9,7 @@ using EBookLib01.BasicModels;
 
 namespace EBookLib01.BasicModels
 {
-    [Serializable]
+
     public class Author
     {
             [Required]

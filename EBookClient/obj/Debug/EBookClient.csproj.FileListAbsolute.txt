@@ -85,7 +85,6 @@ C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\D
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Numerics.Vectors.xml
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Text.Encodings.Web.xml
-C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Text.Json.xml
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.ValueTuple.xml
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.csproj.AssemblyReference.cache
@@ -109,3 +108,5 @@ C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\D
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookCli.306F338C.Up2Date
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.exe
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.pdb
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Text.Json.dll
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Text.Json.xml

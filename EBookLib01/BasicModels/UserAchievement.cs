@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EBookLib01.BasicModels
 {
-    [Serializable]
+    
     public class UserAchievement
     {
         public int Id { get; set; }

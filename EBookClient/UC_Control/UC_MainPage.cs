@@ -5,12 +5,17 @@ using System.Data;
 using System.Linq;
 using System.Windows.Forms;
 using System.Drawing;
+using System.Net;
+using EBookLib01.HelperModels.TransitModels;
+using EBookLib01;
 
 namespace EBookClient.UC_Control
 {
     public partial class UC_MainPage : UserControl
     {
-
+        public int portDTO {  get; set; }
+        public IPAddress _addrDTO {  get; set; }
+        private JSONSender _sender {  get; set; }
         private int currentPage = 0;
         private int totalPages = 0;
         private int booksPerPage = 12;
@@ -21,11 +26,11 @@ namespace EBookClient.UC_Control
         static List<Image> icons = CreateIconArray(books.Count);
 
         int totalBooks = 0;
-
-
+        
         public UC_MainPage()
         {
             InitializeComponent();
+            _sender = new JSONSender();
         }
 
         void UC_Book_Click(object sender, EventArgs e)
@@ -37,7 +42,10 @@ namespace EBookClient.UC_Control
         {
             ShowCurrentPage();
         }
+        private void Install()
+        {
 
+        }
         private void ShowCurrentPage()
         {
             flowLayoutPanel1.Controls.Clear();
@@ -153,7 +161,8 @@ namespace EBookClient.UC_Control
             var random = new Random();
             var books = new List<Book>();
 
-            var sampleBookNames = new List<string>
+            var sampleBookNames = new List<string>()
+            
             {
                 "The Great Adventure", "Mystery of the Night", "Journey to the Unknown", "The Last Frontier", "Echoes of the Past",
                 "Whispers of the Wind", "Shadows in the Moonlight", "The Enchanted Forest", "Beyond the Horizon", "Silent Thunder",
@@ -161,8 +170,8 @@ namespace EBookClient.UC_Control
                 "Guardian of the Realm", "The Hidden Path", "Voice of the Sea", "The Eternal Quest", "Realm of Dreams",
                 "The Forgotten Temple", "Echoes in the Valley", "Winds of Change", "Beneath the Surface", "The Crystal Cave"
             };
-
-            var sampleAlterNames = new List<string>
+            
+            var sampleAlterNames = new List<string>()
             {
                 "Adventure Series", "Night Tales", "Unknown Chronicles", "Frontier Stories", "Past Echoes",
                 "Wind Whispers", "Moonlight Shadows", "Forest Enchantment", "Horizon Beyond", "Thunder Silence",
@@ -170,6 +179,8 @@ namespace EBookClient.UC_Control
                 "Realm Guardians", "Path Hidden", "Sea Voices", "Quest Eternal", "Dream Realms",
                 "Temple Forgotten", "Valley Echoes", "Change Winds", "Surface Depths", "Cave Crystals"
             };
+            
+
 
             for (int i = 0; i < count; i++)
             {
@@ -242,6 +253,11 @@ namespace EBookClient.UC_Control
         private void button1_Click(object sender, EventArgs e)
         {
             flowLayoutPanel1.Visible = false; ;
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

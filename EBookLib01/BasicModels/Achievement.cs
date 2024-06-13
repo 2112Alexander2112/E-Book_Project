@@ -7,7 +7,7 @@ using EBookLib01.BasicModels;
 
 namespace EBookLib01.BasicModels
 {
-    [Serializable]
+    
     public class Achievement
     {
         public int Id { get; set; }

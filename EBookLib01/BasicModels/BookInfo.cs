@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace EBookLib01.BasicModels
 {
-    [Serializable]
+    
     public class BookInfo
     {
         public int Id { get; set; }

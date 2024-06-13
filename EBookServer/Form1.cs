@@ -43,7 +43,7 @@ namespace EBookServer
         private void Form1_Load(object sender, EventArgs e)
         {
             _tcpListener = new TcpListener(_ep);
-            _tcpListener.Start();
+            _tcpListener.Start(_numberOfUsers);
 
             _listenerThread = new Thread(new ThreadStart(MainLoop));
             _listenerThread.IsBackground = true;
@@ -51,8 +51,8 @@ namespace EBookServer
         }
         private void MainLoop()
         {
-            try
-            {
+            //try
+            //{
                 while (true)
                 {
                     TcpClient client = _tcpListener.AcceptTcpClient();
@@ -74,16 +74,17 @@ namespace EBookServer
                                 };
                                 var response = _jsonSender.ServerMessageSerialize(serverMessage);
                                 StreamWriter sw = new StreamWriter(ns);
+                                
                                 sw.WriteLine(response);
                                 sw.Flush();
 
-                                sw.Close();
-                                sr.Close();
-                                ns.Close();
+                                //sw.Close();
+                               // sr.Close();
+                                //ns.Close();
                             }
                             else
                             {
-                                var genre = _shopDb.Genres.Where(g => g.Id == searchbook.Id).First();
+                                var genre = _shopDb.Genres.Where(g => g.Id == searchbook.GenreId).First();
                                 var publisher = _shopDb.Publishers.Where(p => p.Id == searchbook.PublisherId).First();
                                 var autor = _shopDb.Authors.Where(a => a.Id == searchbook.AuthorId).First();
                                 var infoaboutbook = new AboutBookModel()
@@ -98,16 +99,16 @@ namespace EBookServer
                                 var findedBookMessage = new ServerMessage()
                                 {
                                     Messagge = "BOOKFOUNDED",
-                                    
+                                    About = infoaboutbook
                                 };
                                 var findedBook = _jsonSender.ServerMessageSerialize(findedBookMessage);
                                 StreamWriter sw = new StreamWriter(ns);
                                 sw.WriteLine(findedBook);
                                 sw.Flush();
 
-                                sw.Close();
-                                sr.Close();
-                                ns.Close();
+                                //sw.Close();
+                                //sr.Close();
+                                //ns.Close();
                             }
                         break;
                         case "REG_USER":
@@ -116,14 +117,16 @@ namespace EBookServer
                             break;
                         case "GET_BOOK":
                             break;
+                        case "GETALLBOOKS":
+                            break;
 
                     }
                 }
-            }
-            catch (Exception ex)
-            {
-
-            }
+            //}
+            //catch (Exception ex)
+            //{
+                //MessageBox.Show(ex.Message);
+            //}
         }
     }
 }

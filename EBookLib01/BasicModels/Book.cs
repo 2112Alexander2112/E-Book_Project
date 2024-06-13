@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EBookLib01.BasicModels
 {
-    [Serializable]
+  
     public class Book
     {
         [Required]
