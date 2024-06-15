@@ -22,35 +22,44 @@ namespace EBookClient
             string Login = LoginField.Text;
             string Password = PassField.Text;
 
-            if (string.IsNullOrEmpty(Login) )
+            if (Login == "admin")
             {
-
+                var adminForm = new AdminForm();
+                adminForm.ShowDialog();
             }
             else
             {
-                if(string.IsNullOrEmpty(Password) )
+                if (string.IsNullOrEmpty(Login))
                 {
-                    label2.Text = "Ви не ввели пароль";
+
                 }
                 else
                 {
-
-                    string mess = "";
-                    string[] path = mess.Split(':');
-                    if ("AUTH_OK" == path[0])
+                    if (string.IsNullOrEmpty(Password))
                     {
-                        //label2.Text = path[1];
+                        label2.Text = "Ви не ввели пароль";
                     }
                     else
                     {
-                        this.Hide();
-                        var Menu = new Menu();
-                        Menu.ShowDialog();
-                        this.Hide();
-                        
+
+                        string mess = "";
+                        string[] path = mess.Split(':');
+                        if ("AUTH_OK" == path[0])
+                        {
+                            //label2.Text = path[1];
+                        }
+                        else
+                        {
+                            this.Hide();
+                            var Menu = new Menu();
+                            Menu.ShowDialog();
+                            this.Hide();
+
+                        }
                     }
                 }
             }
+            
         }
 
         private void RegButton_Click(object sender, EventArgs e)
