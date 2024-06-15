@@ -112,11 +112,39 @@
     <Compile Include="Migrations\202406151234396_SovaMigration.Designer.cs">
       <DependentUpon>202406151234396_SovaMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202406151454510_BookInfoFixed.cs" />
+    <Compile Include="Migrations\202406151454510_BookInfoFixed.Designer.cs">
+      <DependentUpon>202406151454510_BookInfoFixed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202406151456222_PublishersFixed.cs" />
+    <Compile Include="Migrations\202406151456222_PublishersFixed.Designer.cs">
+      <DependentUpon>202406151456222_PublishersFixed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202406151457498_GenresFixed.cs" />
+    <Compile Include="Migrations\202406151457498_GenresFixed.Designer.cs">
+      <DependentUpon>202406151457498_GenresFixed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202406151459057_AuthorsFixed.cs" />
+    <Compile Include="Migrations\202406151459057_AuthorsFixed.Designer.cs">
+      <DependentUpon>202406151459057_AuthorsFixed.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Migrations\202406151234396_SovaMigration.resx">
       <DependentUpon>202406151234396_SovaMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406151454510_BookInfoFixed.resx">
+      <DependentUpon>202406151454510_BookInfoFixed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406151456222_PublishersFixed.resx">
+      <DependentUpon>202406151456222_PublishersFixed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406151457498_GenresFixed.resx">
+      <DependentUpon>202406151457498_GenresFixed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406151459057_AuthorsFixed.resx">
+      <DependentUpon>202406151459057_AuthorsFixed.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

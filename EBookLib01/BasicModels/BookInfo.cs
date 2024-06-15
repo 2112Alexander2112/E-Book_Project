@@ -11,6 +11,5 @@ namespace EBookLib01.BasicModels
         public string BookName { get; set; }
         public string AlterName { get; set; }
 
-        public virtual List<Book> Books { get; set; }
     }
 }

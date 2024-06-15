@@ -176,6 +176,9 @@ namespace EBookClient
         private void MainpageButt_Click(object sender, EventArgs e)
         {
             var mainpage = new UC_MainPage();
+            mainpage.AddrDTO = _ipAddres;
+            mainpage.PortDTO = _port;
+            mainpage.GetBooksFromServer();
             addUserContorol(mainpage);
         }
 
@@ -222,11 +225,9 @@ namespace EBookClient
             var AllBooks = new UC_AllBooks();
             addUserContorol(AllBooks);
 
-            var searchForm = new BookSearch()
-            {
-                PortDTO = _port,
-                AddrDTO = _ipAddres,
-            };
+            var searchForm = new BookSearch();
+            searchForm.PortDTO = _port;
+            searchForm.AddrDTO = _ipAddres;
 
             if (searchForm.ShowDialog() == DialogResult.OK)
             {
@@ -243,6 +244,8 @@ namespace EBookClient
         private void Setting_Click(object sender, EventArgs e)
         {
             var bs = new BookSearch();
+            bs.PortDTO = _port;
+            bs.AddrDTO = _ipAddres;
             bs.ShowDialog();
         }
     }

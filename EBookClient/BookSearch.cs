@@ -32,8 +32,6 @@ namespace EBookClient
         {
             try
             {
-
-
                 var messageToServer = new ClientMessage()
                 {
                     Header = "SHOWBOOK",
@@ -54,14 +52,13 @@ namespace EBookClient
 
                 StreamReader sr = new StreamReader(ns);
                 var serverMessage = sr.ReadLine();
-                //var serverMessage2 = new ServerMessage();
                 var serverMessage2 = _jsonsender.ServerMessageDeserialize(serverMessage);
 
 
 
                 if (serverMessage2.Messagge == "BOOKFOUNDED")
                 {
-                    BookSerch.Text = serverMessage2.About.Price.ToString();
+                    PriceField.Text = serverMessage2.About.Price.ToString();
                     AuthorField.Text = serverMessage2.About.Author;
                     GenreField.Text = serverMessage2.About.Genre;
                     PublisherField.Text = serverMessage2.About.Publisher;

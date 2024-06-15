@@ -12,6 +12,10 @@ using EBookLib01;
 using EBookLib01.HelperModels.TransitModels;
 using EBookServer.EF_ORM;
 using EBookLib01.HelperModels;
+using EBookLib01.BasicModels;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using System.Security.Cryptography.X509Certificates;
 
 namespace EBookServer
 {
@@ -72,10 +76,10 @@ namespace EBookServer
                                 Messagge = "NOTFINDED"
                             };
                             var response = _jsonSender.ServerMessageSerialize(serverMessage);
-                            StreamWriter sw = new StreamWriter(ns);
+                            StreamWriter streaWriter = new StreamWriter(ns);
 
-                            sw.WriteLine(response);
-                            sw.Flush();
+                            streaWriter.WriteLine(response);
+                            streaWriter.Flush();
 
                             //sw.Close();
                             //sr.Close();
@@ -101,9 +105,9 @@ namespace EBookServer
                                 About = infoaboutbook
                             };
                             var findedBook = _jsonSender.ServerMessageSerialize(findedBookMessage);
-                            StreamWriter sw = new StreamWriter(ns);
-                            sw.WriteLine(findedBook);
-                            sw.Flush();
+                            StreamWriter streaWriter = new StreamWriter(ns);
+                            streaWriter.WriteLine(findedBook);
+                            streaWriter.Flush();
 
                             //sw.Close();
                             //sr.Close();
@@ -116,9 +120,21 @@ namespace EBookServer
                         break;
                     case "GET_BOOK":
                         break;
-                    case "GETALLBOOKS":
-                        break;
+                    case "GET_ALL_BOOKS":
+                        List<Book> allBooks = _shopDb.Books.ToList();
+                        var allBooksMessage = new ServerMessage()
+                        {
+                            Messagge = "ALL_BOOKS_LIST",
+                            AllBooks = allBooks
+                        };
 
+                        var booksSerialized = _jsonSender.ServerMessageSerialize(allBooksMessage);
+                        StreamWriter sw = new StreamWriter(ns);
+                        sw.WriteLine(booksSerialized);
+                        sw.Flush();
+                        break;
+                    default:
+                        break;
                 }
             }
             //}

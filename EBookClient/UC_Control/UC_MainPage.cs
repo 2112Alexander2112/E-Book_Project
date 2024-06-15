@@ -5,6 +5,15 @@ using System.Data;
 using System.Linq;
 using System.Windows.Forms;
 using System.Drawing;
+using EBookLib01.HelperModels.TransitModels;
+using EBookLib01;
+using System.IO;
+using System.Net.Sockets;
+using System.Security.Policy;
+using System.Net;
+using System.Net.Http;
+using System.Web.UI.WebControls.WebParts;
+using System.Threading;
 
 namespace EBookClient.UC_Control
 {
@@ -19,6 +28,11 @@ namespace EBookClient.UC_Control
         static List<Author> authors = GenerateRandomAuthors(17);
         static List<Book> books = GenerateRandomBooks(52, authors);
         static List<Image> icons = CreateIconArray(books.Count);
+        private JSONSender _jsonsender; 
+        public IPAddress AddrDTO { get; set; }
+        public int PortDTO { get; set; }
+        public string JsonstringSearchBookMessage { get; set; }
+
 
         int totalBooks = 0;
 
@@ -35,7 +49,7 @@ namespace EBookClient.UC_Control
 
         private void UC_MainPage_Load(object sender, EventArgs e)
         {
-            ShowCurrentPage();
+            _jsonsender = new JSONSender();
         }
 
         private void ShowCurrentPage()
@@ -149,6 +163,52 @@ namespace EBookClient.UC_Control
             book.Author.AuthorName.ToLower().Contains(searchTerm)
             ).ToList();
         }
+
+        public void GetBooksFromServer()
+        {
+            MessageBox.Show(AddrDTO.ToString());
+            try
+            {
+                _jsonsender = new JSONSender();
+                var messageToServer = new ClientMessage()
+                {
+                    Header = "GET_ALL_BOOKS",
+                };
+                JsonstringSearchBookMessage = _jsonsender.ClientMessageSerialize(messageToServer);
+
+                var client = new TcpClient();
+
+                client.Connect(AddrDTO, PortDTO);
+
+                NetworkStream ns = client.GetStream();
+                StreamWriter sw = new StreamWriter(ns);
+                sw.WriteLine(JsonstringSearchBookMessage);
+                sw.Flush();
+                MessageBox.Show("Message sent");
+
+
+                StreamReader sr = new StreamReader(ns);
+                var serverMessage = sr.ReadLine();
+                var serverMessage2 = _jsonsender.ServerMessageDeserialize(serverMessage);
+
+                MessageBox.Show(serverMessage);
+
+                if (serverMessage2.Messagge == "ALL_BOOKS_LIST")
+                {
+                    books = serverMessage2.AllBooks;
+                    ShowCurrentPage();
+                }
+                else
+                {
+                    MessageBox.Show("No books were found", "Повідомлення",
+                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Нажаль сталась помилка:{ex.Message}", "Повідомлення", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
         //TODO: Delete Later
         public static List<Book> GenerateRandomBooks(int count, List<Author> authors)
         {
@@ -190,7 +250,7 @@ namespace EBookClient.UC_Control
                     //BookInfos = new List<BookInfo>(),
                     BookInfo = new BookInfo(),
                     Price = 1000,
-                    Publisher = new Publisher(),
+                    Publisher = new EBookLib01.BasicModels.Publisher(),
                     Genre = new Genre(),
                     Category = new Category(),
                     Author = author,
@@ -200,7 +260,6 @@ namespace EBookClient.UC_Control
                     Transactions = new List<Transaction>()
                 };
 
-                author.Books.Add(book);
                 books.Add(book);
             }
         return books;
@@ -226,7 +285,7 @@ namespace EBookClient.UC_Control
                     Id = i + 1,
                     AuthorName = sampleAuthorNames[random.Next(sampleAuthorNames.Count)],
                     Rate = (float)Math.Round(random.NextDouble() * 5, 2),
-                    Books = new List<Book>()
+                    
                 });
             }
 
@@ -244,8 +303,7 @@ namespace EBookClient.UC_Control
 
         private void button1_Click(object sender, EventArgs e)
         {
-            flowLayoutPanel1.Visible = false; ;
-
+            flowLayoutPanel1.Visible = false;
         }
     }
 }

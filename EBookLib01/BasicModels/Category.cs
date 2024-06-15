@@ -14,7 +14,5 @@ namespace EBookLib01.BasicModels
         [Required]
         public int Id { get; set; }
         public string CategoryName { get; set; }
-
-        public virtual List<Book> Books { get; set; }
     }
 }

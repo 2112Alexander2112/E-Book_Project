@@ -122,3 +122,34 @@ C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookLib01\obj\Debug
 C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.csproj.Up2Date
 C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.dll
 C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookLib01\obj\Debug\EBookLib01.pdb
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\EBookLib01.dll.config
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\EBookLib01.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\EBookLib01.pdb
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\EntityFramework.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\Guna.UI2.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\System.Buffers.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\System.Memory.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\System.Text.Json.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\System.ValueTuple.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\EntityFramework.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\System.Buffers.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\System.Memory.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\System.Text.Json.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\bin\Debug\System.ValueTuple.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\obj\Debug\EBookLib01.csproj.AssemblyReference.cache
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\obj\Debug\EBookLib01.csproj.CoreCompileInputs.cache
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\obj\Debug\EBookLib01.csproj.Up2Date
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\obj\Debug\EBookLib01.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookLib01\obj\Debug\EBookLib01.pdb

@@ -188,8 +188,6 @@ namespace EBookClient.UC_Control
                     Wishlists = new List<Wishlist>(),
                     Transactions = new List<Transaction>()
                 };
-
-                author.Books.Add(book);
                 books.Add(book);
             }
             return books;
@@ -215,7 +213,7 @@ namespace EBookClient.UC_Control
                     Id = i + 1,
                     AuthorName = sampleAuthorNames[random.Next(sampleAuthorNames.Count)],
                     Rate = (float)Math.Round(random.NextDouble() * 5, 2),
-                    Books = new List<Book>()
+                    
                 });
             }
 
