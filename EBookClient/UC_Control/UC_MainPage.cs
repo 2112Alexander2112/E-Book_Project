@@ -166,7 +166,6 @@ namespace EBookClient.UC_Control
 
         public void GetBooksFromServer()
         {
-            MessageBox.Show(AddrDTO.ToString());
             try
             {
                 _jsonsender = new JSONSender();
@@ -184,14 +183,11 @@ namespace EBookClient.UC_Control
                 StreamWriter sw = new StreamWriter(ns);
                 sw.WriteLine(JsonstringSearchBookMessage);
                 sw.Flush();
-                MessageBox.Show("Message sent");
 
 
                 StreamReader sr = new StreamReader(ns);
                 var serverMessage = sr.ReadLine();
                 var serverMessage2 = _jsonsender.ServerMessageDeserialize(serverMessage);
-
-                MessageBox.Show(serverMessage);
 
                 if (serverMessage2.Messagge == "ALL_BOOKS_LIST")
                 {
@@ -285,7 +281,6 @@ namespace EBookClient.UC_Control
                     Id = i + 1,
                     AuthorName = sampleAuthorNames[random.Next(sampleAuthorNames.Count)],
                     Rate = (float)Math.Round(random.NextDouble() * 5, 2),
-                    
                 });
             }
 
