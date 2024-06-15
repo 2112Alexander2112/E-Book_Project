@@ -2,7 +2,7 @@
 
 namespace EBookLib01.BasicModels
 {
-    [Serializable]
+    
     public class BookStatistic
     {
         

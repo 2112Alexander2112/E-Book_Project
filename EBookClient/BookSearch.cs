@@ -9,6 +9,7 @@ using System.IO;
 using System.Linq;
 using System.Net.Sockets;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net;
@@ -29,43 +30,55 @@ namespace EBookClient
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var messageToServer = new ClientMessage()
+            try
             {
-                Header = "SHOWBOOK",
-                SeacrhingBook = BookSerch.Text
-            };
-            JsonstringSearchBookMessage = _jsonsender.ClientMessageSerialize(messageToServer);
 
-            var client = new TcpClient();
 
-            client.Connect(AddrDTO, PortDTO);
+                var messageToServer = new ClientMessage()
+                {
+                    Header = "SHOWBOOK",
+                    SeacrhingBook = BookSerch.Text
+                };
+                JsonstringSearchBookMessage = _jsonsender.ClientMessageSerialize(messageToServer);
 
-            NetworkStream ns = client.GetStream();
-            StreamWriter sw = new StreamWriter(ns);
-            sw.WriteLine(messageToServer);
-            sw.Flush();
+                var client = new TcpClient();
 
-            StreamReader sr = new StreamReader(ns);
-            var serverMessage = new ServerMessage();
+                client.Connect(AddrDTO, PortDTO);
 
-            serverMessage.Messagge = sr.ReadLine();
+                NetworkStream ns = client.GetStream();
+                StreamWriter sw = new StreamWriter(ns);
+                sw.WriteLine(JsonstringSearchBookMessage);
+                sw.Flush();
 
-            if (serverMessage.Messagge == "BOOKFOUNDED")
-            {
-                BookSerch.Text = serverMessage.About.Price.ToString();
-                AuthorField.Text = serverMessage.About.Author;
-                GenreField.Text = serverMessage.About.Genre;
-                PublisherField.Text = serverMessage.About.Publisher;
-                Published.Text = serverMessage.About.Published;
-                AlterName.Text = serverMessage.About.AlterName;
+
+
+                StreamReader sr = new StreamReader(ns);
+                var serverMessage = sr.ReadLine();
+                //var serverMessage2 = new ServerMessage();
+                var serverMessage2 = _jsonsender.ServerMessageDeserialize(serverMessage);
+
+
+
+                if (serverMessage2.Messagge == "BOOKFOUNDED")
+                {
+                    BookSerch.Text = serverMessage2.About.Price.ToString();
+                    AuthorField.Text = serverMessage2.About.Author;
+                    GenreField.Text = serverMessage2.About.Genre;
+                    PublisherField.Text = serverMessage2.About.Publisher;
+                    Published.Text = serverMessage2.About.Published;
+                    AlterName.Text = serverMessage2.About.AlterName;
+                }
+                else
+                {
+                    MessageBox.Show("Книжка не знайдена", "Повідомлення",
+                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Книжка не знайдена", "Повідомлення",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show($"Нажаль сталась помилка:{ex.Message}", "Повідомлення", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
         private void ClearField_Click(object sender, EventArgs e)
         {
 

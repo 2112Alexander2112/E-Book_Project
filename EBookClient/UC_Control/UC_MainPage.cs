@@ -187,14 +187,14 @@ namespace EBookClient.UC_Control
                     Published = DateTime.Now.AddDays(-random.Next(0, 3650)), // Random date within the last 10 years
                     PublisherId = random.Next(1, 10),
                     BookInfoId = random.Next(1, 10),
-                    BookInfos = new List<BookInfo>(),
+                    //BookInfos = new List<BookInfo>(),
                     BookInfo = new BookInfo(),
                     Price = 1000,
                     Publisher = new Publisher(),
                     Genre = new Genre(),
                     Category = new Category(),
                     Author = author,
-                    Books = new List<Book>(),
+                    //Books = new List<Book>(),
                     Reviews = new List<Review>(),
                     Wishlists = new List<Wishlist>(),
                     Transactions = new List<Transaction>()

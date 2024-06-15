@@ -5,11 +5,12 @@ using System.Linq;
 
 namespace EBookServer.EF_ORM
 {
-    public class EBookBase : DbContext
+    public class DataManager : DbContext
     {
-        public EBookBase()
-            : base("name=EBookBase")
-        { }
+       
+        public DataManager()
+            : base("name=DataManager")
+        {}
         public DbSet<Achievement> Achievements { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<Book> Books { get; set; }
@@ -29,7 +30,5 @@ namespace EBookServer.EF_ORM
         public DbSet<UserInformation> UserInformations { get; set; }
         public DbSet<Wallet> Wallets { get; set; }
         public DbSet<Wishlist> Wishlists { get; set; }
-    
     }
-
 }

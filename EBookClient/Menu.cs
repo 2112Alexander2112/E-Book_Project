@@ -1,17 +1,30 @@
 ﻿using EBookClient.UC_Control;
+using EBookLib01;
 using EBookLib01.BasicModels;
 using System;
 using System.Drawing;
+using System.Net.Sockets;
+using System.Net;
 using System.Windows.Forms;
 
 namespace EBookClient
 {
     public partial class Menu : Form
     {
+        private int _port;
+        private IPAddress _ipAddres;
+        private IPEndPoint _ep;
+        private TcpClient _tcpClient;
+        private JSONSender _jsonSender;
         public Menu(string user)
         {
             InitializeComponent();
             currentUserName = user;
+            _port = 9001;
+            _ipAddres = IPAddress.Parse("127.0.0.1");
+            _tcpClient = new TcpClient();
+            _ep = new IPEndPoint(_ipAddres, _port);
+            _jsonSender = new JSONSender();
         }
 
         private bool MenuBarEx;
@@ -208,6 +221,18 @@ namespace EBookClient
         {
             var AllBooks = new UC_AllBooks();
             addUserContorol(AllBooks);
+
+            var searchForm = new BookSearch()
+            {
+                PortDTO = _port,
+                AddrDTO = _ipAddres,
+            };
+
+            if (searchForm.ShowDialog() == DialogResult.OK)
+            {
+
+            }
+
         }
 
         private void MSButt_Click(object sender, EventArgs e)

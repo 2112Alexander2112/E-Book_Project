@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace EBookLib01.BasicModels
 {
-    [Serializable]
+    
     public class Wallet
     {
         public int Id { get; set; }

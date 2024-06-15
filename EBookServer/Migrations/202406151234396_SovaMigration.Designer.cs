@@ -7,13 +7,13 @@ namespace EBookServer.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class Twomigration : IMigrationMetadata
+    public sealed partial class SovaMigration : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Twomigration));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(SovaMigration));
         
         string IMigrationMetadata.Id
         {
-            get { return "202405311104200_Two-migration"; }
+            get { return "202406151234396_SovaMigration"; }
         }
         
         string IMigrationMetadata.Source
