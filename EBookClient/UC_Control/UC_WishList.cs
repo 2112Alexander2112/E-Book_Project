@@ -146,7 +146,8 @@ namespace EBookClient.UC_Control
             var books = new List<Book>();
 
             var sampleBookNames = new List<string>
-            {
+            {  
+
                 "The Great Adventure", "Mystery of the Night", "Journey to the Unknown", "The Last Frontier", "Echoes of the Past",
                 "Whispers of the Wind", "Shadows in the Moonlight", "The Enchanted Forest", "Beyond the Horizon", "Silent Thunder",
                 "The Lost Kingdom", "Rise of the Phoenix", "Secrets of the Deep", "The Time Traveler's Diary", "Legends of the Ancient",
