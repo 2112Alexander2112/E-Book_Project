@@ -2,13 +2,14 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace EBookLib01.BasicModels
 {
-    
+
     public class User
     {
         [Required]
@@ -21,8 +22,8 @@ namespace EBookLib01.BasicModels
         public int PublisherId { get; set; }
 
         public virtual List<Wishlist> Wishlist { get; set; }
-        public virtual List<MyLibrary> MyLibraries { get; set; }
 
+        public virtual MyLibrary MyLibrary { get; set; }
         public virtual List<Friend> Friends { get; set; }
         public virtual Role Role { get; set; }
         public virtual Publisher Publisher { get; set; }

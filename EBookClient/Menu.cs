@@ -158,7 +158,10 @@ namespace EBookClient
         private void Menu_Load(object sender, EventArgs e)
         {
             var mainpage = new UC_MainPage();
+            mainpage.AddrDTO = _ipAddres;
+            mainpage.PortDTO = _port;
             addUserContorol(mainpage);
+            mainpage.GetBooksFromServer();
         }
 
         private void WishlistButt_Click(object sender, EventArgs e)

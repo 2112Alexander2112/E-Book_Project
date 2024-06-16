@@ -128,6 +128,10 @@
     <Compile Include="Migrations\202406151459057_AuthorsFixed.Designer.cs">
       <DependentUpon>202406151459057_AuthorsFixed.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202406161132524_OneLibraryPerUser.cs" />
+    <Compile Include="Migrations\202406161132524_OneLibraryPerUser.Designer.cs">
+      <DependentUpon>202406161132524_OneLibraryPerUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -145,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202406151459057_AuthorsFixed.resx">
       <DependentUpon>202406151459057_AuthorsFixed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406161132524_OneLibraryPerUser.resx">
+      <DependentUpon>202406161132524_OneLibraryPerUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

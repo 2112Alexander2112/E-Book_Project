@@ -230,3 +230,4 @@ C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookClient\obj\Debug\EBook
 C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookClient\obj\Debug\EBookCli.306F338C.Up2Date
 C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookClient\obj\Debug\EBookClient.exe
 C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookClient\obj\Debug\EBookClient.pdb
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookClient\obj\Debug\EBookClient.ListBookSearch.resources

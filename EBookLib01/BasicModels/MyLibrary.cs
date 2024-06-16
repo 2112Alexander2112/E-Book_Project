@@ -5,18 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EBookLib01.BasicModels
 {
-   
+
     public class MyLibrary
     {
-        public int Id { get; set; } 
-        public int BookId { get; set; } 
-        public int UserId { get; set; } 
+        [Key, ForeignKey("User")]
+        public int UserId { get; set; }
+
+        public int BookId { get; set; }
 
         public virtual User User { get; set; }
-        public virtual Book Book { get; set; }  
-
+        public virtual List<Book> Books { get; set; }
     }
 }

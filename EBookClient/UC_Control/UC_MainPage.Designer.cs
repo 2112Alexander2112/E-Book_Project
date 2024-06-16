@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.SearchField = new EBookLib01.Controls.RoundTextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.buttonBack = new System.Windows.Forms.Button();
@@ -40,33 +39,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.SearchField = new EBookLib01.Controls.RoundTextBox();
+            this.FiltersButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // SearchField
-            // 
-            this.SearchField.BackColor = System.Drawing.Color.White;
-            this.SearchField.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
-            this.SearchField.BorderColorNotActive = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
-            this.SearchField.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.SearchField.Dock = System.Windows.Forms.DockStyle.Left;
-            this.SearchField.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.SearchField.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
-            this.SearchField.ForeColor = System.Drawing.Color.Black;
-            this.SearchField.Location = new System.Drawing.Point(200, 0);
-            this.SearchField.Margin = new System.Windows.Forms.Padding(6);
-            this.SearchField.MaximumSize = new System.Drawing.Size(508, 77);
-            this.SearchField.MinimumSize = new System.Drawing.Size(508, 77);
-            this.SearchField.Name = "SearchField";
-            this.SearchField.SelectionStart = 0;
-            this.SearchField.Size = new System.Drawing.Size(508, 77);
-            this.SearchField.TabIndex = 0;
-            this.SearchField.TextInput = "";
-            this.SearchField.TextPreview = "Search";
-            this.SearchField.UseSystemPasswordChar = false;
-            this.SearchField.TextChanged += new System.EventHandler(this.SearchField_TextChanged);
             // 
             // textBox1
             // 
@@ -160,6 +138,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.FiltersButton);
             this.panel2.Controls.Add(this.SearchField);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -179,6 +158,39 @@
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(1800, 1265);
             this.flowLayoutPanel1.TabIndex = 15;
+            // 
+            // SearchField
+            // 
+            this.SearchField.BackColor = System.Drawing.Color.White;
+            this.SearchField.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+            this.SearchField.BorderColorNotActive = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(140)))), ((int)(((byte)(141)))));
+            this.SearchField.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.SearchField.Dock = System.Windows.Forms.DockStyle.Left;
+            this.SearchField.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SearchField.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
+            this.SearchField.ForeColor = System.Drawing.Color.Black;
+            this.SearchField.Location = new System.Drawing.Point(200, 0);
+            this.SearchField.Margin = new System.Windows.Forms.Padding(6);
+            this.SearchField.MaximumSize = new System.Drawing.Size(508, 77);
+            this.SearchField.MinimumSize = new System.Drawing.Size(508, 77);
+            this.SearchField.Name = "SearchField";
+            this.SearchField.SelectionStart = 0;
+            this.SearchField.Size = new System.Drawing.Size(508, 77);
+            this.SearchField.TabIndex = 0;
+            this.SearchField.TextInput = "";
+            this.SearchField.TextPreview = "Search";
+            this.SearchField.UseSystemPasswordChar = false;
+            this.SearchField.TextChanged += new System.EventHandler(this.SearchField_TextChanged);
+            // 
+            // FiltersButton
+            // 
+            this.FiltersButton.Location = new System.Drawing.Point(1531, 27);
+            this.FiltersButton.Name = "FiltersButton";
+            this.FiltersButton.Size = new System.Drawing.Size(209, 50);
+            this.FiltersButton.TabIndex = 2;
+            this.FiltersButton.Text = "More Filters";
+            this.FiltersButton.UseVisualStyleBackColor = true;
+            this.FiltersButton.Click += new System.EventHandler(this.FiltersButton_Click);
             // 
             // UC_MainPage
             // 
@@ -212,5 +224,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Button FiltersButton;
     }
 }

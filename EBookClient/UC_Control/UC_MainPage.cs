@@ -26,8 +26,9 @@ namespace EBookClient.UC_Control
         private UC_Book[] booksElements;
 
         static List<Author> authors = GenerateRandomAuthors(17);
-        static List<Book> books = GenerateRandomBooks(52, authors);
-        static List<Image> icons = CreateIconArray(books.Count);
+        static List<Book> books;
+        static List<Book> allBooks;
+        static List<Image> icons;
         private JSONSender _jsonsender; 
         public IPAddress AddrDTO { get; set; }
         public int PortDTO { get; set; }
@@ -192,6 +193,8 @@ namespace EBookClient.UC_Control
                 if (serverMessage2.Messagge == "ALL_BOOKS_LIST")
                 {
                     books = serverMessage2.AllBooks;
+                    allBooks = serverMessage2.AllBooks;
+                    icons = CreateIconArray(books.Count);
                     ShowCurrentPage();
                 }
                 else
@@ -205,6 +208,18 @@ namespace EBookClient.UC_Control
                 MessageBox.Show($"Нажаль сталась помилка:{ex.Message}", "Повідомлення", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void FiltersButton_Click(object sender, EventArgs e)
+        {
+            var bookSearch = new ListBookSearch();
+            bookSearch.filteredBooks = allBooks;
+            if(bookSearch.ShowDialog() == DialogResult.OK)
+            {
+                books = bookSearch.filteredBooks;
+                ShowCurrentPage();
+            }
+        }
+
         //TODO: Delete Later
         public static List<Book> GenerateRandomBooks(int count, List<Author> authors)
         {

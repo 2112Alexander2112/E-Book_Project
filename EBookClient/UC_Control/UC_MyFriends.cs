@@ -182,7 +182,7 @@ namespace EBookClient.UC_Control
                     RoleId = 1,
                     PublisherId = 1,
                     Wishlist = new List<Wishlist>(),
-                    MyLibraries = new List<MyLibrary>(),
+                    MyLibrary = new MyLibrary(),
                     Friends = new List<Friend>(),
                     Role = new Role(), 
                     Publisher = new Publisher() 
