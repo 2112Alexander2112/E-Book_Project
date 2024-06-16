@@ -60,6 +60,15 @@ namespace EBookClient
                 .ToList();
             }
 
+            string authorName = AuthorTextBox.Text.Trim();
+
+            if (!string.IsNullOrEmpty(authorName))
+            {
+                filteredBooks = filteredBooks
+                    .Where(book => book.Author.AuthorName.Equals(authorName, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
+            }
+
             this.DialogResult = DialogResult.OK;
             this.Close();
         }
