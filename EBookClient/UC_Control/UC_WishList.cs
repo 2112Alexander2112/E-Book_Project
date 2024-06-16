@@ -20,7 +20,8 @@ namespace EBookClient.UC_Control
         private UC_Book[] booksElements;
 
         static List<Author> authors = GenerateRandomAuthors(17);
-        static List<Book> books = GenerateRandomBooks(52, authors);
+        static List<Book> allBooks = GenerateRandomBooks(52, authors);
+        static List<Book> books = allBooks;
         static List<Image> icons = CreateIconArray(books.Count);
 
         int totalBooks = 0;
@@ -233,6 +234,17 @@ namespace EBookClient.UC_Control
         private void UC_WhishList_Load(object sender, EventArgs e)
         {
             ShowCurrentPage();
+        }
+
+        private void FiltersButton_Click(object sender, EventArgs e)
+        {
+            var bookSearch = new ListBookSearch();
+            bookSearch.filteredBooks = allBooks;
+            if (bookSearch.ShowDialog() == DialogResult.OK)
+            {
+                books = bookSearch.filteredBooks;
+                ShowCurrentPage();
+            }
         }
     }
 }

@@ -64,15 +64,15 @@ namespace EBookClient
             if (!string.IsNullOrEmpty(authorName))
             {
                 filteredBooks = filteredBooks
-                    .Where(book => book.Author.AuthorName.Equals(authorName, StringComparison.OrdinalIgnoreCase))
-                    .ToList();
+                .Where(book => book.Author.AuthorName.IndexOf(authorName, StringComparison.OrdinalIgnoreCase) >= 0)
+                .ToList();
             }
             string genreName = GenreTextBox.Text.Trim();
 
             if (!string.IsNullOrEmpty(genreName))
             {
                 filteredBooks = filteredBooks
-                    .Where(book => book.Genre.GenreName.Equals(genreName, StringComparison.OrdinalIgnoreCase))
+                    .Where(book => book.Genre.GenreName.IndexOf(genreName, StringComparison.OrdinalIgnoreCase) >= 0)
                     .ToList();
             }
 
@@ -81,8 +81,8 @@ namespace EBookClient
             if (!string.IsNullOrEmpty(publisherName))
             {
                 filteredBooks = filteredBooks
-                    .Where(book => book.Publisher.PublisherName.Equals(publisherName, StringComparison.OrdinalIgnoreCase))
-                    .ToList();
+                .Where(book => book.Publisher.PublisherName.IndexOf(publisherName, StringComparison.OrdinalIgnoreCase) >= 0)
+                .ToList();
             }
 
             this.DialogResult = DialogResult.OK;

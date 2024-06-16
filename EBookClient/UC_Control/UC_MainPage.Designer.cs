@@ -31,19 +31,19 @@
             this.components = new System.ComponentModel.Container();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.buttonBack = new System.Windows.Forms.Button();
-            this.buttonPreviousPage = new System.Windows.Forms.Button();
-            this.buttonNextFast = new System.Windows.Forms.Button();
-            this.buttonNext = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.SearchField = new EBookLib01.Controls.RoundTextBox();
             this.FiltersButton = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.buttonNextFast = new System.Windows.Forms.Button();
+            this.buttonBack = new System.Windows.Forms.Button();
+            this.buttonPreviousPage = new System.Windows.Forms.Button();
+            this.buttonNext = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -61,66 +61,6 @@
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
-            // buttonBack
-            // 
-            this.buttonBack.Dock = System.Windows.Forms.DockStyle.Left;
-            this.buttonBack.Image = global::EBookClient.Properties.Resources.fast_forward_back;
-            this.buttonBack.Location = new System.Drawing.Point(200, 0);
-            this.buttonBack.Margin = new System.Windows.Forms.Padding(6);
-            this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(200, 98);
-            this.buttonBack.TabIndex = 8;
-            this.buttonBack.UseVisualStyleBackColor = true;
-            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
-            // 
-            // buttonPreviousPage
-            // 
-            this.buttonPreviousPage.Dock = System.Windows.Forms.DockStyle.Left;
-            this.buttonPreviousPage.Image = global::EBookClient.Properties.Resources.back;
-            this.buttonPreviousPage.Location = new System.Drawing.Point(0, 0);
-            this.buttonPreviousPage.Margin = new System.Windows.Forms.Padding(6);
-            this.buttonPreviousPage.Name = "buttonPreviousPage";
-            this.buttonPreviousPage.Size = new System.Drawing.Size(200, 98);
-            this.buttonPreviousPage.TabIndex = 7;
-            this.buttonPreviousPage.UseVisualStyleBackColor = true;
-            this.buttonPreviousPage.Click += new System.EventHandler(this.buttonPreviousPage_Click);
-            // 
-            // buttonNextFast
-            // 
-            this.buttonNextFast.Dock = System.Windows.Forms.DockStyle.Right;
-            this.buttonNextFast.Image = global::EBookClient.Properties.Resources.fast_forward;
-            this.buttonNextFast.Location = new System.Drawing.Point(1400, 0);
-            this.buttonNextFast.Margin = new System.Windows.Forms.Padding(6);
-            this.buttonNextFast.Name = "buttonNextFast";
-            this.buttonNextFast.Size = new System.Drawing.Size(200, 98);
-            this.buttonNextFast.TabIndex = 6;
-            this.buttonNextFast.UseVisualStyleBackColor = true;
-            this.buttonNextFast.Click += new System.EventHandler(this.buttonNextFast_Click);
-            // 
-            // buttonNext
-            // 
-            this.buttonNext.Dock = System.Windows.Forms.DockStyle.Right;
-            this.buttonNext.Image = global::EBookClient.Properties.Resources.next;
-            this.buttonNext.Location = new System.Drawing.Point(1600, 0);
-            this.buttonNext.Margin = new System.Windows.Forms.Padding(6);
-            this.buttonNext.Name = "buttonNext";
-            this.buttonNext.Size = new System.Drawing.Size(200, 98);
-            this.buttonNext.TabIndex = 5;
-            this.buttonNext.UseVisualStyleBackColor = true;
-            this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox1.Image = global::EBookClient.Properties.Resources.search;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(200, 98);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // panel1
             // 
@@ -192,6 +132,66 @@
             this.FiltersButton.UseVisualStyleBackColor = true;
             this.FiltersButton.Click += new System.EventHandler(this.FiltersButton_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox1.Image = global::EBookClient.Properties.Resources.search;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(200, 98);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // buttonNextFast
+            // 
+            this.buttonNextFast.Dock = System.Windows.Forms.DockStyle.Right;
+            this.buttonNextFast.Image = global::EBookClient.Properties.Resources.fast_forward;
+            this.buttonNextFast.Location = new System.Drawing.Point(1400, 0);
+            this.buttonNextFast.Margin = new System.Windows.Forms.Padding(6);
+            this.buttonNextFast.Name = "buttonNextFast";
+            this.buttonNextFast.Size = new System.Drawing.Size(200, 98);
+            this.buttonNextFast.TabIndex = 6;
+            this.buttonNextFast.UseVisualStyleBackColor = true;
+            this.buttonNextFast.Click += new System.EventHandler(this.buttonNextFast_Click);
+            // 
+            // buttonBack
+            // 
+            this.buttonBack.Dock = System.Windows.Forms.DockStyle.Left;
+            this.buttonBack.Image = global::EBookClient.Properties.Resources.fast_forward_back;
+            this.buttonBack.Location = new System.Drawing.Point(200, 0);
+            this.buttonBack.Margin = new System.Windows.Forms.Padding(6);
+            this.buttonBack.Name = "buttonBack";
+            this.buttonBack.Size = new System.Drawing.Size(200, 98);
+            this.buttonBack.TabIndex = 8;
+            this.buttonBack.UseVisualStyleBackColor = true;
+            this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
+            // 
+            // buttonPreviousPage
+            // 
+            this.buttonPreviousPage.Dock = System.Windows.Forms.DockStyle.Left;
+            this.buttonPreviousPage.Image = global::EBookClient.Properties.Resources.back;
+            this.buttonPreviousPage.Location = new System.Drawing.Point(0, 0);
+            this.buttonPreviousPage.Margin = new System.Windows.Forms.Padding(6);
+            this.buttonPreviousPage.Name = "buttonPreviousPage";
+            this.buttonPreviousPage.Size = new System.Drawing.Size(200, 98);
+            this.buttonPreviousPage.TabIndex = 7;
+            this.buttonPreviousPage.UseVisualStyleBackColor = true;
+            this.buttonPreviousPage.Click += new System.EventHandler(this.buttonPreviousPage_Click);
+            // 
+            // buttonNext
+            // 
+            this.buttonNext.Dock = System.Windows.Forms.DockStyle.Right;
+            this.buttonNext.Image = global::EBookClient.Properties.Resources.next;
+            this.buttonNext.Location = new System.Drawing.Point(1600, 0);
+            this.buttonNext.Margin = new System.Windows.Forms.Padding(6);
+            this.buttonNext.Name = "buttonNext";
+            this.buttonNext.Size = new System.Drawing.Size(200, 98);
+            this.buttonNext.TabIndex = 5;
+            this.buttonNext.UseVisualStyleBackColor = true;
+            this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
+            // 
             // UC_MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -203,10 +203,10 @@
             this.Name = "UC_MainPage";
             this.Size = new System.Drawing.Size(1800, 1461);
             this.Load += new System.EventHandler(this.UC_MainPage_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
