@@ -11,6 +11,12 @@
       "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EBookServer.EF_ORM.DataManager/True/SqlTable/dbo.Books.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EBookServer.EF_ORM.DataManager/True/SqlTable/dbo.Genres.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|c:\\users\\anastasiia\\documents\\github\\e-book_project1\\ebooklib01\\basicmodels\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -96,11 +102,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 409,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.Genres [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EBookServer.EF_ORM.DataManager/True/SqlTable/dbo.Genres.sql",
+              "ToolTip": "dbo.Genres [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-16T13:50:49.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.Books [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EBookServer.EF_ORM.DataManager/True/SqlTable/dbo.Books.sql",
+              "ToolTip": "dbo.Books [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-16T13:50:43.06Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -117,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookLib01\\BasicModels\\Book.cs",
               "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\Book.cs",
@@ -134,16 +160,16 @@
               "Title": "ListBookSearch.cs",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\ListBookSearch.cs",
               "RelativeDocumentMoniker": "EBookClient\\ListBookSearch.cs",
-              "ToolTip": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\ListBookSearch.cs*",
-              "RelativeToolTip": "EBookClient\\ListBookSearch.cs*",
-              "ViewState": "AQIAADoAAAAAAAAAAAAmwEEAAAANAAAA",
+              "ToolTip": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\ListBookSearch.cs",
+              "RelativeToolTip": "EBookClient\\ListBookSearch.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAmwFQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T11:50:52.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UC_MainPage.cs",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\UC_Control\\UC_MainPage.cs",
               "RelativeDocumentMoniker": "EBookClient\\UC_Control\\UC_MainPage.cs",
@@ -156,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\Menu.cs",
               "RelativeDocumentMoniker": "EBookClient\\Menu.cs",
@@ -169,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UC_MainPage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\UC_Control\\UC_MainPage.cs",
               "RelativeDocumentMoniker": "EBookClient\\UC_Control\\UC_MainPage.cs",
@@ -181,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\Form1.cs",
               "RelativeDocumentMoniker": "EBookClient\\Form1.cs",
@@ -193,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "dbo.Authors [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EBookServer.EF_ORM.ModelManager/True/SqlTable/dbo.Authors.sql",
               "ToolTip": "dbo.Authors [Data]",
@@ -202,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookServer\\Form1.cs",
               "RelativeDocumentMoniker": "EBookServer\\Form1.cs",
@@ -215,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "NewDataModel.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\E-Book_Project\\EBookServer\\EF_ORM\\NewDataModel.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\pc\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\E-Book_Project\\EBookServer\\EF_ORM\\NewDataModel.cs",
@@ -227,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookServer\\App.config",
               "RelativeDocumentMoniker": "EBookServer\\App.config",
@@ -240,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookServer\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "EBookServer\\Migrations\\Configuration.cs",
@@ -252,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\Form1.cs",
               "RelativeDocumentMoniker": "EBookClient\\Form1.cs",
@@ -263,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Menu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\Menu.cs",
               "RelativeDocumentMoniker": "EBookClient\\Menu.cs",
@@ -275,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "PassResetForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\PassResetForm.cs",
               "RelativeDocumentMoniker": "EBookClient\\PassResetForm.cs",
@@ -286,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "UC_Book.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\UC_Control\\UC_Book.cs",
               "RelativeDocumentMoniker": "EBookClient\\UC_Control\\UC_Book.cs",
@@ -297,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Menu.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\Menu.Designer.cs",
               "RelativeDocumentMoniker": "EBookClient\\Menu.Designer.cs",
@@ -310,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "UC_AllBooks.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\UC_Control\\UC_AllBooks.cs",
               "RelativeDocumentMoniker": "EBookClient\\UC_Control\\UC_AllBooks.cs",
@@ -321,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\Program.cs",
               "RelativeDocumentMoniker": "EBookClient\\Program.cs",
@@ -347,19 +373,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ListBookSearch.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\ListBookSearch.cs",
               "RelativeDocumentMoniker": "EBookClient\\ListBookSearch.cs",
-              "ToolTip": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\ListBookSearch.cs [Design]*",
-              "RelativeToolTip": "EBookClient\\ListBookSearch.cs [Design]*",
+              "ToolTip": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\ListBookSearch.cs [Design]",
+              "RelativeToolTip": "EBookClient\\ListBookSearch.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T11:44:15.476Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "BookSearch.cs",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\BookSearch.cs",
               "RelativeDocumentMoniker": "EBookClient\\BookSearch.cs",
@@ -372,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "BookSearch.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\BookSearch.cs",
               "RelativeDocumentMoniker": "EBookClient\\BookSearch.cs",

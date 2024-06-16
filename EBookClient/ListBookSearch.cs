@@ -47,7 +47,6 @@ namespace EBookClient
                 }
                 catch (Exception ex)
                 {
-                    // Optional: Log the exception or handle other types of exceptions if necessary
                     MessageBox.Show("An unexpected error occurred: " + ex.Message);
                 }
             }
@@ -66,6 +65,23 @@ namespace EBookClient
             {
                 filteredBooks = filteredBooks
                     .Where(book => book.Author.AuthorName.Equals(authorName, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
+            }
+            string genreName = GenreTextBox.Text.Trim();
+
+            if (!string.IsNullOrEmpty(genreName))
+            {
+                filteredBooks = filteredBooks
+                    .Where(book => book.Genre.GenreName.Equals(genreName, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
+            }
+
+            string publisherName = PublisherTextBox.Text.Trim();
+
+            if (!string.IsNullOrEmpty(publisherName))
+            {
+                filteredBooks = filteredBooks
+                    .Where(book => book.Publisher.PublisherName.Equals(publisherName, StringComparison.OrdinalIgnoreCase))
                     .ToList();
             }
 
