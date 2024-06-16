@@ -33,7 +33,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.Published = new System.Windows.Forms.TextBox();
             this.PublisherTextBox = new System.Windows.Forms.TextBox();
             this.PriceTextBox = new System.Windows.Forms.TextBox();
             this.AuthorTextBox = new System.Windows.Forms.TextBox();
@@ -41,6 +40,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.FindButton = new System.Windows.Forms.Button();
             this.ClearButton = new System.Windows.Forms.Button();
+            this.Published = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,9 +50,9 @@
             this.label2.Location = new System.Drawing.Point(3, 217);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 25);
+            this.label2.Size = new System.Drawing.Size(200, 25);
             this.label2.TabIndex = 10;
-            this.label2.Text = "Видано";
+            this.label2.Text = "Опубліковані після";
             // 
             // label3
             // 
@@ -70,9 +70,9 @@
             this.label4.Location = new System.Drawing.Point(3, 147);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(57, 25);
+            this.label4.Size = new System.Drawing.Size(197, 25);
             this.label4.TabIndex = 8;
-            this.label4.Text = "Ціна";
+            this.label4.Text = "Максимальна ціна";
             // 
             // label5
             // 
@@ -93,14 +93,6 @@
             this.label6.Size = new System.Drawing.Size(67, 25);
             this.label6.TabIndex = 6;
             this.label6.Text = "Жанр";
-            // 
-            // Published
-            // 
-            this.Published.Location = new System.Drawing.Point(8, 247);
-            this.Published.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Published.Name = "Published";
-            this.Published.Size = new System.Drawing.Size(220, 31);
-            this.Published.TabIndex = 4;
             // 
             // PublisherTextBox
             // 
@@ -136,12 +128,12 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.Published);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.Published);
             this.groupBox1.Controls.Add(this.PublisherTextBox);
             this.groupBox1.Controls.Add(this.PriceTextBox);
             this.groupBox1.Controls.Add(this.AuthorTextBox);
@@ -177,6 +169,13 @@
             this.ClearButton.UseVisualStyleBackColor = true;
             this.ClearButton.Click += new System.EventHandler(this.button2_Click);
             // 
+            // Published
+            // 
+            this.Published.Location = new System.Drawing.Point(8, 246);
+            this.Published.Name = "Published";
+            this.Published.Size = new System.Drawing.Size(220, 31);
+            this.Published.TabIndex = 11;
+            // 
             // ListBookSearch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -199,7 +198,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox Published;
         private System.Windows.Forms.TextBox PublisherTextBox;
         private System.Windows.Forms.TextBox PriceTextBox;
         private System.Windows.Forms.TextBox AuthorTextBox;
@@ -207,5 +205,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button FindButton;
         private System.Windows.Forms.Button ClearButton;
+        private System.Windows.Forms.DateTimePicker Published;
     }
 }

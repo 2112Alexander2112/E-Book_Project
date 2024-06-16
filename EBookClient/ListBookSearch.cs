@@ -20,6 +20,7 @@ namespace EBookClient
         public ListBookSearch()
         {
             InitializeComponent();
+            Published.Value = DateTime.Now.AddYears(-100);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -27,8 +28,8 @@ namespace EBookClient
             GenreTextBox.Text = string.Empty;
             AuthorTextBox.Text = string.Empty;
             PriceTextBox.Text = string.Empty;
-            PublisherTextBox.Text = string.Empty;
-            Published.Text = string.Empty;
+            PublisherTextBox.Text = string.Empty; 
+            Published.Value = DateTime.Now.AddYears(-100);
         }
 
         private void FindButton_Click(object sender, EventArgs e)
@@ -49,6 +50,14 @@ namespace EBookClient
                     // Optional: Log the exception or handle other types of exceptions if necessary
                     MessageBox.Show("An unexpected error occurred: " + ex.Message);
                 }
+            }
+
+            DateTime hundredYearsAgo = DateTime.Now.AddYears(-100);
+            if (Published.Value != hundredYearsAgo)
+            {
+                filteredBooks = filteredBooks
+                .Where(book => book.Published > Published.Value)
+                .ToList();
             }
 
             this.DialogResult = DialogResult.OK;
