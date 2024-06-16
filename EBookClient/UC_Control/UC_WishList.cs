@@ -136,10 +136,28 @@ namespace EBookClient.UC_Control
 
             return books.Where(book =>
             book.BookName.ToLower().Contains(searchTerm) ||
-            book.AlterName.ToLower().Contains(searchTerm) ||
+            (book.AlterName != null && book.AlterName.ToLower().Contains(searchTerm)) ||
             book.Author.AuthorName.ToLower().Contains(searchTerm)
             ).ToList();
         }
+
+        private void UC_WhishList_Load(object sender, EventArgs e)
+        {
+            ShowCurrentPage();
+        }
+
+        private void FiltersButton_Click(object sender, EventArgs e)
+        {
+            var bookSearch = new ListBookSearch();
+            bookSearch.filteredBooks = allBooks;
+            if (bookSearch.ShowDialog() == DialogResult.OK)
+            {
+                books = bookSearch.filteredBooks;
+                ShowCurrentPage();
+            }
+        }
+
+
         //TODO: Delete Later
         public static List<Book> GenerateRandomBooks(int count, List<Author> authors)
         {
@@ -231,20 +249,5 @@ namespace EBookClient.UC_Control
             return images;
         }
 
-        private void UC_WhishList_Load(object sender, EventArgs e)
-        {
-            ShowCurrentPage();
         }
-
-        private void FiltersButton_Click(object sender, EventArgs e)
-        {
-            var bookSearch = new ListBookSearch();
-            bookSearch.filteredBooks = allBooks;
-            if (bookSearch.ShowDialog() == DialogResult.OK)
-            {
-                books = bookSearch.filteredBooks;
-                ShowCurrentPage();
-            }
-        }
-    }
 }

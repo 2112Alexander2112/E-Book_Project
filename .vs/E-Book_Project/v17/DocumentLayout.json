@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|c:\\users\\anastasiia\\documents\\github\\e-book_project1\\ebookclient\\listbooksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\listbooksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|c:\\users\\anastasiia\\documents\\github\\e-book_project1\\ebookclient\\listbooksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\listbooksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|c:\\users\\anastasiia\\documents\\github\\e-book_project1\\ebookclient\\uc_control\\uc_wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\uc_control\\uc_wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|c:\\users\\anastasiia\\documents\\github\\e-book_project1\\ebookclient\\uc_control\\uc_wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\uc_control\\uc_wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|c:\\users\\anastasiia\\documents\\github\\e-book_project1\\ebookclient\\uc_control\\uc_mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\uc_control\\uc_mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\ebookclient\\uc_control\\uc_mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\uc_control\\uc_mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|c:\\users\\anastasiia\\documents\\github\\e-book_project1\\ebookclient\\uc_control\\uc_wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\uc_control\\uc_wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|c:\\users\\anastasiia\\documents\\github\\e-book_project1\\ebookclient\\listbooksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\listbooksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|c:\\users\\anastasiia\\documents\\github\\e-book_project1\\ebookclient\\uc_control\\uc_mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\uc_control\\uc_mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|c:\\users\\anastasiia\\documents\\github\\e-book_project1\\ebookclient\\listbooksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A10EF09A-D9D2-4284-B47E-3AEFA0380375}|EBookClient\\EBookClient.csproj|solutionrelative:ebookclient\\listbooksearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|c:\\users\\anastasiia\\documents\\github\\e-book_project1\\ebooklib01\\basicmodels\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -103,8 +103,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 410,
-          "SelectedChildIndex": 6,
+          "DockedWidth": 488,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -116,20 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UC_WishList.cs",
-              "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\UC_Control\\UC_WishList.cs",
-              "RelativeDocumentMoniker": "EBookClient\\UC_Control\\UC_WishList.cs",
-              "ToolTip": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\UC_Control\\UC_WishList.cs",
-              "RelativeToolTip": "EBookClient\\UC_Control\\UC_WishList.cs",
-              "ViewState": "AQIAAOkAAAAAAAAAAAAmwBYAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T13:55:49.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UC_WishList.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\UC_Control\\UC_WishList.cs",
               "RelativeDocumentMoniker": "EBookClient\\UC_Control\\UC_WishList.cs",
@@ -166,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ListBookSearch.cs",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\ListBookSearch.cs",
               "RelativeDocumentMoniker": "EBookClient\\ListBookSearch.cs",
@@ -175,6 +162,32 @@
               "ViewState": "AQIAAEUAAAAAAAAAAAAmwEgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T11:50:52.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UC_MainPage.cs",
+              "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\UC_Control\\UC_MainPage.cs",
+              "RelativeDocumentMoniker": "EBookClient\\UC_Control\\UC_MainPage.cs",
+              "ToolTip": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\UC_Control\\UC_MainPage.cs",
+              "RelativeToolTip": "EBookClient\\UC_Control\\UC_MainPage.cs",
+              "ViewState": "AQIAAJgAAAAAAAAAAAAWwKAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T11:41:16.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UC_WishList.cs",
+              "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\UC_Control\\UC_WishList.cs",
+              "RelativeDocumentMoniker": "EBookClient\\UC_Control\\UC_WishList.cs",
+              "ToolTip": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\UC_Control\\UC_WishList.cs",
+              "RelativeToolTip": "EBookClient\\UC_Control\\UC_WishList.cs",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAmwJMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T13:55:49.578Z",
               "EditorCaption": ""
             },
             {
@@ -188,19 +201,6 @@
               "ViewState": "AQIAAAYAAAAAAAAAAAAIwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T13:45:51.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UC_MainPage.cs",
-              "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\UC_Control\\UC_MainPage.cs",
-              "RelativeDocumentMoniker": "EBookClient\\UC_Control\\UC_MainPage.cs",
-              "ToolTip": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\UC_Control\\UC_MainPage.cs",
-              "RelativeToolTip": "EBookClient\\UC_Control\\UC_MainPage.cs",
-              "ViewState": "AQIAANIAAAAAAAAAAAAAANsAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T11:41:16.47Z",
               "EditorCaption": ""
             },
             {
@@ -371,7 +371,7 @@
           ]
         },
         {
-          "DockedWidth": 180,
+          "DockedWidth": 102,
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -384,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ListBookSearch.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Anastasiia\\Documents\\GitHub\\E-Book_Project1\\EBookClient\\ListBookSearch.cs",
               "RelativeDocumentMoniker": "EBookClient\\ListBookSearch.cs",

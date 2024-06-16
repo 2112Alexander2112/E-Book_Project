@@ -159,8 +159,8 @@ namespace EBookClient.UC_Control
             searchTerm = searchTerm.ToLower();
 
             return books.Where(book => 
-            book.BookName.ToLower().Contains(searchTerm) || 
-            book.AlterName.ToLower().Contains(searchTerm) || 
+            book.BookName.ToLower().Contains(searchTerm) ||
+            (book.AlterName != null && book.AlterName.ToLower().Contains(searchTerm)) || 
             book.Author.AuthorName.ToLower().Contains(searchTerm)
             ).ToList();
         }
