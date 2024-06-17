@@ -27,7 +27,6 @@ namespace EBookLib01
         {
             return JsonSerializer.Serialize(cm);
         }
-
         public ServerMessage ServerMessageDeserialize(string jsonRows)
         {
             return JsonSerializer.Deserialize<ServerMessage>

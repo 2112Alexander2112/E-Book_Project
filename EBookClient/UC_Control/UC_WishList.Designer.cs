@@ -31,6 +31,7 @@
             this.SearchField = new EBookLib01.Controls.RoundTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.FiltersButton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.buttonNextFast = new System.Windows.Forms.Button();
             this.buttonBack = new System.Windows.Forms.Button();
@@ -53,37 +54,52 @@
             this.SearchField.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.SearchField.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
             this.SearchField.ForeColor = System.Drawing.Color.Black;
-            this.SearchField.Location = new System.Drawing.Point(100, 0);
-            this.SearchField.MaximumSize = new System.Drawing.Size(254, 40);
-            this.SearchField.MinimumSize = new System.Drawing.Size(254, 40);
+            this.SearchField.Location = new System.Drawing.Point(200, 0);
+            this.SearchField.Margin = new System.Windows.Forms.Padding(6);
+            this.SearchField.MaximumSize = new System.Drawing.Size(508, 77);
+            this.SearchField.MinimumSize = new System.Drawing.Size(508, 77);
             this.SearchField.Name = "SearchField";
             this.SearchField.SelectionStart = 0;
-            this.SearchField.Size = new System.Drawing.Size(254, 40);
+            this.SearchField.Size = new System.Drawing.Size(508, 77);
             this.SearchField.TabIndex = 0;
             this.SearchField.TextInput = "";
             this.SearchField.TextPreview = "Search Wishlist";
             this.SearchField.UseSystemPasswordChar = false;
+            this.SearchField.TextChanged += new System.EventHandler(this.SearchField_TextChanged);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox1.Image = global::EBookClient.Properties.Resources.search;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 51);
+            this.pictureBox1.Size = new System.Drawing.Size(200, 98);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.FiltersButton);
             this.panel2.Controls.Add(this.SearchField);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(6);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(900, 51);
+            this.panel2.Size = new System.Drawing.Size(1800, 98);
             this.panel2.TabIndex = 12;
+            // 
+            // FiltersButton
+            // 
+            this.FiltersButton.Location = new System.Drawing.Point(1517, 27);
+            this.FiltersButton.Name = "FiltersButton";
+            this.FiltersButton.Size = new System.Drawing.Size(209, 50);
+            this.FiltersButton.TabIndex = 3;
+            this.FiltersButton.Text = "More Filters";
+            this.FiltersButton.UseVisualStyleBackColor = true;
+            this.FiltersButton.Click += new System.EventHandler(this.FiltersButton_Click);
             // 
             // panel1
             // 
@@ -93,18 +109,20 @@
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.buttonNext);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 709);
+            this.panel1.Location = new System.Drawing.Point(0, 1364);
+            this.panel1.Margin = new System.Windows.Forms.Padding(6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(900, 51);
+            this.panel1.Size = new System.Drawing.Size(1800, 98);
             this.panel1.TabIndex = 13;
             // 
             // buttonNextFast
             // 
             this.buttonNextFast.Dock = System.Windows.Forms.DockStyle.Right;
             this.buttonNextFast.Image = global::EBookClient.Properties.Resources.fast_forward;
-            this.buttonNextFast.Location = new System.Drawing.Point(700, 0);
+            this.buttonNextFast.Location = new System.Drawing.Point(1400, 0);
+            this.buttonNextFast.Margin = new System.Windows.Forms.Padding(6);
             this.buttonNextFast.Name = "buttonNextFast";
-            this.buttonNextFast.Size = new System.Drawing.Size(100, 51);
+            this.buttonNextFast.Size = new System.Drawing.Size(200, 98);
             this.buttonNextFast.TabIndex = 6;
             this.buttonNextFast.UseVisualStyleBackColor = true;
             // 
@@ -112,9 +130,10 @@
             // 
             this.buttonBack.Dock = System.Windows.Forms.DockStyle.Left;
             this.buttonBack.Image = global::EBookClient.Properties.Resources.fast_forward_back;
-            this.buttonBack.Location = new System.Drawing.Point(100, 0);
+            this.buttonBack.Location = new System.Drawing.Point(200, 0);
+            this.buttonBack.Margin = new System.Windows.Forms.Padding(6);
             this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(100, 51);
+            this.buttonBack.Size = new System.Drawing.Size(200, 98);
             this.buttonBack.TabIndex = 8;
             this.buttonBack.UseVisualStyleBackColor = true;
             // 
@@ -123,27 +142,30 @@
             this.buttonPreviousPage.Dock = System.Windows.Forms.DockStyle.Left;
             this.buttonPreviousPage.Image = global::EBookClient.Properties.Resources.back;
             this.buttonPreviousPage.Location = new System.Drawing.Point(0, 0);
+            this.buttonPreviousPage.Margin = new System.Windows.Forms.Padding(6);
             this.buttonPreviousPage.Name = "buttonPreviousPage";
-            this.buttonPreviousPage.Size = new System.Drawing.Size(100, 51);
+            this.buttonPreviousPage.Size = new System.Drawing.Size(200, 98);
             this.buttonPreviousPage.TabIndex = 7;
             this.buttonPreviousPage.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(447, 3);
+            this.textBox1.Location = new System.Drawing.Point(894, 6);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(6);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(29, 44);
+            this.textBox1.Size = new System.Drawing.Size(54, 80);
             this.textBox1.TabIndex = 3;
             // 
             // buttonNext
             // 
             this.buttonNext.Dock = System.Windows.Forms.DockStyle.Right;
             this.buttonNext.Image = global::EBookClient.Properties.Resources.next;
-            this.buttonNext.Location = new System.Drawing.Point(800, 0);
+            this.buttonNext.Location = new System.Drawing.Point(1600, 0);
+            this.buttonNext.Margin = new System.Windows.Forms.Padding(6);
             this.buttonNext.Name = "buttonNext";
-            this.buttonNext.Size = new System.Drawing.Size(100, 51);
+            this.buttonNext.Size = new System.Drawing.Size(200, 98);
             this.buttonNext.TabIndex = 5;
             this.buttonNext.UseVisualStyleBackColor = true;
             // 
@@ -152,20 +174,22 @@
             this.flowLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.White;
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 51);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 98);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(6);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(900, 658);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1800, 1266);
             this.flowLayoutPanel1.TabIndex = 14;
             // 
             // UC_WhishList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "UC_WhishList";
-            this.Size = new System.Drawing.Size(900, 760);
+            this.Size = new System.Drawing.Size(1800, 1462);
             this.Load += new System.EventHandler(this.UC_WhishList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
@@ -186,5 +210,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button buttonNext;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Button FiltersButton;
     }
 }

@@ -5,6 +5,15 @@ using System.Data;
 using System.Linq;
 using System.Windows.Forms;
 using System.Drawing;
+using EBookLib01.HelperModels.TransitModels;
+using EBookLib01;
+using System.IO;
+using System.Net.Sockets;
+using System.Security.Policy;
+using System.Net;
+using System.Net.Http;
+using System.Web.UI.WebControls.WebParts;
+using System.Threading;
 
 namespace EBookClient.UC_Control
 {
@@ -17,8 +26,14 @@ namespace EBookClient.UC_Control
         private UC_Book[] booksElements;
 
         static List<Author> authors = GenerateRandomAuthors(17);
-        static List<Book> books = GenerateRandomBooks(52, authors);
-        static List<Image> icons = CreateIconArray(books.Count);
+        static List<Book> books;
+        static List<Book> allBooks;
+        static List<Image> icons;
+        private JSONSender _jsonsender; 
+        public IPAddress AddrDTO { get; set; }
+        public int PortDTO { get; set; }
+        public string JsonstringSearchBookMessage { get; set; }
+
 
         int totalBooks = 0;
 
@@ -35,7 +50,7 @@ namespace EBookClient.UC_Control
 
         private void UC_MainPage_Load(object sender, EventArgs e)
         {
-            ShowCurrentPage();
+            _jsonsender = new JSONSender();
         }
 
         private void ShowCurrentPage()
@@ -144,11 +159,68 @@ namespace EBookClient.UC_Control
             searchTerm = searchTerm.ToLower();
 
             return books.Where(book => 
-            book.BookName.ToLower().Contains(searchTerm) || 
-            book.AlterName.ToLower().Contains(searchTerm) || 
+            book.BookName.ToLower().Contains(searchTerm) ||
+            (book.AlterName != null && book.AlterName.ToLower().Contains(searchTerm)) || 
             book.Author.AuthorName.ToLower().Contains(searchTerm)
             ).ToList();
         }
+
+        public void GetBooksFromServer()
+        {
+            try
+            {
+                _jsonsender = new JSONSender();
+                var messageToServer = new ClientMessage()
+                {
+                    Header = "GET_ALL_BOOKS",
+                };
+                JsonstringSearchBookMessage = _jsonsender.ClientMessageSerialize(messageToServer);
+
+                var client = new TcpClient();
+
+                client.Connect(AddrDTO, PortDTO);
+
+                NetworkStream ns = client.GetStream();
+                StreamWriter sw = new StreamWriter(ns);
+                sw.WriteLine(JsonstringSearchBookMessage);
+                sw.Flush();
+
+
+                StreamReader sr = new StreamReader(ns);
+                var serverMessage = sr.ReadLine();
+                var serverMessage2 = _jsonsender.ServerMessageDeserialize(serverMessage);
+
+                if (serverMessage2.Messagge == "ALL_BOOKS_LIST")
+                {
+                    books = serverMessage2.AllBooks;
+                    allBooks = serverMessage2.AllBooks;
+                    icons = CreateIconArray(books.Count);
+                    ShowCurrentPage();
+                }
+                else
+                {
+                    MessageBox.Show("No books were found", "Повідомлення",
+                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Нажаль сталась помилка:{ex.Message}", "Повідомлення", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void FiltersButton_Click(object sender, EventArgs e)
+        {
+            var bookSearch = new ListBookSearch();
+            bookSearch.filteredBooks = allBooks;
+            if(bookSearch.ShowDialog() == DialogResult.OK)
+            {
+                books = bookSearch.filteredBooks;
+                ShowCurrentPage();
+                SearchField.Text = string.Empty;
+            }
+        }
+
         //TODO: Delete Later
         public static List<Book> GenerateRandomBooks(int count, List<Author> authors)
         {
@@ -187,20 +259,19 @@ namespace EBookClient.UC_Control
                     Published = DateTime.Now.AddDays(-random.Next(0, 3650)), // Random date within the last 10 years
                     PublisherId = random.Next(1, 10),
                     BookInfoId = random.Next(1, 10),
-                    BookInfos = new List<BookInfo>(),
+                    //BookInfos = new List<BookInfo>(),
                     BookInfo = new BookInfo(),
                     Price = 1000,
-                    Publisher = new Publisher(),
+                    Publisher = new EBookLib01.BasicModels.Publisher(),
                     Genre = new Genre(),
                     Category = new Category(),
                     Author = author,
-                    Books = new List<Book>(),
+                    //Books = new List<Book>(),
                     Reviews = new List<Review>(),
                     Wishlists = new List<Wishlist>(),
                     Transactions = new List<Transaction>()
                 };
 
-                author.Books.Add(book);
                 books.Add(book);
             }
         return books;
@@ -226,7 +297,6 @@ namespace EBookClient.UC_Control
                     Id = i + 1,
                     AuthorName = sampleAuthorNames[random.Next(sampleAuthorNames.Count)],
                     Rate = (float)Math.Round(random.NextDouble() * 5, 2),
-                    Books = new List<Book>()
                 });
             }
 
@@ -244,8 +314,7 @@ namespace EBookClient.UC_Control
 
         private void button1_Click(object sender, EventArgs e)
         {
-            flowLayoutPanel1.Visible = false; ;
-
+            flowLayoutPanel1.Visible = false;
         }
     }
 }

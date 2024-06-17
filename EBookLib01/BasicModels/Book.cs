@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EBookLib01.BasicModels
 {
-    [Serializable]
+   
     public class Book
     {
         [Required]
@@ -20,13 +20,11 @@ namespace EBookLib01.BasicModels
         public decimal Price { get; set; }
         public string IconPath { get; set; }
 
-        public virtual List<BookInfo> BookInfos { get; set; }
         public virtual BookInfo BookInfo { get; set; }
         public virtual Publisher Publisher { get; set; }    
         public virtual Genre Genre { get; set; }
         public virtual Category Category { get; set; }
         public virtual Author Author { get; set; }
-        public virtual List<Book> Books { get; set; }
         public virtual List<Review> Reviews { get; set; }
         public virtual List<Wishlist> Wishlists { get; set; }
         public virtual List<Transaction> Transactions { get; set; } 

@@ -20,7 +20,8 @@ namespace EBookClient.UC_Control
         private UC_Book[] booksElements;
 
         static List<Author> authors = GenerateRandomAuthors(17);
-        static List<Book> books = GenerateRandomBooks(52, authors);
+        static List<Book> allBooks = GenerateRandomBooks(52, authors);
+        static List<Book> books = allBooks;
         static List<Image> icons = CreateIconArray(books.Count);
 
         int totalBooks = 0;
@@ -135,10 +136,29 @@ namespace EBookClient.UC_Control
 
             return books.Where(book =>
             book.BookName.ToLower().Contains(searchTerm) ||
-            book.AlterName.ToLower().Contains(searchTerm) ||
+            (book.AlterName != null && book.AlterName.ToLower().Contains(searchTerm)) ||
             book.Author.AuthorName.ToLower().Contains(searchTerm)
             ).ToList();
         }
+
+        private void UC_WhishList_Load(object sender, EventArgs e)
+        {
+            ShowCurrentPage();
+        }
+
+        private void FiltersButton_Click(object sender, EventArgs e)
+        {
+            var bookSearch = new ListBookSearch();
+            bookSearch.filteredBooks = allBooks;
+            if (bookSearch.ShowDialog() == DialogResult.OK)
+            {
+                books = bookSearch.filteredBooks;
+                ShowCurrentPage();
+                SearchField.Text = string.Empty;
+            }
+        }
+
+
         //TODO: Delete Later
         public static List<Book> GenerateRandomBooks(int count, List<Author> authors)
         {
@@ -146,7 +166,8 @@ namespace EBookClient.UC_Control
             var books = new List<Book>();
 
             var sampleBookNames = new List<string>
-            {
+            {  
+
                 "The Great Adventure", "Mystery of the Night", "Journey to the Unknown", "The Last Frontier", "Echoes of the Past",
                 "Whispers of the Wind", "Shadows in the Moonlight", "The Enchanted Forest", "Beyond the Horizon", "Silent Thunder",
                 "The Lost Kingdom", "Rise of the Phoenix", "Secrets of the Deep", "The Time Traveler's Diary", "Legends of the Ancient",
@@ -177,19 +198,17 @@ namespace EBookClient.UC_Control
                     Published = DateTime.Now.AddDays(-random.Next(0, 3650)), // Random date within the last 10 years
                     PublisherId = random.Next(1, 10),
                     BookInfoId = random.Next(1, 10),
-                    BookInfos = new List<BookInfo>(),
+                   // BookInfos = new List<BookInfo>(),
                     BookInfo = new BookInfo(),
                     Publisher = new Publisher(),
                     Genre = new Genre(),
                     Category = new Category(),
                     Author = author,
-                    Books = new List<Book>(),
+                   // Books = new List<Book>(),
                     Reviews = new List<Review>(),
                     Wishlists = new List<Wishlist>(),
                     Transactions = new List<Transaction>()
                 };
-
-                author.Books.Add(book);
                 books.Add(book);
             }
             return books;
@@ -215,7 +234,7 @@ namespace EBookClient.UC_Control
                     Id = i + 1,
                     AuthorName = sampleAuthorNames[random.Next(sampleAuthorNames.Count)],
                     Rate = (float)Math.Round(random.NextDouble() * 5, 2),
-                    Books = new List<Book>()
+                    
                 });
             }
 
@@ -231,9 +250,5 @@ namespace EBookClient.UC_Control
             return images;
         }
 
-        private void UC_WhishList_Load(object sender, EventArgs e)
-        {
-            ShowCurrentPage();
         }
-    }
 }

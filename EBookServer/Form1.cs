@@ -12,7 +12,10 @@ using EBookLib01;
 using EBookLib01.HelperModels.TransitModels;
 using EBookServer.EF_ORM;
 using EBookLib01.HelperModels;
-
+using EBookLib01.BasicModels;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using System.Security.Cryptography.X509Certificates;
 
 namespace EBookServer
 {
@@ -27,7 +30,7 @@ namespace EBookServer
         private TcpListener _tcpListener;
         private Thread _listenerThread;
 
-        private EBookBase _shopDb;
+        private DataManager _shopDb;
         private JSONSender _jsonSender;
         public Form1()
         {
@@ -35,7 +38,7 @@ namespace EBookServer
             _port = 9001;
             _ipAdress = IPAddress.Parse("127.0.0.1");
             _ep = new IPEndPoint(_ipAdress, _port);
-            _shopDb = new EBookBase();
+            _shopDb = new DataManager();
             _numberOfUsers = 20;
             _jsonSender = new JSONSender();
         }
@@ -43,87 +46,102 @@ namespace EBookServer
         private void Form1_Load(object sender, EventArgs e)
         {
             _tcpListener = new TcpListener(_ep);
-            _tcpListener.Start();
+            _tcpListener.Start(_numberOfUsers);
 
             _listenerThread = new Thread(new ThreadStart(MainLoop));
             _listenerThread.IsBackground = true;
-            _listenerThread.Start();    
+            _listenerThread.Start();
         }
         private void MainLoop()
         {
-            try
+            //try
+            //{
+            while (true)
             {
-                while (true)
+                TcpClient client = _tcpListener.AcceptTcpClient();
+                NetworkStream ns = client.GetStream();
+                StreamReader sr = new StreamReader(ns);
+                _clientMessage = sr.ReadLine();
+                ClientMessage clientMessage = _jsonSender.ClientMessageDeserialize(_clientMessage);
+
+                switch (clientMessage.Header)
                 {
-                    TcpClient client = _tcpListener.AcceptTcpClient();
-                    NetworkStream ns = client.GetStream();
-                    StreamReader sr = new StreamReader(ns);
-                    _clientMessage = sr.ReadLine();
-                    ClientMessage clientMessage = _jsonSender.ClientMessageDeserialize(_clientMessage);
-
-                    switch (clientMessage.Header)
-                    {
-                        case "SHOWBOOK":
-                            var searchbook = _shopDb.Books
-                                .Where(b => b.BookName == clientMessage.SeacrhingBook).FirstOrDefault();
-                            if(searchbook == null)
+                    case "SHOWBOOK":
+                        var searchbook = _shopDb.Books
+                            .Where(b => b.BookName == clientMessage.SeacrhingBook).FirstOrDefault();
+                        if (searchbook == null)
+                        {
+                            var serverMessage = new ServerMessage()
                             {
-                                var serverMessage = new ServerMessage()
-                                {
-                                    Messagge = "NOTFINDED"
-                                };
-                                var response = _jsonSender.ServerMessageSerialize(serverMessage);
-                                StreamWriter sw = new StreamWriter(ns);
-                                sw.WriteLine(response);
-                                sw.Flush();
+                                Messagge = "NOTFINDED"
+                            };
+                            var response = _jsonSender.ServerMessageSerialize(serverMessage);
+                            StreamWriter streaWriter = new StreamWriter(ns);
 
-                                sw.Close();
-                                sr.Close();
-                                ns.Close();
-                            }
-                            else
+                            streaWriter.WriteLine(response);
+                            streaWriter.Flush();
+
+                            //sw.Close();
+                            //sr.Close();
+                            //ns.Close();
+                        }
+                        else
+                        {
+                            var genre = _shopDb.Genres.Where(g => g.Id == searchbook.GenreId).First();
+                            var publisher = _shopDb.Publishers.Where(p => p.Id == searchbook.PublisherId).First();
+                            var autor = _shopDb.Authors.Where(a => a.Id == searchbook.AuthorId).First();
+                            var infoaboutbook = new AboutBookModel()
                             {
-                                var genre = _shopDb.Genres.Where(g => g.Id == searchbook.Id).First();
-                                var publisher = _shopDb.Publishers.Where(p => p.Id == searchbook.PublisherId).First();
-                                var autor = _shopDb.Authors.Where(a => a.Id == searchbook.AuthorId).First();
-                                var infoaboutbook = new AboutBookModel()
-                                {
-                                    Price = Convert.ToString(searchbook.Price),
-                                    Genre = genre.GenreName,
-                                    AlterName = searchbook.AlterName,
-                                    Publisher = publisher.PublisherName,
-                                    Published = Convert.ToString(searchbook.Published),
-                                    Author = autor.AuthorName
-                                };
-                                var findedBookMessage = new ServerMessage()
-                                {
-                                    Messagge = "BOOKFOUNDED",
-                                    
-                                };
-                                var findedBook = _jsonSender.ServerMessageSerialize(findedBookMessage);
-                                StreamWriter sw = new StreamWriter(ns);
-                                sw.WriteLine(findedBook);
-                                sw.Flush();
+                                Price = Convert.ToString(searchbook.Price),
+                                Genre = genre.GenreName,
+                                AlterName = searchbook.AlterName,
+                                Publisher = publisher.PublisherName,
+                                Published = Convert.ToString(searchbook.Published),
+                                Author = autor.AuthorName
+                            };
+                            var findedBookMessage = new ServerMessage()
+                            {
+                                Messagge = "BOOKFOUNDED",
+                                About = infoaboutbook
+                            };
+                            var findedBook = _jsonSender.ServerMessageSerialize(findedBookMessage);
+                            StreamWriter streaWriter = new StreamWriter(ns);
+                            streaWriter.WriteLine(findedBook);
+                            streaWriter.Flush();
 
-                                sw.Close();
-                                sr.Close();
-                                ns.Close();
-                            }
+                            //sw.Close();
+                            //sr.Close();
+                            //ns.Close();
+                        }
                         break;
-                        case "REG_USER":
-                            break;
-                        case "GET_USER":
-                            break;
-                        case "GET_BOOK":
-                            break;
+                    case "REG_USER":
+                        break;
+                    case "GET_USER":
+                        break;
+                    case "GET_BOOK":
+                        break;
+                    case "GET_ALL_BOOKS":
+                        List<Book> allBooks = _shopDb.Books.ToList();
+                        var allBooksMessage = new ServerMessage()
+                        {
+                            Messagge = "ALL_BOOKS_LIST",
+                            AllBooks = allBooks
+                        };
 
-                    }
+                        var booksSerialized = _jsonSender.ServerMessageSerialize(allBooksMessage);
+                        StreamWriter sw = new StreamWriter(ns);
+                        sw.WriteLine(booksSerialized);
+                        sw.Flush();
+                        break;
+                    default:
+                        break;
                 }
             }
-            catch (Exception ex)
-            {
-
-            }
+            //}
+            //catch (Exception ex)
+            //{
+            //MessageBox.Show(ex.Message);
+            //}
         }
     }
 }

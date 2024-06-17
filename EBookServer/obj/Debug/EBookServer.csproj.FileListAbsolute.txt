@@ -75,7 +75,6 @@ C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\bin\D
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\bin\Debug\System.Numerics.Vectors.xml
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\bin\Debug\System.Text.Encodings.Web.xml
-C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\bin\Debug\System.Text.Json.xml
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\bin\Debug\System.ValueTuple.xml
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\obj\Debug\EBookServer.csproj.AssemblyReference.cache
@@ -126,3 +125,94 @@ C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookServer\obj\Debug\EBookSer
 C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookServer\obj\Debug\EBookSer.C9D82F8A.Up2Date
 C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookServer\obj\Debug\EBookServer.exe
 C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookServer\obj\Debug\EBookServer.pdb
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\EBookServer.exe.config
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\EBookServer.exe
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\EBookServer.pdb
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\EBookLib01.dll
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\EntityFramework.dll
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\Guna.UI2.dll
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\RestSharp.dll
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\System.Buffers.dll
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\System.CodeDom.dll
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\System.Memory.dll
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\System.Text.Json.dll
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\System.ValueTuple.dll
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\EBookLib01.pdb
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\EBookLib01.dll.config
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\EntityFramework.xml
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\RestSharp.xml
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\System.Buffers.xml
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\System.CodeDom.xml
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\System.Memory.xml
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\System.Text.Json.xml
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\System.ValueTuple.xml
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\obj\Debug\EBookServer.csproj.AssemblyReference.cache
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\obj\Debug\EBookServer.Properties.Resources.resources
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\obj\Debug\EBookServer.csproj.GenerateResource.cache
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\obj\Debug\EBookServer.csproj.CoreCompileInputs.cache
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\obj\Debug\EBookSer.C9D82F8A.Up2Date
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\obj\Debug\EBookServer.exe
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\obj\Debug\EBookServer.pdb
+C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.SovaMigration.resources
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\EBookServer.exe.config
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\EBookServer.exe
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\EBookServer.pdb
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\EBookLib01.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\EntityFramework.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\Guna.UI2.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\RestSharp.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\System.Buffers.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\System.CodeDom.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\System.Memory.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\System.Text.Json.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\System.ValueTuple.dll
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\EBookLib01.pdb
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\EBookLib01.dll.config
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\EntityFramework.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\RestSharp.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\System.Buffers.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\System.CodeDom.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\System.Memory.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\System.Text.Json.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\bin\Debug\System.ValueTuple.xml
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.csproj.AssemblyReference.cache
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.Migrations.SovaMigration.resources
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.Properties.Resources.resources
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.csproj.GenerateResource.cache
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.csproj.CoreCompileInputs.cache
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookSer.C9D82F8A.Up2Date
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.exe
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.pdb
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.Migrations.BookInfoFixed.resources
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.Migrations.PublishersFixed.resources
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.Migrations.GenresFixed.resources
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.Migrations.AuthorsFixed.resources
+C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.Migrations.OneLibraryPerUser.resources
