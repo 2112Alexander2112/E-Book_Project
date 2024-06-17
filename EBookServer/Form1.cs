@@ -212,10 +212,6 @@ namespace EBookServer
                         sw.WriteLine(booksSerialized);
                         sw.Flush();
                         break;
-<<<<<<< HEAD
-                    //default:
-                       // break;
-=======
                     case "ADD_WHISHLIST":
                         var whishlistMessage = new ServerMessage();
                         try
@@ -264,7 +260,6 @@ namespace EBookServer
                         break;
                     default:
                         break;
->>>>>>> f99b99c8f4b677262965d471c63f36584d802c9d
                 }
             }
         }
