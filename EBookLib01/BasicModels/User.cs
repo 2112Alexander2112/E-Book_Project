@@ -20,12 +20,9 @@ namespace EBookLib01.BasicModels
         public DateTime RegDate { get; set; }
         public int RoleId { get; set; }
         public int PublisherId { get; set; }
-
-        public virtual List<Wishlist> Wishlist { get; set; }
-
-        public virtual MyLibrary MyLibrary { get; set; }
         public virtual List<Friend> Friends { get; set; }
         public virtual Role Role { get; set; }
         public virtual Publisher Publisher { get; set; }
     }
+
 }

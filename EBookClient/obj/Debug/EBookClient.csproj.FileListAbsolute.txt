@@ -231,4 +231,8 @@ C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookClient\obj\Debug\EBook
 C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookClient\obj\Debug\EBookClient.exe
 C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookClient\obj\Debug\EBookClient.pdb
 C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookClient\obj\Debug\EBookClient.ListBookSearch.resources
+<<<<<<< HEAD
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.ListBookSearch.resources
+=======
+C:\Users\solod\IT\Step\E-Book_Project\EBookClient\obj\Debug\EBookClient.ListBookSearch.resources
+>>>>>>> f99b99c8f4b677262965d471c63f36584d802c9d
