@@ -167,7 +167,10 @@ namespace EBookClient
         private void WishlistButt_Click(object sender, EventArgs e)
         {
             var whishList = new UC_WhishList();
+            whishList.AddrDTO = _ipAddres;
+            whishList.PortDTO = _port;
             addUserContorol(whishList);
+            whishList.GetBooksFromServer();
         }
 
         private void SoBButt_Click(object sender, EventArgs e)

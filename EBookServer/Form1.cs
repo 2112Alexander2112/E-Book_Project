@@ -133,15 +133,56 @@ namespace EBookServer
                         sw.WriteLine(booksSerialized);
                         sw.Flush();
                         break;
+                    case "ADD_WHISHLIST":
+                        var whishlistMessage = new ServerMessage();
+                        try
+                        {
+                            var newWishlist = new Wishlist
+                            {
+                                Id = -1,
+                                UserId = clientMessage.UserId,
+                                BookId = clientMessage.BookId,
+                            };
+                            _shopDb.Wishlists.Add(newWishlist);
+                            _shopDb.SaveChanges();
+                            whishlistMessage.Messagge = "WISHLIST:OK";
+                        }catch (Exception ex)
+                        {
+                            whishlistMessage.Messagge = "WISHLIST:ERROR";
+                        }
+                        
+
+                        var whishlist = _jsonSender.ServerMessageSerialize(whishlistMessage);
+                        StreamWriter streamW = new StreamWriter(ns);
+                        streamW.WriteLine(whishlist);
+                        streamW.Flush();
+                        break;
+                    case "GET_WHISHLIST":
+                        var getWhishlistMessage = new ServerMessage();
+                        try
+                        {
+                            var booksInWishlist = _shopDb.Wishlists
+                                          .Where(w => w.UserId == clientMessage.UserId)
+                                          .Select(w => w.Book)
+                                          .Distinct()
+                                          .ToList();
+
+                            getWhishlistMessage.Messagge = "WHISHLIST_BOOKS:OK";
+                            getWhishlistMessage.AllBooks = booksInWishlist;
+
+                        }catch (Exception ex)
+                        {
+                            getWhishlistMessage.Messagge = "WHISHLIST_BOOKS:ERROR";
+                        }
+                        var wishlistBooks = _jsonSender.ServerMessageSerialize(getWhishlistMessage);
+                        StreamWriter stw = new StreamWriter(ns);
+                        stw.WriteLine(wishlistBooks);
+                        stw.Flush();
+                        break;
                     default:
                         break;
                 }
             }
-            //}
-            //catch (Exception ex)
-            //{
-            //MessageBox.Show(ex.Message);
-            //}
         }
     }
 }

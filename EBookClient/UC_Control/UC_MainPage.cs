@@ -33,7 +33,7 @@ namespace EBookClient.UC_Control
         public IPAddress AddrDTO { get; set; }
         public int PortDTO { get; set; }
         public string JsonstringSearchBookMessage { get; set; }
-
+        int currentUserId = 2;//TODO delete later
 
         int totalBooks = 0;
 
@@ -74,6 +74,11 @@ namespace EBookClient.UC_Control
                 booksElements[i].Icon = icons[startIndex + i];
                 booksElements[i].Price = "1000";
                 booksElements[i].Click += new System.EventHandler(this.UC_Book_Click);
+                booksElements[i].AddrDTO = AddrDTO;
+                booksElements[i].PortDTO = PortDTO;
+                booksElements[i].BookId = books[startIndex + i].Id;
+                //TODO: MAKE FROM DATABASE
+                booksElements[i].UserId = currentUserId;
 
                 flowLayoutPanel1.Controls.Add(booksElements[i]);
             }
@@ -258,17 +263,12 @@ namespace EBookClient.UC_Control
                     AlterName = sampleAlterNames[random.Next(sampleAlterNames.Count)],
                     Published = DateTime.Now.AddDays(-random.Next(0, 3650)), // Random date within the last 10 years
                     PublisherId = random.Next(1, 10),
-                    BookInfoId = random.Next(1, 10),
-                    //BookInfos = new List<BookInfo>(),
-                    BookInfo = new BookInfo(),
                     Price = 1000,
                     Publisher = new EBookLib01.BasicModels.Publisher(),
                     Genre = new Genre(),
                     Category = new Category(),
                     Author = author,
-                    //Books = new List<Book>(),
                     Reviews = new List<Review>(),
-                    Wishlists = new List<Wishlist>(),
                     Transactions = new List<Transaction>()
                 };
 

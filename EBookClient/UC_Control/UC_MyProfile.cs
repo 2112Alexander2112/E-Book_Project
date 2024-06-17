@@ -24,8 +24,6 @@ namespace EBookClient.UC_Control
             RegDate = DateTime.Now,
             RoleId = 1,
             PublisherId = 1,
-            Wishlist = new List<Wishlist>(),
-            MyLibrary = new MyLibrary(),
             Friends = new List<Friend>(),
             Role = new Role { Id = 1, RoleName = "Admin" },
             Publisher = new Publisher { Id = 1, PublisherName = "Sample Publisher" }

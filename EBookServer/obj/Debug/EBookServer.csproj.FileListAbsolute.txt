@@ -1,4 +1,3 @@
-C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\App.config
 C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\EBookServer.exe.config
 C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\EBookServer.exe
 C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\EBookServer.pdb
@@ -216,3 +215,16 @@ C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBook
 C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.Migrations.GenresFixed.resources
 C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.Migrations.AuthorsFixed.resources
 C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.Migrations.OneLibraryPerUser.resources
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\bin\Debug\System.Text.Json.xml
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.SovaMigration.resources
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.BookInfoFixed.resources
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.PublishersFixed.resources
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.GenresFixed.resources
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.AuthorsFixed.resources
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.OneLibraryPerUser.resources
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.NoBookInfo.resources
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.NoBookInfoCheck.resources
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.Fix2.resources
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.fix3.resources
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.fix4.resources
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.WhishlistColleration.resources

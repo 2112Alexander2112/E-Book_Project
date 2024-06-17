@@ -1,10 +1,15 @@
-﻿using EBookLib01.BasicModels;
+﻿using EBookLib01;
+using EBookLib01.BasicModels;
+using EBookLib01.HelperModels.TransitModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Net;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -23,6 +28,11 @@ namespace EBookClient.UC_Control
         static List<Book> allBooks = GenerateRandomBooks(52, authors);
         static List<Book> books = allBooks;
         static List<Image> icons = CreateIconArray(books.Count);
+        private JSONSender _jsonsender; 
+        int currentUserId = 2;//TODO delete later
+        public IPAddress AddrDTO { get; set; }
+        public int PortDTO { get; set; }
+        public string JsonstringServerMessage { get; set; }
 
         int totalBooks = 0;
 
@@ -158,6 +168,51 @@ namespace EBookClient.UC_Control
             }
         }
 
+        public void GetBooksFromServer()
+        {
+            try
+            {
+                _jsonsender = new JSONSender();
+                var messageToServer = new ClientMessage()
+                {
+                    Header = "GET_WHISHLIST",
+                    UserId = currentUserId,//TODO: MakeFromDB
+                };
+                JsonstringServerMessage = _jsonsender.ClientMessageSerialize(messageToServer);
+
+                var client = new TcpClient();
+
+                client.Connect(AddrDTO, PortDTO);
+
+                NetworkStream ns = client.GetStream();
+                StreamWriter sw = new StreamWriter(ns);
+                sw.WriteLine(JsonstringServerMessage);
+                sw.Flush();
+
+                StreamReader sr = new StreamReader(ns);
+                var serverMessage = sr.ReadLine();
+                var serverMessage2 = _jsonsender.ServerMessageDeserialize(serverMessage);
+
+                if (serverMessage2.Messagge == "WHISHLIST_BOOKS:OK")
+                {
+                    books = serverMessage2.AllBooks;
+                    MessageBox.Show($"{serverMessage2.AllBooks.Count}");
+                    allBooks = serverMessage2.AllBooks;
+                    icons = CreateIconArray(books.Count);
+                    ShowCurrentPage();
+                }
+                else
+                {
+                    books = new List<Book>();
+                    MessageBox.Show("No books were found", "Повідомлення",
+                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Нажаль сталась помилка:{ex.Message}", "Повідомлення", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
 
         //TODO: Delete Later
         public static List<Book> GenerateRandomBooks(int count, List<Author> authors)
@@ -197,16 +252,11 @@ namespace EBookClient.UC_Control
                     AlterName = sampleAlterNames[random.Next(sampleAlterNames.Count)],
                     Published = DateTime.Now.AddDays(-random.Next(0, 3650)), // Random date within the last 10 years
                     PublisherId = random.Next(1, 10),
-                    BookInfoId = random.Next(1, 10),
-                   // BookInfos = new List<BookInfo>(),
-                    BookInfo = new BookInfo(),
                     Publisher = new Publisher(),
                     Genre = new Genre(),
                     Category = new Category(),
                     Author = author,
-                   // Books = new List<Book>(),
                     Reviews = new List<Review>(),
-                    Wishlists = new List<Wishlist>(),
                     Transactions = new List<Transaction>()
                 };
                 books.Add(book);
