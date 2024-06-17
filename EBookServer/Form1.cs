@@ -52,7 +52,7 @@ namespace EBookServer
             _listenerThread.IsBackground = true;
             _listenerThread.Start();
         }
-        private void MainLoop()
+        private async void MainLoop()
         {
             //try
             //{
@@ -66,10 +66,11 @@ namespace EBookServer
 
                 switch (clientMessage.Header)
                 {
+                    /*
                     case "SHOWBOOK":
                         var searchbook = _shopDb.Books
                             .Where(b => b.BookName == clientMessage.SeacrhingBook).FirstOrDefault();
-                        if (searchbook == null)
+                        if (//searchbook == null)
                         {
                             var serverMessage = new ServerMessage()
                             {
@@ -81,9 +82,9 @@ namespace EBookServer
                             streaWriter.WriteLine(response);
                             streaWriter.Flush();
 
-                            //sw.Close();
-                            //sr.Close();
-                            //ns.Close();
+                            sw.Close();
+                            sr.Close();
+                            ns.Close();
                         }
                         else
                         {
@@ -114,10 +115,88 @@ namespace EBookServer
                             //ns.Close();
                         }
                         break;
+                    */
                     case "REG_USER":
+                        var verUser = _shopDb.Users
+                           .Where(b => b.UserLogin == clientMessage.RegTrans.UserLogin).FirstOrDefault();
+                        if (verUser != null)
+                        {
+                            var serverMessage = new ServerMessage()
+                            {
+                                Messagge = "NOREG"
+                            };
+                            var response = _jsonSender.ServerMessageSerialize(serverMessage);
+                            StreamWriter streamWritter = new StreamWriter(ns);
+
+                            streamWritter.WriteLine(response);
+                            streamWritter.Flush();
+
+                            //sw.Close();
+                            //sr.Close();
+                            //ns.Close();
+                        }
+                        else
+                        {
+                            var newUser = new User()
+                            {
+                                UserLogin = clientMessage.RegTrans.UserLogin,
+                                RoleId = 1,
+                                RegDate = DateTime.Now,
+                                Email = clientMessage.RegTrans.Email,
+                                PublisherId = clientMessage.RegTrans.PublisherId,
+                                Password = clientMessage.RegTrans.Password,
+                            };
+                           
+                            _shopDb.Users.Add(newUser);
+                            _shopDb.SaveChanges();
+                               
+                           
+                            var refMessage = new ServerMessage()
+                            {
+                                Messagge = "YESREG",
+                            };
+                            var regOk = _jsonSender.ServerMessageSerialize(refMessage);
+                            StreamWriter streaWriter = new StreamWriter(ns);
+                            streaWriter.WriteLine(regOk);
+                            streaWriter.Flush();
+
+                            //sw.Close();
+                            //sr.Close();
+                            //ns.Close();
+                        }
                         break;
-                    case "GET_USER":
-                        break;
+                    case "AUTH_USER":
+                        var authUserLogin = _shopDb.Users
+                          .Where(b => b.UserLogin == clientMessage.AuthUser.UserLogin).FirstOrDefault();
+                        var authUserPassw = _shopDb.Users
+                          .Where(b => b.UserLogin == clientMessage.AuthUser.Password).FirstOrDefault();
+                        if (authUserLogin != null || authUserPassw != null)
+                        {
+                            var refMessage = new ServerMessage()
+                            {
+                                Messagge = "YESAUTH",
+                            };
+                            var regOk = _jsonSender.ServerMessageSerialize(refMessage);
+                            StreamWriter streamWriter = new StreamWriter(ns);
+                            streamWriter.WriteLine(regOk);
+                            streamWriter.Flush();
+                            //sw.Close();
+                            //sr.Close();
+                            //ns.Close();
+                        }
+                        else
+                        {
+                            var serverMessage = new ServerMessage()
+                            {
+                                Messagge = "NOAUTH"
+                            };
+                            var response = _jsonSender.ServerMessageSerialize(serverMessage);
+                            StreamWriter streamWritter = new StreamWriter(ns);
+
+                            streamWritter.WriteLine(response);
+                            streamWritter.Flush();
+                        }
+                            break;
                     case "GET_BOOK":
                         break;
                     case "GET_ALL_BOOKS":
@@ -133,8 +212,8 @@ namespace EBookServer
                         sw.WriteLine(booksSerialized);
                         sw.Flush();
                         break;
-                    default:
-                        break;
+                    //default:
+                       // break;
                 }
             }
             //}

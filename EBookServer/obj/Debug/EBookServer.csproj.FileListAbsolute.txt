@@ -42,7 +42,6 @@ C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.exe
 C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.pdb
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\obj\Debug\EBookServer.exe
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\obj\Debug\EBookServer.pdb
-C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\bin\Debug\App.config
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\bin\Debug\EBookServer.exe.config
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\bin\Debug\EBookServer.exe
 C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\bin\Debug\EBookServer.pdb
@@ -216,3 +215,10 @@ C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBook
 C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.Migrations.GenresFixed.resources
 C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.Migrations.AuthorsFixed.resources
 C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.Migrations.OneLibraryPerUser.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\bin\Debug\System.Text.Json.xml
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.SovaMigration.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.BookInfoFixed.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.PublishersFixed.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.GenresFixed.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.AuthorsFixed.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.OneLibraryPerUser.resources
