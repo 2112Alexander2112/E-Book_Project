@@ -91,7 +91,7 @@
             // FiltersButton
             // 
             this.FiltersButton.Location = new System.Drawing.Point(758, 14);
-            this.FiltersButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FiltersButton.Margin = new System.Windows.Forms.Padding(2);
             this.FiltersButton.Name = "FiltersButton";
             this.FiltersButton.Size = new System.Drawing.Size(104, 26);
             this.FiltersButton.TabIndex = 3;

@@ -18,5 +18,6 @@ namespace EBookLib01.HelperModels.TransitModels
         public string SeacrhingBook { get; set; }
         public int UserId { get; set; }
         public int BookId { get; set; }
+        public int WishlistId { get; set; }
     }
 }

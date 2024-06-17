@@ -54,8 +54,6 @@ namespace EBookServer
         }
         private async void MainLoop()
         {
-            //try
-            //{
             while (true)
             {
                 TcpClient client = _tcpListener.AcceptTcpClient();
@@ -66,56 +64,6 @@ namespace EBookServer
 
                 switch (clientMessage.Header)
                 {
-                    /*
-                    case "SHOWBOOK":
-                        var searchbook = _shopDb.Books
-                            .Where(b => b.BookName == clientMessage.SeacrhingBook).FirstOrDefault();
-                        if (//searchbook == null)
-                        {
-                            var serverMessage = new ServerMessage()
-                            {
-                                Messagge = "NOTFINDED"
-                            };
-                            var response = _jsonSender.ServerMessageSerialize(serverMessage);
-                            StreamWriter streaWriter = new StreamWriter(ns);
-
-                            streaWriter.WriteLine(response);
-                            streaWriter.Flush();
-
-                            sw.Close();
-                            sr.Close();
-                            ns.Close();
-                        }
-                        else
-                        {
-                            var genre = _shopDb.Genres.Where(g => g.Id == searchbook.GenreId).First();
-                            var publisher = _shopDb.Publishers.Where(p => p.Id == searchbook.PublisherId).First();
-                            var autor = _shopDb.Authors.Where(a => a.Id == searchbook.AuthorId).First();
-                            var infoaboutbook = new AboutBookModel()
-                            {
-                                Price = Convert.ToString(searchbook.Price),
-                                Genre = genre.GenreName,
-                                AlterName = searchbook.AlterName,
-                                Publisher = publisher.PublisherName,
-                                Published = Convert.ToString(searchbook.Published),
-                                Author = autor.AuthorName
-                            };
-                            var findedBookMessage = new ServerMessage()
-                            {
-                                Messagge = "BOOKFOUNDED",
-                                About = infoaboutbook
-                            };
-                            var findedBook = _jsonSender.ServerMessageSerialize(findedBookMessage);
-                            StreamWriter streaWriter = new StreamWriter(ns);
-                            streaWriter.WriteLine(findedBook);
-                            streaWriter.Flush();
-
-                            //sw.Close();
-                            //sr.Close();
-                            //ns.Close();
-                        }
-                        break;
-                    */
                     case "REG_USER":
                         var verUser = _shopDb.Users
                            .Where(b => b.UserLogin == clientMessage.RegTrans.UserLogin).FirstOrDefault();
@@ -130,17 +78,12 @@ namespace EBookServer
 
                             streamWritter.WriteLine(response);
                             streamWritter.Flush();
-
-                            //sw.Close();
-                            //sr.Close();
-                            //ns.Close();
                         }
                         else
                         {
                             var newUser = new User()
                             {
                                 UserLogin = clientMessage.RegTrans.UserLogin,
-                                RoleId = 1,
                                 RegDate = DateTime.Now,
                                 Email = clientMessage.RegTrans.Email,
                                 PublisherId = clientMessage.RegTrans.PublisherId,
@@ -159,30 +102,24 @@ namespace EBookServer
                             StreamWriter streaWriter = new StreamWriter(ns);
                             streaWriter.WriteLine(regOk);
                             streaWriter.Flush();
-
-                            //sw.Close();
-                            //sr.Close();
-                            //ns.Close();
                         }
                         break;
                     case "AUTH_USER":
                         var authUserLogin = _shopDb.Users
                           .Where(b => b.UserLogin == clientMessage.AuthUser.UserLogin).FirstOrDefault();
                         var authUserPassw = _shopDb.Users
-                          .Where(b => b.UserLogin == clientMessage.AuthUser.Password).FirstOrDefault();
+                          .Where(b => b.Password == clientMessage.AuthUser.Password).FirstOrDefault();
                         if (authUserLogin != null || authUserPassw != null)
                         {
                             var refMessage = new ServerMessage()
                             {
                                 Messagge = "YESAUTH",
+                                User = authUserLogin,
                             };
                             var regOk = _jsonSender.ServerMessageSerialize(refMessage);
                             StreamWriter streamWriter = new StreamWriter(ns);
                             streamWriter.WriteLine(regOk);
                             streamWriter.Flush();
-                            //sw.Close();
-                            //sr.Close();
-                            //ns.Close();
                         }
                         else
                         {
@@ -235,6 +172,33 @@ namespace EBookServer
                         StreamWriter streamW = new StreamWriter(ns);
                         streamW.WriteLine(whishlist);
                         streamW.Flush();
+                        break;
+                    case "REMOVE_WHISHLIST":
+                        var whishlistRemoveMessage = new ServerMessage();
+                        try
+                        {
+
+                            var wishlistEntry = _shopDb.Wishlists
+                                   .FirstOrDefault(w => w.UserId == clientMessage.UserId && w.BookId == clientMessage.BookId);
+
+                            // If the entry exists, remove it
+                            if (wishlistEntry != null)
+                            {
+                                _shopDb.Wishlists.Remove(wishlistEntry);
+                                _shopDb.SaveChanges();
+                            }
+                            whishlistRemoveMessage.Messagge = "WISHLIST:OK";
+                        }
+                        catch (Exception ex)
+                        {
+                            whishlistRemoveMessage.Messagge = "WISHLIST:ERROR";
+                        }
+
+
+                        var whishlistMess = _jsonSender.ServerMessageSerialize(whishlistRemoveMessage);
+                        StreamWriter streamWr = new StreamWriter(ns);
+                        streamWr.WriteLine(whishlistMess);
+                        streamWr.Flush();
                         break;
                     case "GET_WHISHLIST":
                         var getWhishlistMessage = new ServerMessage();

@@ -22,10 +22,8 @@ namespace EBookClient.UC_Control
             Email = "sampleUser@example.com",
             Password = "password123",
             RegDate = DateTime.Now,
-            RoleId = 1,
             PublisherId = 1,
             Friends = new List<Friend>(),
-            Role = new Role { Id = 1, RoleName = "Admin" },
             Publisher = new Publisher { Id = 1, PublisherName = "Sample Publisher" }
         };
         public UC_MyProfile(string userLogin)

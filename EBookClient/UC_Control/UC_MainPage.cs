@@ -33,7 +33,8 @@ namespace EBookClient.UC_Control
         public IPAddress AddrDTO { get; set; }
         public int PortDTO { get; set; }
         public string JsonstringSearchBookMessage { get; set; }
-        int currentUserId = 2;//TODO delete later
+        
+        public User currentUser { get; set; }
 
         int totalBooks = 0;
 
@@ -72,13 +73,12 @@ namespace EBookClient.UC_Control
                 booksElements[i].Title = books[startIndex + i].BookName;
                 booksElements[i].Author = books[startIndex + i].Author.AuthorName;
                 booksElements[i].Icon = icons[startIndex + i];
-                booksElements[i].Price = "1000";
+                booksElements[i].Price = books[startIndex + i].Price.ToString();
                 booksElements[i].Click += new System.EventHandler(this.UC_Book_Click);
                 booksElements[i].AddrDTO = AddrDTO;
                 booksElements[i].PortDTO = PortDTO;
                 booksElements[i].BookId = books[startIndex + i].Id;
-                //TODO: MAKE FROM DATABASE
-                booksElements[i].UserId = currentUserId;
+                booksElements[i].UserId = currentUser.Id;
 
                 flowLayoutPanel1.Controls.Add(booksElements[i]);
             }
@@ -146,7 +146,7 @@ namespace EBookClient.UC_Control
                 booksElements[i].Title = filteredBooks[startIndex + i].BookName;
                 booksElements[i].Author = filteredBooks[startIndex + i].Author.AuthorName;
                 booksElements[i].Icon = icons[startIndex + i];
-                booksElements[i].Price = "1000";
+                booksElements[i].Price = books[startIndex + i].Price.ToString();
                 booksElements[i].Click += new System.EventHandler(this.UC_Book_Click);
 
                 flowLayoutPanel1.Controls.Add(booksElements[i]);

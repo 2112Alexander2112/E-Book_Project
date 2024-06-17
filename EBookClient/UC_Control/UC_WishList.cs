@@ -3,15 +3,12 @@ using EBookLib01.BasicModels;
 using EBookLib01.HelperModels.TransitModels;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace EBookClient.UC_Control
@@ -28,7 +25,7 @@ namespace EBookClient.UC_Control
         static List<Book> books = allBooks;
         static List<Image> icons;
         private JSONSender _jsonsender; 
-        int currentUserId = 2;//TODO delete later
+        public User currentUser;
         public IPAddress AddrDTO { get; set; }
         public int PortDTO { get; set; }
         public string JsonstringServerMessage { get; set; }
@@ -66,6 +63,11 @@ namespace EBookClient.UC_Control
                 booksElements[i].Title = books[startIndex + i].BookName;
                 booksElements[i].Author = books[startIndex + i].Author.AuthorName;
                 booksElements[i].Icon = icons[startIndex + i];
+                booksElements[i].UserId = currentUser.Id;
+                booksElements[i].BookId = books[startIndex + i].Id;
+                booksElements[i].Price = books[startIndex + i].Price.ToString();
+                booksElements[i].AddrDTO = AddrDTO;
+                booksElements[i].PortDTO = PortDTO;
                 booksElements[i].Click += new System.EventHandler(this.UC_Book_Click);
 
                 flowLayoutPanel1.Controls.Add(booksElements[i]);
@@ -134,6 +136,11 @@ namespace EBookClient.UC_Control
                 booksElements[i].Title = filteredBooks[startIndex + i].BookName;
                 booksElements[i].Author = filteredBooks[startIndex + i].Author.AuthorName;
                 booksElements[i].Icon = icons[startIndex + i];
+                booksElements[i].UserId = currentUser.Id;
+                booksElements[i].Price = books[startIndex + i].Price.ToString();
+                booksElements[i].BookId = books[startIndex + i].Id;
+                booksElements[i].AddrDTO = AddrDTO;
+                booksElements[i].PortDTO = PortDTO;
                 booksElements[i].Click += new System.EventHandler(this.UC_Book_Click);
 
                 flowLayoutPanel1.Controls.Add(booksElements[i]);
@@ -181,7 +188,7 @@ namespace EBookClient.UC_Control
                 var messageToServer = new ClientMessage()
                 {
                     Header = "GET_WHISHLIST",
-                    UserId = currentUserId,//TODO: MakeFromDB
+                    UserId = currentUser.Id,
                 };
                 JsonstringServerMessage = _jsonsender.ClientMessageSerialize(messageToServer);
 
@@ -219,7 +226,6 @@ namespace EBookClient.UC_Control
             icons = CreateIconArray(books.Count);
         }
 
-        //TODO: Delete Later
         public static List<Image> CreateIconArray(int numberOfIcons)
         {
             List<Image> images = new List<Image>();

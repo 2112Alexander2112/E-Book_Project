@@ -12,6 +12,7 @@ namespace EBookLib01.HelperModels.TransitModels
         public string Messagge { get; set; }
         public AboutBookModel About { get; set; }
         public List<Book> AllBooks { get; set; }
+        public User User { get; set; }
 
     }
 }

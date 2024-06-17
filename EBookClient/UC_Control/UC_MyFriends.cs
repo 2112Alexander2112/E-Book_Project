@@ -179,10 +179,8 @@ namespace EBookClient.UC_Control
                     Email = $"user{i + 1}@example.com",
                     Password = "Password123",
                     RegDate = DateTime.Now,
-                    RoleId = 1,
                     PublisherId = 1,
                     Friends = new List<Friend>(),
-                    Role = new Role(), 
                     Publisher = new Publisher() 
                 };
 

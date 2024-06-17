@@ -16,6 +16,7 @@ namespace EBookClient
         private IPEndPoint _ep;
         private TcpClient _tcpClient;
         private JSONSender _jsonSender;
+        public User currentUser;
         public Menu(string user)
         {
             InitializeComponent();
@@ -160,6 +161,7 @@ namespace EBookClient
             var mainpage = new UC_MainPage();
             mainpage.AddrDTO = _ipAddres;
             mainpage.PortDTO = _port;
+            mainpage.currentUser = currentUser;
             addUserContorol(mainpage);
             mainpage.GetBooksFromServer();
         }
@@ -169,6 +171,7 @@ namespace EBookClient
             var whishList = new UC_WhishList();
             whishList.AddrDTO = _ipAddres;
             whishList.PortDTO = _port;
+            whishList.currentUser = currentUser;
             addUserContorol(whishList);
             whishList.GetBooksFromServer();
         }
@@ -184,6 +187,7 @@ namespace EBookClient
             var mainpage = new UC_MainPage();
             mainpage.AddrDTO = _ipAddres;
             mainpage.PortDTO = _port;
+            mainpage.currentUser = currentUser;
             mainpage.GetBooksFromServer();
             addUserContorol(mainpage);
         }

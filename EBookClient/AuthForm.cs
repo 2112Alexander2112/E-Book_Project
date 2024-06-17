@@ -54,22 +54,6 @@ namespace EBookClient
                 }
                 else
                 {
-                    /*
-                    string mess = "";
-                    string[] path = mess.Split(':');
-                    if ("AUTH_OK" == path[0])
-                    {
-                        //label2.Text = path[1];
-                    }                  
-                    else
-                    {
-                        this.Hide();
-                        var Menu = new Menu("currentUserTest");
-                        Menu.ShowDialog();
-                        this.Hide();
-                        
-                    }
-                    */
                     string hashPass = EBookLib01.HashManager.GetHash(Password);
                     var authUser = new User()
                     {
@@ -99,6 +83,7 @@ namespace EBookClient
                             "Повідомлення", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         this.Hide();
                         var Menu = new Menu(authUser.UserLogin);
+                        Menu.currentUser = serverMessageDes.User;
                         Menu.ShowDialog();
                         this.Hide();
                     }

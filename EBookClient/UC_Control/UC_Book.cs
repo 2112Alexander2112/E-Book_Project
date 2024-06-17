@@ -1,17 +1,11 @@
 ﻿using EBookLib01.HelperModels.TransitModels;
 using EBookLib01;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Net;
 using System.Net.Sockets;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace EBookClient.UC_Control
@@ -100,45 +94,90 @@ namespace EBookClient.UC_Control
 
         private void AddToWishlistButton_Click(object sender, EventArgs e)
         {
-            try
+            if (AddToWishlistButton.Text == "Add to wishlist")
             {
-                _jsonsender = new JSONSender();
-                var messageToServer = new ClientMessage()
+                try
                 {
-                    Header = "ADD_WHISHLIST",
-                    UserId = UserId,
-                    BookId = BookId,
-                };
-                JsonstringMessage = _jsonsender.ClientMessageSerialize(messageToServer);
+                    _jsonsender = new JSONSender();
+                    var messageToServer = new ClientMessage()
+                    {
+                        Header = "ADD_WHISHLIST",
+                        UserId = UserId,
+                        BookId = BookId,
+                    };
+                    JsonstringMessage = _jsonsender.ClientMessageSerialize(messageToServer);
 
-                var client = new TcpClient();
+                    var client = new TcpClient();
 
-                client.Connect(AddrDTO, PortDTO);
+                    client.Connect(AddrDTO, PortDTO);
 
-                NetworkStream ns = client.GetStream();
-                StreamWriter sw = new StreamWriter(ns);
-                sw.WriteLine(JsonstringMessage);
-                sw.Flush();
+                    NetworkStream ns = client.GetStream();
+                    StreamWriter sw = new StreamWriter(ns);
+                    sw.WriteLine(JsonstringMessage);
+                    sw.Flush();
 
 
-                StreamReader sr = new StreamReader(ns);
-                var serverMessage = sr.ReadLine();
-                var serverMessage2 = _jsonsender.ServerMessageDeserialize(serverMessage);
+                    StreamReader sr = new StreamReader(ns);
+                    var serverMessage = sr.ReadLine();
+                    var serverMessage2 = _jsonsender.ServerMessageDeserialize(serverMessage);
 
-                if (serverMessage2.Messagge == "WISHLIST:OK")
-                {
-                    MessageBox.Show("The book has been successfully added to your wishlist", "Message",
-                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    if (serverMessage2.Messagge == "WISHLIST:OK")
+                    {
+                        MessageBox.Show("The book has been successfully added to your wishlist", "Message",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error Occured", "Warning",
+                            MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
                 }
-                else
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Error Occured", "Warning",
-                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show($"Нажаль сталась помилка:{ex.Message}", "Повідомлення", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show($"Нажаль сталась помилка:{ex.Message}", "Повідомлення", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                try
+                {
+                    _jsonsender = new JSONSender();
+                    var messageToServer = new ClientMessage()
+                    {
+                        Header = "REMOVE_WHISHLIST",
+                        UserId = UserId,
+                        BookId = BookId
+                    };
+                    JsonstringMessage = _jsonsender.ClientMessageSerialize(messageToServer);
+
+                    var client = new TcpClient();
+                    client.Connect(AddrDTO, PortDTO);
+
+                    NetworkStream ns = client.GetStream();
+                    StreamWriter sw = new StreamWriter(ns);
+                    sw.WriteLine(JsonstringMessage);
+                    sw.Flush();
+
+
+                    StreamReader sr = new StreamReader(ns);
+                    var serverMessage = sr.ReadLine();
+                    var serverMessage2 = _jsonsender.ServerMessageDeserialize(serverMessage);
+
+                    if (serverMessage2.Messagge == "WISHLIST:OK")
+                    {
+                        MessageBox.Show("The book has been successfully removed from your wishlist", "Message",
+                            MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error Occured", "Warning",
+                            MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Нажаль сталась помилка:{ex.Message}", "Повідомлення", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
