@@ -217,6 +217,7 @@ namespace EBookClient.UC_Control
             {
                 books = bookSearch.filteredBooks;
                 ShowCurrentPage();
+                SearchField.Text = string.Empty;
             }
         }
 

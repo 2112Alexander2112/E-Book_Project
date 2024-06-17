@@ -46,47 +46,8 @@ namespace EBookClient.UC_Control
             PasswordTextBox.Enabled = false;
             dateTimePicker1.Value = currentUser.RegDate;
             dateTimePicker1.Enabled = false;
-            GenderComboBox.Enabled = false;
         }
 
-        private void ChangeUsernameButton_Click(object sender, EventArgs e)
-        {
-            if(ChangeUsernameButton.Text == "Change")
-            {
-                ChangeUsernameButton.Text = "Save";
-                UsernameTextBox.Enabled = true;
-            }
-            else
-            {
-                ChangeUsernameButton.Text = "Change";
-                UsernameTextBox.Enabled = false;
-                MessageBox.Show("Username changed to " + UsernameTextBox.Text);
-                currentUser.UserLogin = UsernameTextBox.Text;
-            }
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (ChangeEmailButton.Text == "Change")
-            {
-                ChangeEmailButton.Text = "Save";
-                EmailTextBox.Enabled = true;
-            }
-            else
-            {
-                if (IsValidEmail(EmailTextBox.Text))
-                {
-                    ChangeEmailButton.Text = "Change";
-                    EmailTextBox.Enabled = false;
-                    MessageBox.Show("Email changed to " + EmailTextBox.Text);
-                    currentUser.Email = EmailTextBox.Text;
-                }
-                else
-                {
-                    MessageBox.Show("Please enter valid email");
-                }
-            }
-        }
         public static bool IsValidEmail(string email)
         {
             if (string.IsNullOrWhiteSpace(email))
@@ -143,42 +104,38 @@ namespace EBookClient.UC_Control
 
             return hasUpperCase && hasLowerCase && hasDigit && hasSpecialChar && hasMinLength;
         }
-        private void ChangePasswordButton_Click(object sender, EventArgs e)
+        
+
+
+        private void button1_Click_1(object sender, EventArgs e)
         {
-            if (ChangePasswordButton.Text == "Change")
+            if (button1.Text == "Change")
             {
-                ChangePasswordButton.Text = "Save";
+                button1.Text = "Save";
                 PasswordTextBox.Enabled = true;
+                dateTimePicker1.Enabled = true;
+                EmailTextBox.Enabled = true;
+                UsernameTextBox.Enabled = true;
             }
             else
             {
-                if (IsValidPassword(PasswordTextBox.Text))
+                if (IsValidPassword(PasswordTextBox.Text) && IsValidEmail(EmailTextBox.Text))
                 {
-                    ChangePasswordButton.Text = "Change";
+                    button1.Text = "Change";
                     PasswordTextBox.Enabled = false;
-                    MessageBox.Show("Password changed to " + PasswordTextBox.Text);
                     currentUser.Password = PasswordTextBox.Text;
+                    dateTimePicker1.Enabled = false;
+                    currentUser.RegDate = dateTimePicker1.Value;
+                    EmailTextBox.Enabled = false;
+                    currentUser.Email = EmailTextBox.Text;
+                    UsernameTextBox.Enabled = false;
+                    currentUser.UserLogin = UsernameTextBox.Text;
+                    MessageBox.Show("Data successfuly updated");
                 }
                 else
                 {
                     MessageBox.Show("Please enter valid password");
                 }
-            }
-        }
-
-        private void ChangeDateOfBirthButton_Click(object sender, EventArgs e)
-        {
-            if (ChangeDateOfBirthButton.Text == "Change")
-            {
-                ChangeDateOfBirthButton.Text = "Save";
-                dateTimePicker1.Enabled = true;
-            }
-            else
-            {
-                ChangeDateOfBirthButton.Text = "Change";
-                dateTimePicker1.Enabled = false;
-                MessageBox.Show("DateOfBirth changed to " + dateTimePicker1.Value);
-                currentUser.RegDate = dateTimePicker1.Value;
             }
         }
     }
