@@ -16,5 +16,17 @@ namespace EBookClient
         {
             InitializeComponent();
         }
+
+        private void AddBookButton_Click(object sender, EventArgs e)
+        {
+            var addBookForm = new AddBookForm();
+            addBookForm.ShowDialog();
+        }
+
+        private void AddCategoryButton_Click(object sender, EventArgs e)
+        {
+            var addCategoryForm = new AddCategoryForm();
+            addCategoryForm.ShowDialog();
+        }
     }
 }
