@@ -38,7 +38,7 @@ namespace EBookClient
                 var auth = new AuthForm();
                 if (auth.ShowDialog() == DialogResult.OK)
                 {
-
+                    
                 }
                 this.Close();
         }

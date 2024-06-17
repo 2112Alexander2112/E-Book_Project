@@ -35,7 +35,7 @@ namespace EBookClient
                 var messageToServer = new ClientMessage()
                 {
                     Header = "SHOWBOOK",
-                    SeacrhingBook = BookSerch.Text
+                    //SeacrhingBook = BookSerch.Text
                 };
                 JsonstringSearchBookMessage = _jsonsender.ClientMessageSerialize(messageToServer);
 

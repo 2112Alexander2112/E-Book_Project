@@ -129,6 +129,7 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="HelperModels\AboutBookModel.cs" />
+    <Compile Include="HelperModels\RegFormTransData.cs" />
     <Compile Include="Services\HashManager.cs" />
     <Compile Include="HelperModels\TransitModels\ClientMessage.cs" />
     <Compile Include="HelperModels\TransitModels\ServerMessage.cs" />
