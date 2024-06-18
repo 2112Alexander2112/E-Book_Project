@@ -98,6 +98,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddBookForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddBookForm.Designer.cs">
+      <DependentUpon>AddBookForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddCategoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCategoryForm.Designer.cs">
+      <DependentUpon>AddCategoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AuthForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -205,6 +223,45 @@
     <Compile Include="UC_Control\UC_WishList.Designer.cs">
       <DependentUpon>UC_WishList.cs</DependentUpon>
     </Compile>
+    <Compile Include="_EBookServer_EF_ORM_DataManagerDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_EBookServer_EF_ORM_DataManagerDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_EBookServer_EF_ORM_DataManagerDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_EBookServer_EF_ORM_DataManagerDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_EBookServer_EF_ORM_DataManagerDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_EBookServer_EF_ORM_DataManagerDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_EBookServer_EF_ORM_DataManagerDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_EBookServer_EF_ORM_DataManagerDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_EBookServer_EF_ORM_DataManagerDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_EBookServer_EF_ORM_DataManagerDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="_EBookServer_EF_ORM_DataManagerDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_EBookServer_EF_ORM_DataManagerDataSet5.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddBookForm.resx">
+      <DependentUpon>AddBookForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddCategoryForm.resx">
+      <DependentUpon>AddCategoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AuthForm.resx">
       <DependentUpon>AuthForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -267,6 +324,7 @@
       <DependentUpon>UC_WishList.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\EBookServer.EF_ORM.EBookBase.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -276,6 +334,72 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="_EBookServer_EF_ORM_DataManagerDataSet.xsc">
+      <DependentUpon>_EBookServer_EF_ORM_DataManagerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_EBookServer_EF_ORM_DataManagerDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_EBookServer_EF_ORM_DataManagerDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_EBookServer_EF_ORM_DataManagerDataSet.xss">
+      <DependentUpon>_EBookServer_EF_ORM_DataManagerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="_EBookServer_EF_ORM_DataManagerDataSet1.xsc">
+      <DependentUpon>_EBookServer_EF_ORM_DataManagerDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_EBookServer_EF_ORM_DataManagerDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_EBookServer_EF_ORM_DataManagerDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_EBookServer_EF_ORM_DataManagerDataSet1.xss">
+      <DependentUpon>_EBookServer_EF_ORM_DataManagerDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="_EBookServer_EF_ORM_DataManagerDataSet2.xsc">
+      <DependentUpon>_EBookServer_EF_ORM_DataManagerDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="_EBookServer_EF_ORM_DataManagerDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_EBookServer_EF_ORM_DataManagerDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_EBookServer_EF_ORM_DataManagerDataSet2.xss">
+      <DependentUpon>_EBookServer_EF_ORM_DataManagerDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="_EBookServer_EF_ORM_DataManagerDataSet3.xsc">
+      <DependentUpon>_EBookServer_EF_ORM_DataManagerDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="_EBookServer_EF_ORM_DataManagerDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_EBookServer_EF_ORM_DataManagerDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_EBookServer_EF_ORM_DataManagerDataSet3.xss">
+      <DependentUpon>_EBookServer_EF_ORM_DataManagerDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="_EBookServer_EF_ORM_DataManagerDataSet4.xsc">
+      <DependentUpon>_EBookServer_EF_ORM_DataManagerDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="_EBookServer_EF_ORM_DataManagerDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_EBookServer_EF_ORM_DataManagerDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_EBookServer_EF_ORM_DataManagerDataSet4.xss">
+      <DependentUpon>_EBookServer_EF_ORM_DataManagerDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="_EBookServer_EF_ORM_DataManagerDataSet5.xsc">
+      <DependentUpon>_EBookServer_EF_ORM_DataManagerDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="_EBookServer_EF_ORM_DataManagerDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_EBookServer_EF_ORM_DataManagerDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="_EBookServer_EF_ORM_DataManagerDataSet5.xss">
+      <DependentUpon>_EBookServer_EF_ORM_DataManagerDataSet5.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -317,6 +441,13 @@
       <Project>{213bc5f9-4644-4fe4-96c3-556ecdfce77c}</Project>
       <Name>EBookLib01</Name>
     </ProjectReference>
+    <ProjectReference Include="..\EBookServer\EBookServer.csproj">
+      <Project>{90a78072-6433-4a78-89e4-ce5532877df0}</Project>
+      <Name>EBookServer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
