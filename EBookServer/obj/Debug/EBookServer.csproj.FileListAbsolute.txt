@@ -138,6 +138,7 @@ C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookServer\obj\Debug\EBookSer
 C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookServer\obj\Debug\EBookSer.C9D82F8A.Up2Date
 C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookServer\obj\Debug\EBookServer.exe
 C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookServer\obj\Debug\EBookServer.pdb
+<<<<<<< HEAD
 C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\EBookServer.exe.config
 C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\EBookServer.exe
 C:\Users\pc\OneDrive\Робочий стіл\E-Book_Project\EBookServer\bin\Debug\EBookServer.pdb
@@ -229,6 +230,9 @@ C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBook
 C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.Migrations.GenresFixed.resources
 C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.Migrations.AuthorsFixed.resources
 C:\Users\Anastasiia\Documents\GitHub\E-Book_Project1\EBookServer\obj\Debug\EBookServer.Migrations.OneLibraryPerUser.resources
+=======
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\bin\Debug\App.config
+>>>>>>> Bogdan
 C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\bin\Debug\EBookServer.exe.config
 C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\bin\Debug\EBookServer.exe
 C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\bin\Debug\EBookServer.pdb
@@ -265,19 +269,25 @@ C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\bin\Debug\System.Text.Json.xml
 C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\bin\Debug\System.ValueTuple.xml
 C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\obj\Debug\EBookServer.csproj.AssemblyReference.cache
+<<<<<<< HEAD
 C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\obj\Debug\EBookServer.Migrations.SovaMigration.resources
 C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\obj\Debug\EBookServer.Migrations.BookInfoFixed.resources
 C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\obj\Debug\EBookServer.Migrations.PublishersFixed.resources
 C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\obj\Debug\EBookServer.Migrations.GenresFixed.resources
 C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\obj\Debug\EBookServer.Migrations.AuthorsFixed.resources
 C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\obj\Debug\EBookServer.Migrations.OneLibraryPerUser.resources
+=======
+>>>>>>> Bogdan
 C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\obj\Debug\EBookServer.Properties.Resources.resources
 C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\obj\Debug\EBookServer.csproj.GenerateResource.cache
 C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\obj\Debug\EBookServer.csproj.CoreCompileInputs.cache
 C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\obj\Debug\EBookSer.C9D82F8A.Up2Date
 C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\obj\Debug\EBookServer.exe
 C:\Users\Bogdan&Pasha\Desktop\proj\EBookServer\obj\Debug\EBookServer.pdb
+<<<<<<< HEAD
 =======
 C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.RoleDeleted.resources
 C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.Form1.resources
 >>>>>>> c6aa2fb62a5ff05c529deeb921557c66763a978a
+=======
+>>>>>>> Bogdan

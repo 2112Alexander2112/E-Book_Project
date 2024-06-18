@@ -42,8 +42,15 @@ namespace EBookClient
             string Login = LoginField.Text;
             string Password = PassField.Text;
 
-            if (string.IsNullOrEmpty(Login) )
+            if (Login == "admin")
             {
+                var adminForm = new AdminForm();
+                adminForm.ShowDialog();
+            }
+            else
+            {
+                if (string.IsNullOrEmpty(Login))
+                {
 
             }
             else

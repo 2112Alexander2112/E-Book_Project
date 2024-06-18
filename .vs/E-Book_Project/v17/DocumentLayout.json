@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Bogdan\u0026Pasha\\Desktop\\proj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|C:\\Users\\Bogdan\u0026Pasha\\Desktop\\proj\\ebooklib01\\basicmodels\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|c:\\users\\bogdan\u0026pasha\\desktop\\proj\\ebooklib01\\basicmodels\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213BC5F9-4644-4FE4-96C3-556ECDFCE77C}|EBookLib01\\EBookLib01.csproj|solutionrelative:ebooklib01\\basicmodels\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -96,7 +96,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 545,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -111,10 +111,6 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Book.cs",
@@ -122,10 +118,14 @@
               "RelativeDocumentMoniker": "EBookLib01\\BasicModels\\Book.cs",
               "ToolTip": "C:\\Users\\Bogdan\u0026Pasha\\Desktop\\proj\\EBookLib01\\BasicModels\\Book.cs",
               "RelativeToolTip": "EBookLib01\\BasicModels\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA2AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T13:45:43.172Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",

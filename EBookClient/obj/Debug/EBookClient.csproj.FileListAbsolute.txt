@@ -57,3 +57,182 @@ C:\Users\solod\IT\Step\E-Book_Project\EBookClient\bin\Debug\System.ValueTuple.xm
 C:\Users\solod\IT\Step\E-Book_Project\EBookClient\obj\Debug\EBookCli.306F338C.Up2Date
 C:\Users\solod\IT\Step\E-Book_Project\EBookClient\obj\Debug\EBookClient.exe
 C:\Users\solod\IT\Step\E-Book_Project\EBookClient\obj\Debug\EBookClient.pdb
+<<<<<<< HEAD
+=======
+C:\Users\solod\IT\Step\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_WhishList.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\EBookClient.exe.config
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\EBookClient.exe
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\EBookClient.pdb
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\EBookLib01.dll
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\EntityFramework.dll
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\Guna.UI2.dll
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\Newtonsoft.Json.dll
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\RestSharp.dll
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Buffers.dll
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.CodeDom.dll
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Memory.dll
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Numerics.Vectors.dll
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Text.Encodings.Web.dll
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Text.Json.dll
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.ValueTuple.dll
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\EBookLib01.pdb
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\EBookLib01.dll.config
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\EntityFramework.xml
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\Newtonsoft.Json.xml
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\RestSharp.xml
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Buffers.xml
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.CodeDom.xml
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Memory.xml
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Numerics.Vectors.xml
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Text.Encodings.Web.xml
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Text.Json.xml
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\bin\Debug\System.ValueTuple.xml
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.csproj.AssemblyReference.cache
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.AuthForm.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.BookSearch.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.Form1.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.Menu.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.PassResetForm.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.Properties.Resources.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.RegForm.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_AllBooks.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_Book.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_MainPage.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_MyPage.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_MyProfile.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_MySeries.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_SrBook.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_WhishList.resources
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.csproj.GenerateResource.cache
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.csproj.CoreCompileInputs.cache
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookCli.306F338C.Up2Date
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.exe
+C:\Programming\Архів\Новий Архів\E-Book_Project\EBookClient\obj\Debug\EBookClient.pdb
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\EBookClient.exe.config
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\EBookClient.exe
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\EBookClient.pdb
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\EBookLib01.dll
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\EntityFramework.dll
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\Guna.UI2.dll
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\RestSharp.dll
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\System.Buffers.dll
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\System.CodeDom.dll
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\System.Memory.dll
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\System.Text.Json.dll
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\System.ValueTuple.dll
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\EBookLib01.pdb
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\EBookLib01.dll.config
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\EntityFramework.xml
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\RestSharp.xml
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\System.Buffers.xml
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\System.CodeDom.xml
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\System.Memory.xml
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\System.Text.Json.xml
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\bin\Debug\System.ValueTuple.xml
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.csproj.AssemblyReference.cache
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.AuthForm.resources
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.BookSearch.resources
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.Form1.resources
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.Menu.resources
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.PassResetForm.resources
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.Properties.Resources.resources
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.RegForm.resources
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_AllBooks.resources
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_Book.resources
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_MainPage.resources
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_MyPage.resources
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_MyProfile.resources
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_MySeries.resources
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_SrBook.resources
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.UC_Control.UC_WhishList.resources
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.csproj.GenerateResource.cache
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.csproj.CoreCompileInputs.cache
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookCli.306F338C.Up2Date
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.exe
+C:\Users\Bogdan&Pasha\Source\Repos\E-Book_Project\EBookClient\obj\Debug\EBookClient.pdb
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\EBookClient.exe.config
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\EBookClient.exe
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\EBookClient.pdb
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\EBookLib01.dll
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\EntityFramework.dll
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\Guna.UI2.dll
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\RestSharp.dll
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\System.Buffers.dll
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\System.CodeDom.dll
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\System.Memory.dll
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\System.Text.Json.dll
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\System.ValueTuple.dll
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\EBookLib01.pdb
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\EBookLib01.dll.config
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\EntityFramework.xml
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\RestSharp.xml
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\System.Buffers.xml
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\System.CodeDom.xml
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\System.Memory.xml
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\System.Text.Json.xml
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\System.ValueTuple.xml
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.csproj.AssemblyReference.cache
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.AdminForm.resources
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.AuthForm.resources
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.BookSearch.resources
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.Form1.resources
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.Menu.resources
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.PassResetForm.resources
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.Properties.Resources.resources
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.RegForm.resources
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.UC_Control.UC_AllBooks.resources
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.UC_Control.UC_Book.resources
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.UC_Control.UC_MainPage.resources
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.UC_Control.UC_MyPage.resources
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.UC_Control.UC_MyProfile.resources
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.UC_Control.UC_MySeries.resources
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.UC_Control.UC_SrBook.resources
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.UC_Control.UC_WhishList.resources
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.csproj.GenerateResource.cache
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.csproj.CoreCompileInputs.cache
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookCli.306F338C.Up2Date
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.exe
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.pdb
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\App.config
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\EBookServer.exe
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\EBookServer.pdb
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\bin\Debug\EBookServer.exe.config
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.AddBookForm.resources
+C:\Users\Bogdan&Pasha\Desktop\proj\EBookClient\obj\Debug\EBookClient.AddCategoryForm.resources
+>>>>>>> Bogdan
