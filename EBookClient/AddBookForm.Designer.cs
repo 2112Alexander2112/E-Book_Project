@@ -31,22 +31,22 @@
             this.components = new System.ComponentModel.Container();
             this.eBookBaseBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.genresField = new System.Windows.Forms.ComboBox();
+            this.genresBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this._EBookServer_EF_ORM_DataManagerDataSet3 = new EBookClient._EBookServer_EF_ORM_DataManagerDataSet3();
             this._EBookServer_EF_ORM_DataManagerDataSet = new EBookClient._EBookServer_EF_ORM_DataManagerDataSet();
             this.categoriesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.categoriesTableAdapter = new EBookClient._EBookServer_EF_ORM_DataManagerDataSetTableAdapters.CategoriesTableAdapter();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.categoryField = new System.Windows.Forms.ComboBox();
-            this._EBookServer_EF_ORM_DataManagerDataSet1 = new EBookClient._EBookServer_EF_ORM_DataManagerDataSet1();
             this.categoriesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this._EBookServer_EF_ORM_DataManagerDataSet1 = new EBookClient._EBookServer_EF_ORM_DataManagerDataSet1();
             this.categoriesTableAdapter1 = new EBookClient._EBookServer_EF_ORM_DataManagerDataSet1TableAdapters.CategoriesTableAdapter();
             this.label3 = new System.Windows.Forms.Label();
             this.authorField = new System.Windows.Forms.ComboBox();
-            this._EBookServer_EF_ORM_DataManagerDataSet2 = new EBookClient._EBookServer_EF_ORM_DataManagerDataSet2();
             this.authorsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this._EBookServer_EF_ORM_DataManagerDataSet2 = new EBookClient._EBookServer_EF_ORM_DataManagerDataSet2();
             this.authorsTableAdapter = new EBookClient._EBookServer_EF_ORM_DataManagerDataSet2TableAdapters.AuthorsTableAdapter();
-            this._EBookServer_EF_ORM_DataManagerDataSet3 = new EBookClient._EBookServer_EF_ORM_DataManagerDataSet3();
-            this.genresBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.genresTableAdapter = new EBookClient._EBookServer_EF_ORM_DataManagerDataSet3TableAdapters.GenresTableAdapter();
             this.label4 = new System.Windows.Forms.Label();
             this.nameField = new System.Windows.Forms.TextBox();
@@ -56,31 +56,32 @@
             this.publishedDateField = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
             this.publishedField = new System.Windows.Forms.ComboBox();
-            this._EBookServer_EF_ORM_DataManagerDataSet4 = new EBookClient._EBookServer_EF_ORM_DataManagerDataSet4();
             this.publishersBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this._EBookServer_EF_ORM_DataManagerDataSet4 = new EBookClient._EBookServer_EF_ORM_DataManagerDataSet4();
             this.publishersTableAdapter = new EBookClient._EBookServer_EF_ORM_DataManagerDataSet4TableAdapters.PublishersTableAdapter();
             this.label8 = new System.Windows.Forms.Label();
             this.bookInfoField = new System.Windows.Forms.ComboBox();
-            this._EBookServer_EF_ORM_DataManagerDataSet5 = new EBookClient._EBookServer_EF_ORM_DataManagerDataSet5();
             this.bookInfoesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this._EBookServer_EF_ORM_DataManagerDataSet5 = new EBookClient._EBookServer_EF_ORM_DataManagerDataSet5();
             this.bookInfoesTableAdapter = new EBookClient._EBookServer_EF_ORM_DataManagerDataSet5TableAdapters.BookInfoesTableAdapter();
             this.priceField = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.iconPathField = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
+            this.addBookButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.eBookBaseBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.genresBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoriesBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoriesBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.authorsBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.genresBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.publishersBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bookInfoesBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet5)).BeginInit();
             this.SuspendLayout();
             // 
             // eBookBaseBindingSource
@@ -90,13 +91,24 @@
             // genresField
             // 
             this.genresField.DataSource = this.genresBindingSource;
+            this.genresField.DisplayMember = "GenreName";
             this.genresField.FormattingEnabled = true;
             this.genresField.Location = new System.Drawing.Point(252, 27);
-            this.genresField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.genresField.Margin = new System.Windows.Forms.Padding(4);
             this.genresField.Name = "genresField";
             this.genresField.Size = new System.Drawing.Size(228, 26);
             this.genresField.TabIndex = 1;
-            this.genresField.ValueMember = "CategoryName";
+            this.genresField.ValueMember = "GenreName";
+            // 
+            // genresBindingSource
+            // 
+            this.genresBindingSource.DataMember = "Genres";
+            this.genresBindingSource.DataSource = this._EBookServer_EF_ORM_DataManagerDataSet3;
+            // 
+            // _EBookServer_EF_ORM_DataManagerDataSet3
+            // 
+            this._EBookServer_EF_ORM_DataManagerDataSet3.DataSetName = "_EBookServer_EF_ORM_DataManagerDataSet3";
+            this._EBookServer_EF_ORM_DataManagerDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // _EBookServer_EF_ORM_DataManagerDataSet
             // 
@@ -142,15 +154,15 @@
             this.categoryField.TabIndex = 3;
             this.categoryField.ValueMember = "CategoryName";
             // 
-            // _EBookServer_EF_ORM_DataManagerDataSet1
-            // 
-            this._EBookServer_EF_ORM_DataManagerDataSet1.DataSetName = "_EBookServer_EF_ORM_DataManagerDataSet1";
-            this._EBookServer_EF_ORM_DataManagerDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // categoriesBindingSource1
             // 
             this.categoriesBindingSource1.DataMember = "Categories";
             this.categoriesBindingSource1.DataSource = this._EBookServer_EF_ORM_DataManagerDataSet1;
+            // 
+            // _EBookServer_EF_ORM_DataManagerDataSet1
+            // 
+            this._EBookServer_EF_ORM_DataManagerDataSet1.DataSetName = "_EBookServer_EF_ORM_DataManagerDataSet1";
+            this._EBookServer_EF_ORM_DataManagerDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // categoriesTableAdapter1
             // 
@@ -168,37 +180,28 @@
             // authorField
             // 
             this.authorField.DataSource = this.authorsBindingSource;
+            this.authorField.DisplayMember = "AuthorName";
             this.authorField.FormattingEnabled = true;
             this.authorField.Location = new System.Drawing.Point(252, 126);
             this.authorField.Margin = new System.Windows.Forms.Padding(4);
             this.authorField.Name = "authorField";
             this.authorField.Size = new System.Drawing.Size(228, 26);
             this.authorField.TabIndex = 5;
-            this.authorField.ValueMember = "CategoryName";
-            // 
-            // _EBookServer_EF_ORM_DataManagerDataSet2
-            // 
-            this._EBookServer_EF_ORM_DataManagerDataSet2.DataSetName = "_EBookServer_EF_ORM_DataManagerDataSet2";
-            this._EBookServer_EF_ORM_DataManagerDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.authorField.ValueMember = "AuthorName";
             // 
             // authorsBindingSource
             // 
             this.authorsBindingSource.DataMember = "Authors";
             this.authorsBindingSource.DataSource = this._EBookServer_EF_ORM_DataManagerDataSet2;
             // 
+            // _EBookServer_EF_ORM_DataManagerDataSet2
+            // 
+            this._EBookServer_EF_ORM_DataManagerDataSet2.DataSetName = "_EBookServer_EF_ORM_DataManagerDataSet2";
+            this._EBookServer_EF_ORM_DataManagerDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // authorsTableAdapter
             // 
             this.authorsTableAdapter.ClearBeforeFill = true;
-            // 
-            // _EBookServer_EF_ORM_DataManagerDataSet3
-            // 
-            this._EBookServer_EF_ORM_DataManagerDataSet3.DataSetName = "_EBookServer_EF_ORM_DataManagerDataSet3";
-            this._EBookServer_EF_ORM_DataManagerDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // genresBindingSource
-            // 
-            this.genresBindingSource.DataMember = "Genres";
-            this.genresBindingSource.DataSource = this._EBookServer_EF_ORM_DataManagerDataSet3;
             // 
             // genresTableAdapter
             // 
@@ -264,23 +267,24 @@
             // publishedField
             // 
             this.publishedField.DataSource = this.publishersBindingSource;
+            this.publishedField.DisplayMember = "PublisherName";
             this.publishedField.FormattingEnabled = true;
             this.publishedField.Location = new System.Drawing.Point(252, 327);
             this.publishedField.Margin = new System.Windows.Forms.Padding(4);
             this.publishedField.Name = "publishedField";
             this.publishedField.Size = new System.Drawing.Size(228, 26);
             this.publishedField.TabIndex = 13;
-            this.publishedField.ValueMember = "CategoryName";
-            // 
-            // _EBookServer_EF_ORM_DataManagerDataSet4
-            // 
-            this._EBookServer_EF_ORM_DataManagerDataSet4.DataSetName = "_EBookServer_EF_ORM_DataManagerDataSet4";
-            this._EBookServer_EF_ORM_DataManagerDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.publishedField.ValueMember = "PublisherName";
             // 
             // publishersBindingSource
             // 
             this.publishersBindingSource.DataMember = "Publishers";
             this.publishersBindingSource.DataSource = this._EBookServer_EF_ORM_DataManagerDataSet4;
+            // 
+            // _EBookServer_EF_ORM_DataManagerDataSet4
+            // 
+            this._EBookServer_EF_ORM_DataManagerDataSet4.DataSetName = "_EBookServer_EF_ORM_DataManagerDataSet4";
+            this._EBookServer_EF_ORM_DataManagerDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // publishersTableAdapter
             // 
@@ -298,23 +302,24 @@
             // bookInfoField
             // 
             this.bookInfoField.DataSource = this.bookInfoesBindingSource;
+            this.bookInfoField.DisplayMember = "Id";
             this.bookInfoField.FormattingEnabled = true;
             this.bookInfoField.Location = new System.Drawing.Point(252, 383);
             this.bookInfoField.Margin = new System.Windows.Forms.Padding(4);
             this.bookInfoField.Name = "bookInfoField";
             this.bookInfoField.Size = new System.Drawing.Size(228, 26);
             this.bookInfoField.TabIndex = 15;
-            this.bookInfoField.ValueMember = "CategoryName";
-            // 
-            // _EBookServer_EF_ORM_DataManagerDataSet5
-            // 
-            this._EBookServer_EF_ORM_DataManagerDataSet5.DataSetName = "_EBookServer_EF_ORM_DataManagerDataSet5";
-            this._EBookServer_EF_ORM_DataManagerDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.bookInfoField.ValueMember = "Id";
             // 
             // bookInfoesBindingSource
             // 
             this.bookInfoesBindingSource.DataMember = "BookInfoes";
             this.bookInfoesBindingSource.DataSource = this._EBookServer_EF_ORM_DataManagerDataSet5;
+            // 
+            // _EBookServer_EF_ORM_DataManagerDataSet5
+            // 
+            this._EBookServer_EF_ORM_DataManagerDataSet5.DataSetName = "_EBookServer_EF_ORM_DataManagerDataSet5";
+            this._EBookServer_EF_ORM_DataManagerDataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // bookInfoesTableAdapter
             // 
@@ -352,11 +357,22 @@
             this.label10.TabIndex = 19;
             this.label10.Text = "Шлях до обкладинки:";
             // 
+            // addBookButton
+            // 
+            this.addBookButton.Location = new System.Drawing.Point(289, 514);
+            this.addBookButton.Name = "addBookButton";
+            this.addBookButton.Size = new System.Drawing.Size(162, 42);
+            this.addBookButton.TabIndex = 21;
+            this.addBookButton.Text = "Додати книгу";
+            this.addBookButton.UseVisualStyleBackColor = true;
+            this.addBookButton.Click += new System.EventHandler(this.addBookButton_Click);
+            // 
             // AddBookForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(648, 527);
+            this.ClientSize = new System.Drawing.Size(648, 568);
+            this.Controls.Add(this.addBookButton);
             this.Controls.Add(this.iconPathField);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.priceField);
@@ -378,25 +394,25 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.genresField);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "AddBookForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "AddBookForm";
             this.Load += new System.EventHandler(this.AddBookForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.eBookBaseBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.genresBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoriesBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoriesBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.authorsBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.genresBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.publishersBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bookInfoesBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this._EBookServer_EF_ORM_DataManagerDataSet5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -442,5 +458,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox iconPathField;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button addBookButton;
     }
 }
