@@ -86,7 +86,7 @@
             // 
             // eBookBaseBindingSource
             // 
-            this.eBookBaseBindingSource.DataSource = typeof(EBookServer.EF_ORM.EBookBase);
+            this.eBookBaseBindingSource.DataSource = typeof(EBookServer.EF_ORM.DataManager);
             // 
             // genresField
             // 
