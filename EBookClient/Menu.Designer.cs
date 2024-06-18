@@ -35,34 +35,28 @@
             this.label1 = new System.Windows.Forms.Label();
             this.MenuButton = new System.Windows.Forms.PictureBox();
             this.StoreBox = new System.Windows.Forms.Panel();
-            this.SoBButt = new System.Windows.Forms.Button();
             this.WishlistButt = new System.Windows.Forms.Button();
             this.MainpageButt = new System.Windows.Forms.Button();
             this.StoreButt = new System.Windows.Forms.Button();
             this.ProfileBox = new System.Windows.Forms.Panel();
             this.MyProfileButt = new System.Windows.Forms.Button();
-            this.MyPageButt = new System.Windows.Forms.Button();
             this.FriendsButt = new System.Windows.Forms.Button();
             this.ProfileButt = new System.Windows.Forms.Button();
             this.LibraryBox = new System.Windows.Forms.Panel();
-            this.MSButt = new System.Windows.Forms.Button();
             this.AllBooksButt = new System.Windows.Forms.Button();
             this.LibButt = new System.Windows.Forms.Button();
-            this.SettingsBox = new System.Windows.Forms.Panel();
-            this.Settings = new System.Windows.Forms.Button();
             this.MenuTimer = new System.Windows.Forms.Timer(this.components);
             this.TimerStore = new System.Windows.Forms.Timer(this.components);
             this.ProfileTime = new System.Windows.Forms.Timer(this.components);
             this.LibraryTime = new System.Windows.Forms.Timer(this.components);
-            this.egoldsFormStyle1 = new EBookLib01.Components.EgoldsFormStyle(this.components);
             this.PanelBox = new System.Windows.Forms.Panel();
+            this.egoldsFormStyle1 = new EBookLib01.Components.EgoldsFormStyle(this.components);
             this.MenuBox.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.MenuButton)).BeginInit();
             this.StoreBox.SuspendLayout();
             this.ProfileBox.SuspendLayout();
             this.LibraryBox.SuspendLayout();
-            this.SettingsBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // MenuBox
@@ -72,7 +66,6 @@
             this.MenuBox.Controls.Add(this.StoreBox);
             this.MenuBox.Controls.Add(this.ProfileBox);
             this.MenuBox.Controls.Add(this.LibraryBox);
-            this.MenuBox.Controls.Add(this.SettingsBox);
             this.MenuBox.Dock = System.Windows.Forms.DockStyle.Left;
             this.MenuBox.Location = new System.Drawing.Point(0, 0);
             this.MenuBox.MaximumSize = new System.Drawing.Size(200, 0);
@@ -114,30 +107,15 @@
             // 
             // StoreBox
             // 
-            this.StoreBox.Controls.Add(this.SoBButt);
             this.StoreBox.Controls.Add(this.WishlistButt);
             this.StoreBox.Controls.Add(this.MainpageButt);
             this.StoreBox.Controls.Add(this.StoreButt);
             this.StoreBox.Location = new System.Drawing.Point(3, 68);
-            this.StoreBox.MaximumSize = new System.Drawing.Size(200, 102);
+            this.StoreBox.MaximumSize = new System.Drawing.Size(200, 80);
             this.StoreBox.MinimumSize = new System.Drawing.Size(200, 31);
             this.StoreBox.Name = "StoreBox";
             this.StoreBox.Size = new System.Drawing.Size(200, 31);
             this.StoreBox.TabIndex = 2;
-            // 
-            // SoBButt
-            // 
-            this.SoBButt.FlatAppearance.BorderSize = 0;
-            this.SoBButt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SoBButt.Image = global::EBookClient.Properties.Resources.point;
-            this.SoBButt.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.SoBButt.Location = new System.Drawing.Point(0, 76);
-            this.SoBButt.Name = "SoBButt";
-            this.SoBButt.Size = new System.Drawing.Size(200, 23);
-            this.SoBButt.TabIndex = 3;
-            this.SoBButt.Text = "Series of book";
-            this.SoBButt.UseVisualStyleBackColor = true;
-            this.SoBButt.Click += new System.EventHandler(this.SoBButt_Click);
             // 
             // WishlistButt
             // 
@@ -185,11 +163,10 @@
             // ProfileBox
             // 
             this.ProfileBox.Controls.Add(this.MyProfileButt);
-            this.ProfileBox.Controls.Add(this.MyPageButt);
             this.ProfileBox.Controls.Add(this.FriendsButt);
             this.ProfileBox.Controls.Add(this.ProfileButt);
             this.ProfileBox.Location = new System.Drawing.Point(3, 105);
-            this.ProfileBox.MaximumSize = new System.Drawing.Size(200, 110);
+            this.ProfileBox.MaximumSize = new System.Drawing.Size(200, 84);
             this.ProfileBox.MinimumSize = new System.Drawing.Size(200, 31);
             this.ProfileBox.Name = "ProfileBox";
             this.ProfileBox.Size = new System.Drawing.Size(200, 31);
@@ -202,28 +179,13 @@
             this.MyProfileButt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.MyProfileButt.Image = global::EBookClient.Properties.Resources.point;
             this.MyProfileButt.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.MyProfileButt.Location = new System.Drawing.Point(0, 85);
+            this.MyProfileButt.Location = new System.Drawing.Point(0, 58);
             this.MyProfileButt.Name = "MyProfileButt";
             this.MyProfileButt.Size = new System.Drawing.Size(200, 23);
             this.MyProfileButt.TabIndex = 3;
             this.MyProfileButt.Text = "My Profile";
             this.MyProfileButt.UseVisualStyleBackColor = true;
             this.MyProfileButt.Click += new System.EventHandler(this.MyProfileButt_Click);
-            // 
-            // MyPageButt
-            // 
-            this.MyPageButt.FlatAppearance.BorderSize = 0;
-            this.MyPageButt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.MyPageButt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.MyPageButt.Image = global::EBookClient.Properties.Resources.point;
-            this.MyPageButt.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.MyPageButt.Location = new System.Drawing.Point(0, 59);
-            this.MyPageButt.Name = "MyPageButt";
-            this.MyPageButt.Size = new System.Drawing.Size(200, 23);
-            this.MyPageButt.TabIndex = 2;
-            this.MyPageButt.Text = "My Page";
-            this.MyPageButt.UseVisualStyleBackColor = true;
-            this.MyPageButt.Click += new System.EventHandler(this.MyPageButt_Click);
             // 
             // FriendsButt
             // 
@@ -257,30 +219,14 @@
             // 
             // LibraryBox
             // 
-            this.LibraryBox.Controls.Add(this.MSButt);
             this.LibraryBox.Controls.Add(this.AllBooksButt);
             this.LibraryBox.Controls.Add(this.LibButt);
             this.LibraryBox.Location = new System.Drawing.Point(3, 142);
-            this.LibraryBox.MaximumSize = new System.Drawing.Size(200, 95);
+            this.LibraryBox.MaximumSize = new System.Drawing.Size(200, 68);
             this.LibraryBox.MinimumSize = new System.Drawing.Size(200, 31);
             this.LibraryBox.Name = "LibraryBox";
-            this.LibraryBox.Size = new System.Drawing.Size(200, 42);
+            this.LibraryBox.Size = new System.Drawing.Size(200, 31);
             this.LibraryBox.TabIndex = 4;
-            // 
-            // MSButt
-            // 
-            this.MSButt.FlatAppearance.BorderSize = 0;
-            this.MSButt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.MSButt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.MSButt.Image = global::EBookClient.Properties.Resources.point;
-            this.MSButt.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.MSButt.Location = new System.Drawing.Point(0, 70);
-            this.MSButt.Name = "MSButt";
-            this.MSButt.Size = new System.Drawing.Size(200, 23);
-            this.MSButt.TabIndex = 2;
-            this.MSButt.Text = "My Seires";
-            this.MSButt.UseVisualStyleBackColor = true;
-            this.MSButt.Click += new System.EventHandler(this.MSButt_Click);
             // 
             // AllBooksButt
             // 
@@ -312,30 +258,6 @@
             this.LibButt.UseVisualStyleBackColor = true;
             this.LibButt.Click += new System.EventHandler(this.LibButt_Click);
             // 
-            // SettingsBox
-            // 
-            this.SettingsBox.Controls.Add(this.Settings);
-            this.SettingsBox.Location = new System.Drawing.Point(3, 190);
-            this.SettingsBox.Name = "SettingsBox";
-            this.SettingsBox.Size = new System.Drawing.Size(200, 30);
-            this.SettingsBox.TabIndex = 3;
-            // 
-            // Settings
-            // 
-            this.Settings.FlatAppearance.BorderSize = 0;
-            this.Settings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Settings.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Settings.Image = global::EBookClient.Properties.Resources.settings;
-            this.Settings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Settings.Location = new System.Drawing.Point(0, 0);
-            this.Settings.MinimumSize = new System.Drawing.Size(200, 31);
-            this.Settings.Name = "Settings";
-            this.Settings.Size = new System.Drawing.Size(200, 31);
-            this.Settings.TabIndex = 0;
-            this.Settings.Text = "Settings";
-            this.Settings.UseVisualStyleBackColor = true;
-            this.Settings.Click += new System.EventHandler(this.Setting_Click);
-            // 
             // MenuTimer
             // 
             this.MenuTimer.Interval = 10;
@@ -356,6 +278,15 @@
             this.LibraryTime.Interval = 10;
             this.LibraryTime.Tick += new System.EventHandler(this.LibraryTime_Tick);
             // 
+            // PanelBox
+            // 
+            this.PanelBox.BackColor = System.Drawing.Color.White;
+            this.PanelBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PanelBox.Location = new System.Drawing.Point(200, 0);
+            this.PanelBox.Name = "PanelBox";
+            this.PanelBox.Size = new System.Drawing.Size(900, 800);
+            this.PanelBox.TabIndex = 3;
+            // 
             // egoldsFormStyle1
             // 
             this.egoldsFormStyle1.AllowUserResize = false;
@@ -374,15 +305,6 @@
             this.egoldsFormStyle1.HeaderImage = null;
             this.egoldsFormStyle1.HeaderTextColor = System.Drawing.Color.White;
             this.egoldsFormStyle1.HeaderTextFont = new System.Drawing.Font("Segoe UI", 9.75F);
-            // 
-            // PanelBox
-            // 
-            this.PanelBox.BackColor = System.Drawing.Color.White;
-            this.PanelBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelBox.Location = new System.Drawing.Point(200, 0);
-            this.PanelBox.Name = "PanelBox";
-            this.PanelBox.Size = new System.Drawing.Size(900, 800);
-            this.PanelBox.TabIndex = 3;
             // 
             // Menu
             // 
@@ -403,7 +325,6 @@
             this.StoreBox.ResumeLayout(false);
             this.ProfileBox.ResumeLayout(false);
             this.LibraryBox.ResumeLayout(false);
-            this.SettingsBox.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -416,20 +337,15 @@
         private System.Windows.Forms.Timer MenuTimer;
         private System.Windows.Forms.Panel StoreBox;
         private System.Windows.Forms.Button StoreButt;
-        private System.Windows.Forms.Button Settings;
-        private System.Windows.Forms.Panel SettingsBox;
         private System.Windows.Forms.Button ProfileButt;
         private System.Windows.Forms.Panel ProfileBox;
         private System.Windows.Forms.Button LibButt;
         private System.Windows.Forms.Panel LibraryBox;
         private System.Windows.Forms.Button MainpageButt;
-        private System.Windows.Forms.Button SoBButt;
         private System.Windows.Forms.Button WishlistButt;
         private System.Windows.Forms.Timer TimerStore;
-        private System.Windows.Forms.Button MyPageButt;
         private System.Windows.Forms.Button FriendsButt;
         private System.Windows.Forms.Timer ProfileTime;
-        private System.Windows.Forms.Button MSButt;
         private System.Windows.Forms.Button AllBooksButt;
         private System.Windows.Forms.Timer LibraryTime;
         private System.Windows.Forms.Button MyProfileButt;

@@ -16,6 +16,8 @@ using EBookLib01.BasicModels;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Security.Cryptography.X509Certificates;
+using System.Data.Entity;
+using System.Runtime.Remoting.Contexts;
 
 namespace EBookServer
 {
@@ -181,7 +183,6 @@ namespace EBookServer
                             var wishlistEntry = _shopDb.Wishlists
                                    .FirstOrDefault(w => w.UserId == clientMessage.UserId && w.BookId == clientMessage.BookId);
 
-                            // If the entry exists, remove it
                             if (wishlistEntry != null)
                             {
                                 _shopDb.Wishlists.Remove(wishlistEntry);
@@ -222,6 +223,48 @@ namespace EBookServer
                         stw.WriteLine(wishlistBooks);
                         stw.Flush();
                         break;
+                    case "UPDATE_USER":
+                        var updateUserMessage = new ServerMessage();
+                        try
+                        {
+                            var existingUser = _shopDb.Users.FirstOrDefault(p => p.Id == clientMessage.AuthUser.Id);
+                            if (existingUser == null)
+                            {
+                                Console.WriteLine($"User with ID {clientMessage.AuthUser.Id} not found.");
+                                updateUserMessage.Messagge = "UPDATE_USER:USER_NOT_FOUND";
+                            }
+                            else
+                            {
+                                Console.WriteLine("User found. Proceeding with update...");
+                                existingUser.UserLogin = clientMessage.AuthUser.UserLogin;
+                                existingUser.Email = clientMessage.AuthUser.Email;
+                                existingUser.RegDate = clientMessage.AuthUser.RegDate;
+
+                                if (!string.IsNullOrEmpty(clientMessage.AuthUser.Password))
+                                {
+                                    existingUser.Password = clientMessage.AuthUser.Password;
+                                }
+                                _shopDb.SaveChanges();
+                                Console.WriteLine("Changes saved to the database.");
+
+                                updateUserMessage.Messagge = "UPDATE_USER:OK";
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($"Exception: {ex.Message}\n{ex.StackTrace}");
+
+                            updateUserMessage.Messagge = "UPDATE_USER:ERROR";
+                        }
+
+                        var updateUser = _jsonSender.ServerMessageSerialize(updateUserMessage);
+                        using (StreamWriter stwr = new StreamWriter(ns))
+                        {
+                            stwr.WriteLine(updateUser);
+                            stwr.Flush();
+                        }
+                        break;
+
                     default:
                         break;
                 }

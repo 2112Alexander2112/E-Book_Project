@@ -195,6 +195,10 @@ namespace EBookClient
         private void MyProfileButt_Click(object sender, EventArgs e)
         {
             var MyProfile = new UC_MyProfile(currentUserName);
+            MyProfile.currentUser = currentUser;
+            MyProfile.AddrDTO = _ipAddres;
+            MyProfile.PortDTO = _port;
+            MyProfile.FillData();
             addUserContorol(MyProfile);
         }
 

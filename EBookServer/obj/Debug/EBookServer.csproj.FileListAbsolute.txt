@@ -53,3 +53,4 @@ C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookSer.C9D82F8A.Up
 C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.exe
 C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.pdb
 C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.Migrations.RoleDeleted.resources
+C:\Users\solod\IT\Step\E-Book_Project\EBookServer\obj\Debug\EBookServer.Form1.resources

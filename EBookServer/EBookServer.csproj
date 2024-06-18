@@ -163,6 +163,9 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202406151234396_SovaMigration.resx">
       <DependentUpon>202406151234396_SovaMigration.cs</DependentUpon>
     </EmbeddedResource>

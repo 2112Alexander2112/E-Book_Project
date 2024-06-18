@@ -13,7 +13,6 @@ namespace EBookLib01.HelperModels.TransitModels
         public string Header { get; set; } // Назва запиту
         public User AuthUser { get; set; }
         public string RegUser { get; set; }
-        //public string SeacrhingBook { get; set; }
         public RegFormTransData RegTrans {  get; set; }
         public string SeacrhingBook { get; set; }
         public int UserId { get; set; }
