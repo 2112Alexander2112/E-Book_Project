@@ -132,9 +132,40 @@
     <Compile Include="Migrations\202406161132524_OneLibraryPerUser.Designer.cs">
       <DependentUpon>202406161132524_OneLibraryPerUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202406171432339_NoBookInfo.cs" />
+    <Compile Include="Migrations\202406171432339_NoBookInfo.Designer.cs">
+      <DependentUpon>202406171432339_NoBookInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202406171434266_NoBookInfoCheck.cs" />
+    <Compile Include="Migrations\202406171434266_NoBookInfoCheck.Designer.cs">
+      <DependentUpon>202406171434266_NoBookInfoCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202406171452193_Fix2.cs" />
+    <Compile Include="Migrations\202406171452193_Fix2.Designer.cs">
+      <DependentUpon>202406171452193_Fix2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202406171605076_fix3.cs" />
+    <Compile Include="Migrations\202406171605076_fix3.Designer.cs">
+      <DependentUpon>202406171605076_fix3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202406171606107_fix4.cs" />
+    <Compile Include="Migrations\202406171606107_fix4.Designer.cs">
+      <DependentUpon>202406171606107_fix4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202406171710303_WhishlistColleration.cs" />
+    <Compile Include="Migrations\202406171710303_WhishlistColleration.Designer.cs">
+      <DependentUpon>202406171710303_WhishlistColleration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202406171810512_RoleDeleted.cs" />
+    <Compile Include="Migrations\202406171810512_RoleDeleted.Designer.cs">
+      <DependentUpon>202406171810512_RoleDeleted.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202406151234396_SovaMigration.resx">
       <DependentUpon>202406151234396_SovaMigration.cs</DependentUpon>
     </EmbeddedResource>
@@ -152,6 +183,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202406161132524_OneLibraryPerUser.resx">
       <DependentUpon>202406161132524_OneLibraryPerUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406171432339_NoBookInfo.resx">
+      <DependentUpon>202406171432339_NoBookInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406171434266_NoBookInfoCheck.resx">
+      <DependentUpon>202406171434266_NoBookInfoCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406171452193_Fix2.resx">
+      <DependentUpon>202406171452193_Fix2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406171605076_fix3.resx">
+      <DependentUpon>202406171605076_fix3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406171606107_fix4.resx">
+      <DependentUpon>202406171606107_fix4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406171710303_WhishlistColleration.resx">
+      <DependentUpon>202406171710303_WhishlistColleration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406171810512_RoleDeleted.resx">
+      <DependentUpon>202406171810512_RoleDeleted.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

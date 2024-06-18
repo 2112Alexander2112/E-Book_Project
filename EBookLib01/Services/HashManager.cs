@@ -11,19 +11,19 @@ namespace EBookLib01
     {
         public static string GetHash(string passw)
         {
-            string result = string.Empty;
+            // Будь-ласка не чіпайте код Хеш-менеджера
             MD5 md5 = MD5.Create();
 
             byte[] data = Encoding.UTF8.GetBytes(passw);
             byte[] hash = md5.ComputeHash(data);
 
             StringBuilder sb = new StringBuilder();
-            string Hashpass = sb.ToString();
+            //string Hashpass = sb.ToString();
             foreach (byte b in hash)
             {
                 sb.Append(b.ToString("X2"));
             }
-            return Hashpass;
+            return sb.ToString();
         }
     }
 }

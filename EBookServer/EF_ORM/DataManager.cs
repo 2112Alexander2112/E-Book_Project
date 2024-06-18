@@ -2,6 +2,7 @@ using EBookLib01.BasicModels;
 using System;
 using System.Data.Entity;
 using System.Linq;
+using System.Reflection.Emit;
 
 namespace EBookServer.EF_ORM
 {
@@ -11,6 +12,24 @@ namespace EBookServer.EF_ORM
         public DataManager()
             : base("name=DataManager")
         {}
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Wishlist>()
+            .HasRequired(w => w.Book)
+            .WithMany()
+            .HasForeignKey(w => w.BookId);
+
+            modelBuilder.Entity<Wishlist>()
+                .HasRequired(w => w.User)
+                .WithMany()
+                .HasForeignKey(w => w.UserId);
+
+            modelBuilder.Entity<Book>().HasKey(e => e.Id);
+          }
+
         public DbSet<Achievement> Achievements { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<Book> Books { get; set; }

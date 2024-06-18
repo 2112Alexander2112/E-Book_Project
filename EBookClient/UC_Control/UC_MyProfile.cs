@@ -1,51 +1,42 @@
-﻿using EBookLib01.BasicModels;
+﻿using EBookLib01;
+using EBookLib01.BasicModels;
+using EBookLib01.HelperModels.TransitModels;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Globalization;
+using System.IO;
 using System.Linq;
+using System.Net;
+using System.Net.Sockets;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static Guna.UI2.Native.WinApi;
 
 namespace EBookClient.UC_Control
 {
     public partial class UC_MyProfile : UserControl
     {
-        User currentUser = new User
-        {
-            Id = 1,
-            UserLogin = "sampleUser",
-            Email = "sampleUser@example.com",
-            Password = "password123",
-            RegDate = DateTime.Now,
-            RoleId = 1,
-            PublisherId = 1,
-            Wishlist = new List<Wishlist>(),
-            MyLibrary = new MyLibrary(),
-            Friends = new List<Friend>(),
-            Role = new Role { Id = 1, RoleName = "Admin" },
-            Publisher = new Publisher { Id = 1, PublisherName = "Sample Publisher" }
-        };
+        public User currentUser { get; set; }
+        private JSONSender _jsonsender;
+        public IPAddress AddrDTO { get; set; }
+        public int PortDTO { get; set; }
+        public string JsonstringUpdateUserMessage { get; set; }
+
         public UC_MyProfile(string userLogin)
         {
             InitializeComponent();
-            currentUser.UserLogin = userLogin;
         }
 
         private void UC_MyProfile_Load(object sender, EventArgs e)
         {
-            UsernameTextBox.Text = currentUser.UserLogin;
-            UsernameTextBox.Enabled = false;
-            EmailTextBox.Text = currentUser.Email;
-            EmailTextBox.Enabled = false;
-            PasswordTextBox.Text = currentUser.Password;
-            PasswordTextBox.Enabled = false;
-            dateTimePicker1.Value = currentUser.RegDate;
-            dateTimePicker1.Enabled = false;
+            
         }
 
         public static bool IsValidEmail(string email)
@@ -104,7 +95,17 @@ namespace EBookClient.UC_Control
 
             return hasUpperCase && hasLowerCase && hasDigit && hasSpecialChar && hasMinLength;
         }
-        
+        public void FillData()
+        {
+            UsernameTextBox.Text = currentUser.UserLogin;
+            UsernameTextBox.Enabled = false;
+            EmailTextBox.Text = currentUser.Email;
+            EmailTextBox.Enabled = false;
+            PasswordTextBox.Text = "";
+            PasswordTextBox.Enabled = false;
+            dateTimePicker1.Value = currentUser.RegDate;
+            dateTimePicker1.Enabled = false;
+        }
 
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -119,24 +120,82 @@ namespace EBookClient.UC_Control
             }
             else
             {
-                if (IsValidPassword(PasswordTextBox.Text) && IsValidEmail(EmailTextBox.Text))
+                if ((IsValidPassword(PasswordTextBox.Text) || PasswordTextBox.Text == "") && IsValidEmail(EmailTextBox.Text))
                 {
-                    button1.Text = "Change";
-                    PasswordTextBox.Enabled = false;
-                    currentUser.Password = PasswordTextBox.Text;
-                    dateTimePicker1.Enabled = false;
-                    currentUser.RegDate = dateTimePicker1.Value;
-                    EmailTextBox.Enabled = false;
-                    currentUser.Email = EmailTextBox.Text;
-                    UsernameTextBox.Enabled = false;
-                    currentUser.UserLogin = UsernameTextBox.Text;
-                    MessageBox.Show("Data successfuly updated");
+                    try
+                    {
+                        if(PasswordTextBox.Text != "")
+                        {
+                            currentUser.Password = ComputeMD5Hash(PasswordTextBox.Text);
+                        }
+                        currentUser.UserLogin = UsernameTextBox.Text;
+                        currentUser.Email = EmailTextBox.Text;
+                        currentUser.RegDate = dateTimePicker1.Value;
+                        _jsonsender = new JSONSender();
+                        var messageToServer = new ClientMessage()
+                        {
+                            Header = "UPDATE_USER",
+                            AuthUser = currentUser,
+                        };
+                        JsonstringUpdateUserMessage = _jsonsender.ClientMessageSerialize(messageToServer);
+
+                        var client = new TcpClient();
+                        client.Connect(AddrDTO, PortDTO);
+
+                        NetworkStream ns = client.GetStream();
+                        StreamWriter sw = new StreamWriter(ns);
+                        sw.WriteLine(JsonstringUpdateUserMessage);
+                        sw.Flush();
+
+
+                        StreamReader sr = new StreamReader(ns);
+                        var serverMessage = sr.ReadLine();
+                        var serverMessage2 = _jsonsender.ServerMessageDeserialize(serverMessage);
+
+                        if (serverMessage2.Messagge == "UPDATE_USER:OK")
+                        {
+                            button1.Text = "Change";
+                            PasswordTextBox.Enabled = false;
+                            dateTimePicker1.Enabled = false;
+                            EmailTextBox.Enabled = false;
+                            UsernameTextBox.Enabled = false;
+                            MessageBox.Show("Data successfuly updated");
+                        }
+                        else
+                        {
+                            MessageBox.Show(serverMessage2.Messagge);
+                            MessageBox.Show("Error was encountered", "Повідомлення",
+                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Нажаль сталась помилка:{ex.Message}", "Повідомлення", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Please enter valid password");
+                    MessageBox.Show("Please enter valid email or password");
                 }
             }
         }
+        public static string ComputeMD5Hash(string input)
+        {
+            using (MD5 md5 = MD5.Create())
+            {
+                byte[] inputBytes = Encoding.UTF8.GetBytes(input);
+                byte[] hashBytes = md5.ComputeHash(inputBytes);
+
+                StringBuilder sb = new StringBuilder();
+                for (int i = 0; i < hashBytes.Length; i++)
+                {
+                    sb.Append(hashBytes[i].ToString("x2"));
+                }
+
+                return sb.ToString();
+            }
+        }
     }
+
+
 }
