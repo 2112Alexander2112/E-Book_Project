@@ -164,7 +164,7 @@ namespace EBookServer
                             _shopDb.Wishlists.Add(newWishlist);
                             _shopDb.SaveChanges();
                             whishlistMessage.Messagge = "WISHLIST:OK";
-                        }catch (Exception ex)
+                        }catch (Exception)
                         {
                             whishlistMessage.Messagge = "WISHLIST:ERROR";
                         }
@@ -190,7 +190,7 @@ namespace EBookServer
                             }
                             whishlistRemoveMessage.Messagge = "WISHLIST:OK";
                         }
-                        catch (Exception ex)
+                        catch (Exception)
                         {
                             whishlistRemoveMessage.Messagge = "WISHLIST:ERROR";
                         }
@@ -214,7 +214,7 @@ namespace EBookServer
                             getWhishlistMessage.Messagge = "WHISHLIST_BOOKS:OK";
                             getWhishlistMessage.AllBooks = booksInWishlist;
 
-                        }catch (Exception ex)
+                        }catch (Exception)
                         {
                             getWhishlistMessage.Messagge = "WHISHLIST_BOOKS:ERROR";
                         }
@@ -263,6 +263,78 @@ namespace EBookServer
                             stwr.WriteLine(updateUser);
                             stwr.Flush();
                         }
+                        break;
+                    case "ADD_ORDER":
+                        var addOrder = new ServerMessage();
+                        try
+                        {
+                            int userId = clientMessage.UserId;
+                            int bookId = clientMessage.BookId;
+
+                            var newLibraryEntry = new MyLibrary()
+                            {
+                                UserId = userId,
+                                BookId = bookId
+                            };
+
+                            _shopDb.MyLibraries.Add(newLibraryEntry);
+                            _shopDb.SaveChanges();
+
+                            addOrder.Messagge = "ADD_ORDER:OK";
+                        }
+                        catch (Exception)
+                        {
+                            addOrder.Messagge = "ADD_ORDER:ERROR";
+                        }
+                        break;
+                    case "RESET_PASSWORD":
+                        var resetPassword = new ServerMessage();
+                        try
+                        {
+                            var resetPass1 = _shopDb.Users.FirstOrDefault(u => u.Email == clientMessage.AuthUser.Email);
+                            if (_shopDb != null)
+                            {
+                                resetPass1.Password = clientMessage.AuthUser.Password;
+                                _shopDb.SaveChanges();
+                                resetPassword.Messagge = "RESET_PASSWORD:OK";
+                            }
+                            else
+                            {
+                                resetPassword.Messagge = "RESET_PASSWORD:FALSE";
+                            }
+
+                        }
+                        catch (Exception)
+                        {
+                            resetPassword.Messagge = "RESET_PASSWORD:ERROR";
+                        }
+                        var resetPass2 = _jsonSender.ServerMessageSerialize(resetPassword);
+                        StreamWriter stw3 = new StreamWriter(ns);
+                        stw3.WriteLine(resetPass2);
+                        stw3.Flush();
+                        break;
+                    case "GET_MYLIBRARY":
+                        var getMyLibrary = new ServerMessage();
+                        try
+                        {
+                            var myLibraryList = _shopDb.MyLibraries
+                                          .Where(w => w.UserId == clientMessage.UserId)
+                                          .Select(w => w.Book)
+                                          .Distinct()
+                                          .ToList();
+
+                            getMyLibrary.Messagge = "GET_MYLIBRARY:OK";
+                            getMyLibrary.AllBooks = myLibraryList;
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine("Ошибка при получении библиотеки пользователя: " + ex.Message);
+                            getMyLibrary.Messagge = "GET_MYLIBRARY:ERROR";
+                        }
+                        var myLibraryBooks = _jsonSender.ServerMessageSerialize(getMyLibrary);
+                        StreamWriter stw2 = new StreamWriter(ns);
+                        stw2.WriteLine(myLibraryBooks);
+                        stw2.Flush();
                         break;
 
                     default:

@@ -68,7 +68,7 @@ namespace EBookClient
             }
             else
             {
-                if(string.IsNullOrWhiteSpace(emai) || !IsValidEmail(emai))
+                if(string.IsNullOrWhiteSpace(emai)/* || !IsValidEmail(emai) */)
                 {
                     label2.Text = "Ви неправильно заповнили поле Email!";
                     timer1.Start();
@@ -82,7 +82,7 @@ namespace EBookClient
                     }
                     else
                     {
-                        if(string.IsNullOrWhiteSpace(pass) || !IsValidPassword(pass))
+                        if(string.IsNullOrWhiteSpace(pass) /*|| !IsValidPassword(pass)*/)
                         {
                             label4.Text = "Ви неправильно заповнили поле Паролю!";
                             timer1.Start();
@@ -156,6 +156,7 @@ namespace EBookClient
         {
             this.DialogResult = DialogResult.Cancel;
         }
+        /*
         public static bool IsValidEmail(string email)
         {
             if (string.IsNullOrWhiteSpace(email))
@@ -212,6 +213,6 @@ namespace EBookClient
 
             return hasUpperCase && hasLowerCase && hasDigit && hasSpecialChar && hasMinLength;
         }
-
+        */
     }
 }

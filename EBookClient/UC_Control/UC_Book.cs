@@ -181,10 +181,50 @@ namespace EBookClient.UC_Control
             }
         }
 
-        private void AddToOrderButton_Click(object sender, EventArgs e)
+        private async void AddToOrderButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("The book has been successfully added to your order", "Message",
-                MessageBoxButtons.OK, MessageBoxIcon.Information);
+            try
+            {
+                _jsonsender = new JSONSender();
+                var messageToServer = new ClientMessage()
+                {
+                    Header = "ADD_ORDER",
+                    UserId = UserId,
+                    BookId = BookId,
+                };
+                JsonstringMessage = _jsonsender.ClientMessageSerialize(messageToServer);
+
+                using (var client = new TcpClient())
+                {
+                    await client.ConnectAsync(AddrDTO, PortDTO);
+
+                    using (NetworkStream ns = client.GetStream())
+                    using (StreamWriter sw = new StreamWriter(ns))
+                    using (StreamReader sr = new StreamReader(ns))
+                    {
+                        await sw.WriteLineAsync(JsonstringMessage);
+                        await sw.FlushAsync();
+
+                        var serverMessage = await sr.ReadLineAsync();
+                        var serverMessage2 = _jsonsender.ServerMessageDeserialize(serverMessage);
+
+                        if (serverMessage2.Messagge == "ADD_ORDER:OK")
+                        {
+                            MessageBox.Show("The book was successfully purchased", "Message",
+                                MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        else
+                        {
+                            MessageBox.Show("Error Occurred", "Warning",
+                                MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Нажаль сталась помилка: {ex.Message}", "Повідомлення", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

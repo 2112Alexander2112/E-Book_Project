@@ -236,17 +236,14 @@ namespace EBookClient
 
         private void AllBooksButt_Click(object sender, EventArgs e)
         {
-            var AllBooks = new UC_AllBooks();
-            addUserContorol(AllBooks);
-
-            var searchForm = new BookSearch();
-            searchForm.PortDTO = _port;
-            searchForm.AddrDTO = _ipAddres;
-
-            if (searchForm.ShowDialog() == DialogResult.OK)
+            var allBooks = new UC_AllBooks
             {
-
-            }
+                currentUser = this.currentUser,
+                PortDTO = _port,
+                AddrDTO = _ipAddres
+            };
+            addUserContorol(allBooks);
+            allBooks.GetBooksFromServer();
 
         }
 

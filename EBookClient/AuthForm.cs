@@ -115,14 +115,15 @@ namespace EBookClient
                 this.Show();
             }
 
-            private void LinkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-            {
-                this.Hide();
-                var reset = new PassResetForm();
-                reset.ShowDialog();
-                this.Show();
-            }
+
+        private void ResetPass_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            var reset = new PassResetForm();
+            reset.ShowDialog();
+            this.Show();
         }
+    }
     }
 
  

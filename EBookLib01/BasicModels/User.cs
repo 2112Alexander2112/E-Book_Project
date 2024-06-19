@@ -21,6 +21,8 @@ namespace EBookLib01.BasicModels
         public int PublisherId { get; set; }
         public virtual List<Friend> Friends { get; set; }
         public virtual Publisher Publisher { get; set; }
+
+        public virtual List<MyLibrary> MyLibraies { get; set; }
     }
 
 }

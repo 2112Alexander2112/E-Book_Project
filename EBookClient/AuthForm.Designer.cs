@@ -42,12 +42,14 @@ namespace EBookClient
             this.PassField = new EBookLib01.Controls.RoundTextBox();
             this.LoginField = new EBookLib01.Controls.RoundTextBox();
             this.egoldsFormStyle1 = new EBookLib01.Components.EgoldsFormStyle(this.components);
+            this.ResetPass = new System.Windows.Forms.LinkLabel();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.ResetPass);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.RegButton);
@@ -56,9 +58,8 @@ namespace EBookClient
             this.panel2.Controls.Add(this.LoginField);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1208, 542);
+            this.panel2.Size = new System.Drawing.Size(604, 309);
             this.panel2.TabIndex = 1;
             // 
             // label2
@@ -66,10 +67,9 @@ namespace EBookClient
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(22, 269);
-            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label2.Location = new System.Drawing.Point(11, 140);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 37);
+            this.label2.Size = new System.Drawing.Size(0, 20);
             this.label2.TabIndex = 7;
             // 
             // label1
@@ -77,10 +77,9 @@ namespace EBookClient
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(22, 125);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Location = new System.Drawing.Point(11, 65);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 37);
+            this.label1.Size = new System.Drawing.Size(0, 20);
             this.label1.TabIndex = 6;
             // 
             // RegButton
@@ -96,12 +95,11 @@ namespace EBookClient
             this.RegButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.RegButton.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.RegButton.ForeColor = System.Drawing.Color.White;
-            this.RegButton.Location = new System.Drawing.Point(646, 327);
-            this.RegButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.RegButton.Location = new System.Drawing.Point(323, 170);
             this.RegButton.Name = "RegButton";
             this.RegButton.RippleColor = System.Drawing.Color.Black;
             this.RegButton.RoundingEnable = false;
-            this.RegButton.Size = new System.Drawing.Size(498, 58);
+            this.RegButton.Size = new System.Drawing.Size(249, 30);
             this.RegButton.TabIndex = 3;
             this.RegButton.Text = "Реєстрація";
             this.RegButton.TextHover = null;
@@ -124,12 +122,11 @@ namespace EBookClient
             this.AuthButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AuthButton.Font = new System.Drawing.Font("Verdana", 8.25F);
             this.AuthButton.ForeColor = System.Drawing.Color.White;
-            this.AuthButton.Location = new System.Drawing.Point(24, 333);
-            this.AuthButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.AuthButton.Location = new System.Drawing.Point(12, 173);
             this.AuthButton.Name = "AuthButton";
             this.AuthButton.RippleColor = System.Drawing.Color.Black;
             this.AuthButton.RoundingEnable = false;
-            this.AuthButton.Size = new System.Drawing.Size(514, 58);
+            this.AuthButton.Size = new System.Drawing.Size(257, 30);
             this.AuthButton.TabIndex = 2;
             this.AuthButton.Text = "Увійти";
             this.AuthButton.TextHover = null;
@@ -148,11 +145,10 @@ namespace EBookClient
             this.PassField.Font = new System.Drawing.Font("Arial", 11.25F);
             this.PassField.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
             this.PassField.ForeColor = System.Drawing.Color.Black;
-            this.PassField.Location = new System.Drawing.Point(24, 169);
-            this.PassField.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.PassField.Location = new System.Drawing.Point(12, 88);
             this.PassField.Name = "PassField";
             this.PassField.SelectionStart = 0;
-            this.PassField.Size = new System.Drawing.Size(1120, 77);
+            this.PassField.Size = new System.Drawing.Size(560, 40);
             this.PassField.TabIndex = 1;
             this.PassField.TextInput = "";
             this.PassField.TextPreview = "Введіть свій пароль";
@@ -167,11 +163,10 @@ namespace EBookClient
             this.LoginField.Font = new System.Drawing.Font("Arial", 11.25F);
             this.LoginField.FontTextPreview = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Bold);
             this.LoginField.ForeColor = System.Drawing.Color.Black;
-            this.LoginField.Location = new System.Drawing.Point(24, 23);
-            this.LoginField.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.LoginField.Location = new System.Drawing.Point(12, 12);
             this.LoginField.Name = "LoginField";
             this.LoginField.SelectionStart = 0;
-            this.LoginField.Size = new System.Drawing.Size(1120, 77);
+            this.LoginField.Size = new System.Drawing.Size(560, 40);
             this.LoginField.TabIndex = 0;
             this.LoginField.TextInput = "";
             this.LoginField.TextPreview = "Введіть свій Логін";
@@ -196,15 +191,26 @@ namespace EBookClient
             this.egoldsFormStyle1.HeaderTextColor = System.Drawing.Color.White;
             this.egoldsFormStyle1.HeaderTextFont = new System.Drawing.Font("Segoe UI", 9.75F);
             // 
+            // ResetPass
+            // 
+            this.ResetPass.AutoSize = true;
+            this.ResetPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ResetPass.Location = new System.Drawing.Point(353, 203);
+            this.ResetPass.Name = "ResetPass";
+            this.ResetPass.Size = new System.Drawing.Size(239, 31);
+            this.ResetPass.TabIndex = 8;
+            this.ResetPass.TabStop = true;
+            this.ResetPass.Text = "Змінити пароль?";
+            this.ResetPass.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ResetPass_LinkClicked);
+            // 
             // AuthForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1208, 542);
+            this.ClientSize = new System.Drawing.Size(604, 309);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "AuthForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Увійти E-Book";
@@ -223,5 +229,6 @@ namespace EBookClient
         private EBookLib01.Controls.RoundTextBox LoginField;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private LinkLabel ResetPass;
     }
 }

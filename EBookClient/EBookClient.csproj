@@ -193,6 +193,12 @@
     <Compile Include="UC_Control\UC_MainPage.Designer.cs">
       <DependentUpon>UC_MainPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="UC_Control\UC_MYLIBRARYBOOK.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Control\UC_MYLIBRARYBOOK.Designer.cs">
+      <DependentUpon>UC_MYLIBRARYBOOK.cs</DependentUpon>
+    </Compile>
     <Compile Include="UC_Control\UC_MyPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -308,6 +314,9 @@
     <EmbeddedResource Include="UC_Control\UC_MainPage.resx">
       <DependentUpon>UC_MainPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UC_Control\UC_MYLIBRARYBOOK.resx">
+      <DependentUpon>UC_MYLIBRARYBOOK.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UC_Control\UC_MyPage.resx">
       <DependentUpon>UC_MyPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -409,7 +418,9 @@
     <Content Include="Img\Book_Store.png" />
     <Content Include="Img\close.png" />
     <Content Include="Img\expand-buttom.png" />
+    <Content Include="Img\expand-buttom1.png" />
     <Content Include="Img\expand-up.png" />
+    <Content Include="Img\expand-up1.png" />
     <Content Include="Img\fast-forward-back.png" />
     <Content Include="Img\fast-forward.png" />
     <Content Include="Img\Favicon.ico" />

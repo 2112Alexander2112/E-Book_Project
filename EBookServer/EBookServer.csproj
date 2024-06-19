@@ -160,6 +160,10 @@
     <Compile Include="Migrations\202406171810512_RoleDeleted.Designer.cs">
       <DependentUpon>202406171810512_RoleDeleted.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202406191243443_Add midration3.cs" />
+    <Compile Include="Migrations\202406191243443_Add midration3.Designer.cs">
+      <DependentUpon>202406191243443_Add midration3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -204,6 +208,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202406171810512_RoleDeleted.resx">
       <DependentUpon>202406171810512_RoleDeleted.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406191243443_Add midration3.resx">
+      <DependentUpon>202406191243443_Add midration3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

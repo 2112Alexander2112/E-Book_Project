@@ -16,7 +16,10 @@ namespace EBookLib01.BasicModels
         public int UserId { get; set; }
         public int BookId { get; set; }
 
+        [ForeignKey("UserId")]
         public virtual User User { get; set; }
-        public virtual List<Book> Books { get; set; }
+
+        [ForeignKey("BookId")]
+        public virtual Book Book { get; set; }
     }
 }
