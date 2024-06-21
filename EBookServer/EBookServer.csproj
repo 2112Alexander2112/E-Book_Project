@@ -164,6 +164,10 @@
     <Compile Include="Migrations\202406191243443_Add midration3.Designer.cs">
       <DependentUpon>202406191243443_Add midration3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202406211006051_Fix-DB-Sova.cs" />
+    <Compile Include="Migrations\202406211006051_Fix-DB-Sova.Designer.cs">
+      <DependentUpon>202406211006051_Fix-DB-Sova.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -211,6 +215,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202406191243443_Add midration3.resx">
       <DependentUpon>202406191243443_Add midration3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406211006051_Fix-DB-Sova.resx">
+      <DependentUpon>202406211006051_Fix-DB-Sova.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

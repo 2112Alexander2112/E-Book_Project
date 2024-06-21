@@ -25,6 +25,6 @@ namespace EBookLib01.BasicModels
         public virtual Author Author { get; set; }
         public virtual List<Review> Reviews { get; set; }
         public virtual List<Transaction> Transactions { get; set; }
-        public virtual List<MyLibrary> MyLibraies { get; set; }
+        //public virtual List<MyLibrary> MyLibraies { get; set; }
     }
 }

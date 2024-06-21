@@ -60,7 +60,7 @@ namespace EBookClient.UC_Control
             {
                 booksElements[i] = new UC_MYLIBRARYBOOK();
                 booksElements[i].Titles = books[startIndex + i].BookName;
-                booksElements[i].Date = books[startIndex + 1].Published.ToString("yyyy-MM-dd");
+                booksElements[i].Date = books[startIndex + i].Published.ToString("yyyy-MM-dd");
                 booksElements[i].Abouts = books[startIndex + i].Author.AuthorName;
                 booksElements[i].UserId = currentUser.Id;
                 booksElements[i].BookId = books[startIndex + i].Id;
